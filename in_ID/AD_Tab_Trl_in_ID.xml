@@ -225,7 +225,7 @@ Saat menambahkan organisasi baru, Anda harus masuk kembali untuk dapat mengakses
  </row>
  <row id="145" trl="Y">
   <value column="Name" original="Tenant">Klien</value>
-  <value column="CommitWarning" original="Create a new tenant via &quot;Initial Tenant Setup&quot;. You can only change information here!  You need execute Cache Reset and re-login for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">Create a new client via "Initial Client Setup". You can only change information here!  You need re-login and restart your application server for most changes made here to be effective.</value>
+  <value column="CommitWarning" original="Create a new tenant via &quot;Initial Tenant Setup&quot;. You can only change information here!  You need execute Cache Reset and re-login for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">Create a new client via "Initial Tenant Setup". You can only change information here!  You need re-login and restart your application server for most changes made here to be effective.</value>
   <value column="Description" original="Tenant Definition">Definisi Klien / Penyewa</value>
   <value column="Help" original="The Tenant Definition Tab defines a unique tenant.&#10;Do not create a new tenant in this window, but use &quot;Initial Tenant Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new tenant here, you will not be able to view it and also the required tenant infrastructure would not have been set up.">Tab Definisi Klien mendefinisikan klien unik.
 Jangan membuat klien baru di jendela ini, tetapi gunakan "Pengaturan Klien Awal" (Peran Administrator Sistem) untuk mengatur keamanan yang diperlukan dan aturan akses. Jika Anda membuat klien baru di sini, Anda tidak akan dapat melihatnya dan infrastruktur klien yang diperlukan tidak akan diatur.</value>
@@ -465,7 +465,7 @@ Berlaku Dari / Ke ditentukan oleh pajak induk.</value>
  </row>
  <row id="199" trl="Y">
   <value column="Name" original="Accounting Schema">Skema Akunting</value>
-  <value column="CommitWarning" original="If you change the currency or costing method, you must reset all accounting transactions.&#10;For changes to become effective, you must execute Cache Reset. ">If you change the currency or costing method, you must reset all accounting transactions.
+  <value column="CommitWarning" original="If you change the currency or costing method, you must reset all accounting transactions.&#10;For changes to become effective, you must re-login and re-start the Application Server. ">If you change the currency or costing method, you must reset all accounting transactions.
 For changes to become effective, you must re-login and re-start the Application Server. </value>
   <value column="Description" original="Define your Account Schema Structure">Tentukan Struktur Skema Akun Anda</value>
   <value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per tenant (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">Tab Skema Akuntansi mendefinisikan kontrol yang digunakan untuk akuntansi. Anda dapat menentukan beberapa skema akuntansi per klien (untuk akuntansi paralel).
@@ -473,7 +473,7 @@ Posting dihasilkan untuk skema akuntansi, jika skema itu valid dan Anda telah me
  </row>
  <row id="200" trl="Y">
   <value column="Name" original="General Ledger">Jurnal Umum</value>
-  <value column="CommitWarning" original="For changes to become effective, you must execute Cache Reset and re-login.">For changes to become effective, you must re-login and re-start the Application Server.</value>
+  <value column="CommitWarning" original="For changes to become effective, you must re-login and re-start the Application Server.">For changes to become effective, you must re-login and re-start the Application Server.</value>
   <value column="Description" original="Accounts for GL">Akun untuk GL</value>
   <value column="Help" original="The General Ledger Tab defines error and balance handling to use as well as  the necessary accounts for posting to General Ledger.  ">General Ledger Tab mendefinisikan kesalahan dan penanganan keseimbangan untuk digunakan serta akun yang diperlukan untuk posting ke General Ledger.</value>
  </row>
@@ -658,349 +658,1036 @@ Alternatif lain adalah menyalinnya dari daftar harga yang ada dan menghitung ula
 Anda juga dapat menghitung ulang daftar harga dengan merujuk tidak ada daftar harga atau merujuk daftar harga yang sama. Jika tidak ada daftar harga dasar yang dipilih, catatan Pembelian Lelang digunakan sebagai referensi.</value>
  </row>
  <row id="239" trl="Y">
-  <value column="Name" original="Purchasing">Pembelian</value>
+  <value column="Name" original="Pembelian">Pembelian</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Purchasing">Membeli</value>
-  <value column="Help" original="The Purchasing Tab define the pricing and rules ( pack quantity, UPC, minimum order quantity) for each product.">Tab Pembelian menentukan harga dan aturan (jumlah paket, UPC, jumlah pesanan minimum) untuk setiap produk.</value>
+  <value column="Description" original="Pembelian">Membeli</value>
+  <value column="Help" original="Tab Pembelian menentukan harga dan aturan (jumlah paket, UPC, jumlah pesanan minimum) untuk setiap produk.">Tab Pembelian menentukan harga dan aturan (jumlah paket, UPC, jumlah pesanan minimum) untuk setiap produk.</value>
  </row>
- <row id="241" trl="Y">
-  <value column="Name" original="Withholding">Pemotongan</value>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 13_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_Tab">
+ <row id="100" trl="Y">
+  <value column="Name" original="Table">Tabel</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Withholding Rules">Aturan Pemotongan</value>
-  <value column="Help" original="The Withholding Rules Tab define the rules governing the withholding of amounts.">Tab Withholding Rules menentukan aturan yang mengatur pemotongan jumlah.</value>
+  <value column="Description" original="Table definitions">Definisi tabel</value>
+  <value column="Help" original="Table (header) definition - Note that the name of most tables is automatically synchronized.">Definisi tabel (tajuk) - Perhatikan bahwa nama sebagian besar tabel disinkronkan secara otomatis.</value>
  </row>
- <row id="242" trl="Y">
-  <value column="Name" original="Accounting">Akunting</value>
+ <row id="101" trl="Y">
+  <value column="Name" original="Column">Kolom</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="View Accounting Fact Details">Lihat Detail Fakta Akuntansi</value>
-  <value column="Help" original=""/>
+  <value column="Description" original="Table Column definitions">Definisi Kolom Tabel</value>
+  <value column="Help" original="Defines the columns of a table. Note that the name of the column is automatically synchronized.">Menentukan kolom tabel. Perhatikan bahwa nama kolom secara otomatis disinkronkan.</value>
  </row>
- <row id="243" trl="Y">
-  <value column="Name" original="Tree">Pohon</value>
+ <row id="102" trl="Y">
+  <value column="Name" original="Reference">Referensi</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tree">Pohon</value>
-  <value column="Help" original="The Tree Tab defines a Tree which will be displayed.">Tab Pohon mendefinisikan Pohon yang akan ditampilkan.</value>
+  <value column="Description" original="Reference header definitions">Definisi tajuk referensi</value>
+  <value column="Help" original="The Reference Tab defines the references that are used to validate data">The Reference Tab mendefinisikan referensi yang digunakan untuk memvalidasi data</value>
  </row>
- <row id="245" trl="Y">
-  <value column="Name" original="Report &amp; Process" xml:space="preserve"><![CDATA[Laporan & Proses]]></value>
+ <row id="103" trl="Y">
+  <value column="Name" original="Table Validation">Tabel Validasi</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Report &amp; Process" xml:space="preserve"><![CDATA[Tentukan Laporan & Proses]]></value>
-  <value column="Help" original="The Report and Process Tab defines each report and process run in the system.  &#10;Please note that the Print Format is only used for Document Print when you want to share a common format defined on System level. For normal reports and formats, you would not define a Print Format here, but modify the generated print format and set it as the default.">Tab Laporan dan Proses menentukan setiap laporan dan proses yang dijalankan dalam sistem.
-Harap dicatat bahwa Format Cetak hanya digunakan untuk Cetak Dokumen ketika Anda ingin berbagi format umum yang didefinisikan pada tingkat Sistem. Untuk laporan dan format normal, Anda tidak akan menentukan Format Cetak di sini, tetapi memodifikasi format cetak yang dihasilkan dan menetapkannya sebagai default.</value>
+  <value column="Description" original="Table validation">Validasi tabel</value>
+  <value column="Help" original="The Table Validation Tab defines tables to validate data">Tab Validasi Tabel mendefinisikan tabel untuk memvalidasi data</value>
  </row>
- <row id="246" trl="Y">
-  <value column="Name" original="Parameter">Parameter</value>
+ <row id="104" trl="Y">
+  <value column="Name" original="List Validation">Daftar Validasi</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Report Parameter">Parameter Laporan</value>
-  <value column="Help" original="The Report Parameter Tab defines any parameters required to execute a report or process.">Tab Parameter Laporan mendefinisikan setiap parameter yang diperlukan untuk menjalankan laporan atau proses.</value>
+  <value column="Description" original="Reference List">Daftar referensi</value>
+  <value column="Help" original="The List Validation Tab defines lists to validate data">Tab Validasi Daftar mendefinisikan daftar untuk memvalidasi data</value>
  </row>
- <row id="247" trl="Y">
-  <value column="Name" original="Parameter Translation">Terjemahan Parameter</value>
+ <row id="105" trl="Y">
+  <value column="Name" original="Window">Window</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="Window header definitions">Definisi tajuk jendela</value>
+  <value column="Help" original="The Window Tab defines each window in the system. The default flag indicates that this window should be used as the default Zoom windows for the tables in this window.">Tab Jendela mendefinisikan setiap jendela dalam sistem. Bendera default menunjukkan bahwa jendela ini harus digunakan sebagai jendela Zoom standar untuk tabel di jendela ini.</value>
  </row>
- <row id="248" trl="Y">
-  <value column="Name" original="Report Translation">Laporan Translation</value>
+ <row id="106" trl="Y">
+  <value column="Name" original="Tab">Tab</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="Tab definition within a window holds fields">Definisi tab dalam jendela menyimpan bidang</value>
+  <value column="Help" original="The Tab Tab defines each Tab within a Window.  Each Tab contains a discrete selection of fields. Note that the display and read only logic is evaluated when loading the window.">Tab Tab mendefinisikan setiap Tab dalam Window. Setiap Tab berisi pilihan bidang yang berbeda. Perhatikan bahwa logika tampilan dan hanya baca dievaluasi saat memuat jendela.</value>
  </row>
- <row id="249" trl="Y">
-  <value column="Name" original="Activity">Aktivitas</value>
+ <row id="107" trl="Y">
+  <value column="Name" original="Field">Kolom</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Activity for Activity Based Costing">Aktivitas untuk Penetapan Biaya Berbasis Aktivitas</value>
-  <value column="Help" original=""/>
+  <value column="Description" original="Field definitions in tabs in windows">Definisi bidang dalam tab di windows</value>
+  <value column="Help" original="The Field Tab defines the Fields displayed within a tab.  Changes made to the Field Tab become visible after restart due to caching. If the Sequence is negative, the record are ordered descending. Note that the name, description and help is automatically synchronized if centrally maintained.">Tab Bidang mendefinisikan Bidang yang ditampilkan dalam tab. Perubahan yang dilakukan pada Tab Bidang menjadi terlihat setelah dimulai ulang karena caching. Jika urutannya negatif, catatan tersebut akan diurutkan secara turun. Perhatikan bahwa nama, deskripsi, dan bantuan secara otomatis disinkronkan jika dikelola secara terpusat.</value>
  </row>
- <row id="252" trl="Y">
-  <value column="Name" original="Defaults">Default</value>
+ <row id="108" trl="Y">
+  <value column="Name" original="Validation">Validasi</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Default Accounts">Akun Default</value>
-  <value column="Help" original="The Defaults Tab displays the Default accounts for an Accounting Schema.  These values will display when a new document is opened.  The user can override these defaults within the document.">Tab Default menampilkan akun Default untuk Skema Akuntansi. Nilai-nilai ini akan ditampilkan ketika dokumen baru dibuka. Pengguna dapat mengganti default ini di dalam dokumen.</value>
+  <value column="Description" original="Validation Rules">Aturan Validasi</value>
+  <value column="Help" original="The Validation Rules Tab defines all dynamic rules used when entering and maintaining columns and fields.">Tab Aturan Validasi mendefinisikan semua aturan dinamis yang digunakan saat memasukkan dan memelihara kolom dan bidang.</value>
  </row>
- <row id="255" trl="Y">
-  <value column="Name" original="Inventory Count">Opname Persediaan</value>
+ <row id="109" trl="Y">
+  <value column="Name" original="Message">Pesan</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Inventory Count">Tetapkan Jumlah Persediaan</value>
-  <value column="Help" original="The Inventory Count Tab defines the parameters for a manual count and adjustment of inventory.  When creating the inventory count list automatically, only the actual stored products are included. The exception is when you select the equals 0 (=0) option, then zero on hand records of all stocked products is created for that location.">Tab Hitungan Inventaris menetapkan parameter untuk penghitungan manual dan penyesuaian inventaris. Saat membuat daftar penghitungan inventaris secara otomatis, hanya produk yang tersimpan aktual yang disertakan. Pengecualiannya adalah ketika Anda memilih opsi sama dengan 0 (= 0), maka nol catatan tangan dari semua produk yang ditebar dibuat untuk lokasi itu.</value>
+  <value column="Description" original="Information Error and Menu Messages">Kesalahan Informasi dan Pesan Menu</value>
+  <value column="Help" original="The Message Tab displays error message text and menu messages">Tab Pesan menampilkan teks pesan kesalahan dan pesan menu</value>
  </row>
- <row id="256" trl="Y">
-  <value column="Name" original="Inventory Count Line">Baris Opname Persediaan</value>
+ <row id="110" trl="Y">
+  <value column="Name" original="Menu">Menu</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Inventory Count Line">Garis Hitung Persediaan</value>
-  <value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.&#10;You can set the Organization, if it is a charge, otherwise it is set to the header organization.">Inventaris Count Line mendefinisikan jumlah masing-masing produk dalam inventaris. Biasanya Anda akan membuat jalur penghitungan inventaris secara otomatis. Jika Anda membuatnya secara manual, pastikan nilai buku sudah benar.
-Anda dapat mengatur Organisasi, jika itu adalah tagihan, jika tidak diatur ke tajuk organisasi.</value>
+  <value column="Description" original="Maintain Menu">Maintain Menu</value>
+  <value column="Help" original="The Menu Tab defines the tree structured menu which will be used for the selected Organization. Note that the name and description will be automatically synchronized (overwritten), if not a summary node.">Tab Menu mendefinisikan menu terstruktur pohon yang akan digunakan untuk Organisasi yang dipilih. Perhatikan bahwa nama dan deskripsi akan disinkronkan secara otomatis (ditimpa), jika bukan simpul ringkasan.</value>
  </row>
- <row id="257" trl="Y">
-  <value column="Name" original="Shipment">Pengiriman</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Shipments and Customer Returns">Pengiriman dan Pengembalian Pelanggan</value>
-  <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">Tab Pengiriman memungkinkan Anda untuk menghasilkan, memelihara, memasuki, dan memproses Pengiriman ke Pelanggan atau Pengembalian dari Pelanggan. Proses Default: Catatan Pengiriman / Pengiriman Cetak _Rpt M_InOut</value>
- </row>
- <row id="258" trl="Y">
-  <value column="Name" original="Shipment Line">Baris Pengiriman</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Shipment Line">Jalur Pengiriman</value>
-  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">Tab Jalur Pengiriman menentukan masing-masing item dalam suatu Pengiriman.</value>
- </row>
- <row id="259" trl="Y">
-  <value column="Name" original="Move">Pindah</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter Inventory Movement">Masukkan Gerakan Inventaris</value>
-  <value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">Tab Gerakkan mendefinisikan dan mengidentifikasi pergerakan suatu barang atau barang dalam persediaan.</value>
- </row>
- <row id="260" trl="Y">
-  <value column="Name" original="Move Line">Baris Pindah</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter Inventory Movement Line">Masukkan Baris Gerakan Inventaris</value>
-  <value column="Help" original="The Move Line Tab defines the product and quantity to be moved and the location it is moving from and to.  ">Tab Garis Pindah menentukan produk dan jumlah yang akan dipindahkan dan lokasi dari mana ia bergerak.</value>
- </row>
- <row id="263" trl="Y">
-  <value column="Name" original="Invoice">Invoice</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Customer Invoice">Faktur pelanggan</value>
-  <value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated for a Business Partner.  It constitutes an accounts receivable.">Tab Faktur menentukan parameter Faktur yang dihasilkan untuk Mitra Bisnis. Ini merupakan piutang dagang. Proses Default: Cetak Faktur _Rpt C_Invoice</value>
- </row>
- <row id="268" trl="Y">
-  <value column="Name" original="Level">Level</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Dunning Level">Maintain Level Dunning</value>
-  <value column="Help" original="The Dunning Level Tab defines the timing and frequency of the dunning notices.">Tab Level Dunning menentukan waktu dan frekuensi pemberitahuan yang mengganggu.</value>
- </row>
- <row id="269" trl="Y">
+ <row id="111" trl="Y">
   <value column="Name" original="Translation">Terjemahan</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Dunning Level Translation">Terjemahan Dunning Level</value>
-  <value column="Help" original=""/>
+  <value column="Description" original="Menu Translation - May not need to be translated">Menu Terjemahan - Mungkin tidak perlu diterjemahkan</value>
+  <value column="Help" original="Menu translations are derived from Window,  Process, etc. You only need to translate Summary level items all others will be translated automatically (overwritten)">Terjemahan menu berasal dari Window, Process, dll. Anda hanya perlu menerjemahkan item tingkat Ringkasan, semua yang lain akan diterjemahkan secara otomatis (ditimpa)</value>
  </row>
- <row id="270" trl="Y">
-  <value column="Name" original="Invoice Line">Baris Invoice</value>
+ <row id="112" trl="Y">
+  <value column="Name" original="Language">Bahasa</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Customer Invoice Line">Jalur Faktur Pelanggan</value>
-  <value column="Help" original="The Invoice Line Tab defines the individual items or charges on an Invoice.">Tab Baris Faktur menentukan masing-masing item atau biaya pada Faktur.</value>
+  <value column="Description" original="System and User Languages">Bahasa Sistem dan Pengguna</value>
+  <value column="Help" original="If you want to add an additional User Interface language, select &quot;System Language&quot;. Otherwise, the system allows you to just translate elements for printing documents.">Jika Anda ingin menambahkan bahasa Antarmuka Pengguna tambahan, pilih "Bahasa Sistem". Jika tidak, sistem ini memungkinkan Anda untuk hanya menerjemahkan elemen untuk mencetak dokumen.</value>
  </row>
- <row id="271" trl="Y">
-  <value column="Name" original="Invoice Tax">Faktur Pajak</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Customer Invoice Tax">Pajak Faktur Pelanggan</value>
-  <value column="Help" original="The Invoice Tax Tab displays the total tax due based on the Invoice Lines.">Tab Pajak Faktur menampilkan jumlah pajak yang terutang berdasarkan Garis Faktur.</value>
- </row>
- <row id="272" trl="Y">
-  <value column="Name" original="Revenue Recognition">Pengakuan Pendapatan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Revenue Recognition">Pengakuan Pendapatan</value>
-  <value column="Help" original="The Revenue Recognition Tab defines the intervals at which revenue will be recognized.  You can also base the revenue recognition on provided Service Levels.">Tab Pengakuan Pendapatan mendefinisikan interval di mana pendapatan akan diakui. Anda juga dapat mendasarkan pengakuan pendapatan pada Level Layanan yang disediakan.</value>
- </row>
- <row id="273" trl="Y">
-  <value column="Name" original="Translation">Terjemahan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Unit of Measure Translation">Unit Terjemahan Ukur</value>
-  <value column="Help" original=""/>
- </row>
- <row id="275" trl="Y">
-  <value column="Name" original="Perpetual Inventory">Persediaan Perpetual</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="276" trl="Y">
-  <value column="Name" original="Vendor">Vendor</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Vendor">Penjaja</value>
-  <value column="Help" original="The Vendor Tab displays the Vendors.  A Vendor is selected and all products for that Vendor will be displayed.">Tab Vendor menampilkan Vendor. Vendor dipilih dan semua produk untuk Vendor itu akan ditampilkan.</value>
- </row>
- <row id="278" trl="Y">
-  <value column="Name" original="Product Details">Detail Produk</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Product Details">Rincian Produk</value>
-  <value column="Help" original="The Product Details Tab allows you to display and maintain all products for a selected Vendor.">Tab Detail Produk memungkinkan Anda untuk menampilkan dan memelihara semua produk untuk Vendor yang dipilih.</value>
- </row>
- <row id="282" trl="Y">
-  <value column="Name" original="Greeting">Titel</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Greeting">Tentukan Ucapan</value>
-  <value column="Help" original="The Greeting Tab defines the manner in which you will address business partners on documents.">Tab Ucapan Menentukan cara Anda akan menangani mitra bisnis pada dokumen.</value>
- </row>
- <row id="283" trl="Y">
+ <row id="113" trl="Y">
   <value column="Name" original="Translation">Terjemahan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="284" trl="Y">
-  <value column="Name" original="Translation">Terjemahan</value>
+ <row id="115" trl="Y">
+  <value column="Name" original="Field Translation">Terjemahan Kolom</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Menu Translation - May not need to be translated">Menu Terjemahan - Mungkin tidak perlu diterjemahkan</value>
+  <value column="Help" original="Fields are automatically translated, if centrally maintained.  You only need to translate not centrally maintained Fields.">Fields diterjemahkan secara otomatis, jika dikelola secara terpusat. Anda hanya perlu menerjemahkan Fields yang tidak dikelola secara terpusat.</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Tab Translation">Terjemahan Tab</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="288" trl="Y">
-  <value column="Name" original="Report View">View untuk Laporan</value>
+ <row id="117" trl="Y">
+  <value column="Name" original="Window Translation">Terjemahan Window</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Report View">Tentukan Tampilan Laporan</value>
-  <value column="Help" original="The Define Report View defines the views used in report generation">Tampilan Tentukan Laporan mendefinisikan pandangan yang digunakan dalam pembuatan laporan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
- <row id="289" trl="Y">
-  <value column="Name" original="Transactions">Transaksi</value>
+ <row id="118" trl="Y">
+  <value column="Name" original="User Contact">Kontak Pengguna</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Transactions for stored Products">Transaksi untuk Produk yang disimpan</value>
-  <value column="Help" original="The Transaction Tab displays the transactions that have been processed for this product.">Tab Transaksi menampilkan transaksi yang telah diproses untuk produk ini.</value>
+  <value column="Description" original="Maintain User or Business Partner Contact">Maintain Kontak Pengguna atau Mitra Bisnis</value>
+  <value column="Help" original="The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.">Tab Pengguna mendefinisikan login untuk Pengguna yang memiliki akses ke sistem. Untuk akses aplikasi, pengguna harus memiliki peran yang ditugaskan.</value>
  </row>
- <row id="290" trl="Y">
-  <value column="Name" original="Invoice">Invoice</value>
+ <row id="119" trl="Y">
+  <value column="Name" original="Role">Peran</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Vendor Invoice">Faktur Penjual</value>
-  <value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated by a Business Partner.  It constitutes an accounts payable.">Tab Faktur menentukan parameter Faktur yang dihasilkan oleh Mitra Bisnis. Ini merupakan hutang dagang. Proses Default: Cetak Faktur _Rpt C_Invoice</value>
+  <value column="Description" original="Define responsibility roles">Tentukan peran tanggung jawab</value>
+  <value column="Help" original="Define the role and add the organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned access rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role.">Tetapkan peran dan tambahkan klien dan organisasi yang memiliki akses. Anda dapat memberi pengguna akses ke peran ini dan mengubah akses peran ini ke jendela, formulir, proses, dan laporan serta tugas.
+Jika Level Pengguna Peran adalah Manual, hak akses yang ditetapkan tidak diperbarui secara otomatis (mis. Jika peran memiliki jumlah Windows / Proses terbatas yang dapat diaksesnya). Anda perlu menambahkan akses organisasi kecuali peran tersebut memiliki akses ke semua organisasi. Pengguna Super dan pengguna yang membuat peran baru ditugaskan ke peran tersebut secara otomatis.
+Jika Anda memilih Pohon Organisasi, pengguna memiliki akses ke daun ringkasan organisasi.
+Catatan: Anda tidak dapat mengubah peran Administrator Sistem.</value>
  </row>
- <row id="291" trl="Y">
-  <value column="Name" original="Invoice Line">Baris Invoice</value>
+ <row id="120" trl="Y">
+  <value column="Name" original="User Assignment">Penugasan Pengguna</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Vendor Invoice Line">Vendor Invoice Line</value>
-  <value column="Help" original="The Invoice Line Tab defines the individual items or charges on an Invoice.">Tab Baris Faktur menentukan masing-masing item atau biaya pada Faktur.</value>
+  <value column="Description" original="Users with this Role">Pengguna dengan Peran ini</value>
+  <value column="Help" original="The User Assignment Tab displays Users who have been defined for this Role.">Tab Penugasan Pengguna menampilkan Pengguna yang telah ditentukan untuk Peran ini.</value>
  </row>
- <row id="292" trl="Y">
-  <value column="Name" original="Invoice Tax">Faktur Pajak</value>
+ <row id="121" trl="Y">
+  <value column="Name" original="User Roles">Peran Pengguna</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Vendor Invoice Tax">Pajak Faktur Penjual</value>
-  <value column="Help" original="The Invoice Tax Tab displays the total tax due based on the Invoice Lines.&#10;">Tab Pajak Faktur menampilkan jumlah pajak yang terutang berdasarkan Garis Faktur.</value>
+  <value column="Description" original="User Roles">Peran Pengguna</value>
+  <value column="Help" original="The User Roles Tab define the Roles each user may have.  The Roles will determine what windows, tasks, processes and workflows that a User has access to.">Tab Peran Pengguna menentukan Peran yang mungkin dimiliki setiap pengguna. Peran akan menentukan jendela, tugas, proses, dan alur kerja apa yang dapat diakses oleh Pengguna.</value>
  </row>
- <row id="293" trl="Y">
-  <value column="Name" original="PO Line">Baris PO</value>
+ <row id="122" trl="Y">
+  <value column="Name" original="Node">Node</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Purchase Order Line">Jalur Pemesanan Pembelian</value>
-  <value column="Help" original="The Purchase Order Line Tab defines the individual items in an order.">Tab Baris Pesanan Pembelian menentukan masing-masing item dalam suatu pesanan.</value>
+  <value column="Description" original="Define workflow nodes">Tentukan node alur kerja</value>
+  <value column="Help" original="The Node Tab defines each Node, Activity or step in this Workflow.&lt;br&gt;&#10;The action (activity) type determines the execution: &quot;Route&quot; may be used in routing control conditions.  &quot;None&quot; identifies manual execution.">Tab Node mendefinisikan setiap Node, Aktivitas, atau langkah dalam Alur Kerja ini.
+Jenis tindakan (aktibitas) menentukan eksekusi: "Rute" dapat digunakan dalam kondisi kontrol perutean. "Tidak ada" mengidentifikasi eksekusi manual.</value>
  </row>
- <row id="294" trl="Y">
-  <value column="Name" original="Purchase Order">Order Pembelian</value>
+ <row id="123" trl="Y">
+  <value column="Name" original="Node Translation">Terjemahan Node</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Node Translation">Terjemahan Node</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="Transition">Transisi</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Workflow Node Transition">Transisi Simpul Alur Kerja</value>
+  <value column="Help" original="The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.">Tab Node Berikutnya menentukan urutan atau Node atau Langkah-langkah dalam Alur Kerja.</value>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Task Translation">Terjemahan Tugas</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Conversion Rates">Rate Konversi</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define currency conversion rates">Tentukan nilai konversi mata uang</value>
+  <value column="Help" original="The Conversion Rate Tab defines the rates to use when converting a source currency to an accounting or reporting currency. Note that only the multiply rate is used; The divide rate is for visualization only.">Tab Tingkat Konversi menentukan kurs yang akan digunakan saat mengonversi mata uang sumber ke mata uang akuntansi atau pelaporan. Perhatikan bahwa hanya laju pengali yang digunakan; Tingkat pembagian hanya untuk visualisasi.</value>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Calendar">Kalender</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define your calendar">Tentukan kalender Anda</value>
+  <value column="Help" original="The Calendar Tab defines each calendar that will be used by an Organization.">Tab Kalender menentukan setiap kalender yang akan digunakan oleh Organisasi.</value>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Year">Tahun</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Calendar Year">Tentukan Tahun Kalender</value>
+  <value column="Help" original="The Year Window is used to define each year for the specified calendar.">Jendela Tahun digunakan untuk menentukan setiap tahun untuk kalender yang ditentukan.</value>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Period">Periode</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Calendar Periods">Tentukan Periode Kalender</value>
+  <value column="Help" original="The Period Tab defines a Period No, Name and Start Date for each Calendar Year.  Each period begins on the defined Start Date and ends one day prior to the next period's Start Date.">Tab Periode menentukan Periode No, Nama dan Tanggal Mulai untuk setiap Tahun Kalender. Setiap periode dimulai pada Tanggal Mulai yang ditentukan dan berakhir satu hari sebelum Tanggal Mulai periode berikutnya.</value>
+ </row>
+ <row id="131" trl="Y">
+  <value column="Name" original="Non Business Day">Hari Non Bisnis</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Non Business Days">Tentukan Non Hari Kerja</value>
+  <value column="Help" original="The Non Business Days Tab defines those days to exclude when calculating the due date for given payment terms.  For example, if an invoice terms was Net 10 days and the Invoice Date was 2/17/2000 the due date would be 2/27/2000.  If 2/27/2000 was defined as a non business day then the due date  on the Invoice would be 2/28/2000.">Tab Non-Business Days menentukan hari-hari untuk dikecualikan saat menghitung tanggal jatuh tempo untuk ketentuan pembayaran yang diberikan. Misalnya, jika persyaratan faktur adalah Net 10 hari dan Tanggal Faktur adalah 2/17/2000 tanggal jatuh tempo adalah 2/27/2000. Jika 2/27/2000 didefinisikan sebagai hari kerja maka tanggal jatuh tempo pada Faktur adalah 2/28/2000.</value>
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="Element Value">Akun</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Element Values">Tentukan Nilai Elemen</value>
+  <value column="Help" original="The Element Value Tab defines the individual valid values for the Element.  The values must conform to the format defined.  If the Element is an Account Type then the Account Classification (Asset, Liability etc) and posting controls are also defined">Tab Nilai Elemen mendefinisikan nilai valid individu untuk Elemen. Nilai harus sesuai dengan format yang ditentukan. Jika Elemen adalah Jenis Akun maka Klasifikasi Akun (Aset, Kewajiban, dll) dan kontrol posting juga ditentukan</value>
+ </row>
+ <row id="133" trl="Y">
+  <value column="Name" original="Unit of Measure">Satuan Unit</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define units of measure">Tentukan satuan ukuran</value>
+  <value column="Help" original="The Unit of Measure Tab defines a non monetary Unit of Measure.">Unit Ukur Tab mendefinisikan Unit Ukur non moneter.</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Conversion">Konversi</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define standard Unit of Measure Conversion">Tetapkan Unit Konversi Ukur standar</value>
+  <value column="Help" original="The Conversion Tab defines the rates for converting a Unit of Measure. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly).">Tab Konversi menentukan tarif untuk mengonversi Satuan Ukuran. Sistem menyediakan beberapa konversi otomatis antara satuan ukuran (mis. Menit, jam, hari, hari kerja, dll.) Jika tidak didefinisikan secara eksplisit di sini.
+Konversi harus langsung (mis. Jika Anda hanya memiliki konversi antara A-B dan B-C, sistem tidak dapat mengonversi A-C, Anda perlu mendefinisikannya secara eksplisit).</value>
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="Country">Negara</value>
+  <value column="CommitWarning" original="Please create a support request - https://idempiere.atlassian.net/secure/CreateIssue.jspa - if the country data is not correct.">Please create a support request (http://www.adempiere.org/support/requests.html), if the country data is not correct.</value>
+  <value column="Description" original="Define Country">Tentukan Negara</value>
+  <value column="Help" original="The Country Tab defines any country in which you do business.  Values entered here are referenced in location records for Business Partners.">Tab Negara mendefinisikan negara mana pun di mana Anda melakukan bisnis. Nilai yang dimasukkan di sini dirujuk dalam catatan lokasi untuk Mitra Bisnis.</value>
+ </row>
+ <row id="136" trl="Y">
+  <value column="Name" original="Region">Wilayah</value>
+  <value column="CommitWarning" original="Please create a support request - https://idempiere.atlassian.net/secure/CreateIssue.jspa - if the region info is not correct/incomplete.">Please create a support request (http://www.adempiere.org/support/requests.html), if the region info is not correct/incomplete.</value>
+  <value column="Description" original="Define Regions">Tentukan Wilayah</value>
+  <value column="Help" original="The Region Tab  defines a Region within a Country.  This tab is enabled only if the Has Region checkbox is selected for the Country.">Tab Wilayah mendefinisikan Wilayah dalam suatu Negara. Tab ini hanya diaktifkan jika kotak centang Wilayah Pandai dipilih untuk Negara.</value>
+ </row>
+ <row id="143" trl="Y">
+  <value column="Name" original="Organization">Organisasi</value>
+  <value column="CommitWarning" original="All not manually maintained Roles will automatically have access to the new Organization.&#10;You need execute Cache Reset and re-login for most changes made here to be effective.">All not manually maintained Roles will automatically have access to the new Organziation.
+You need restart your application server for most changes made here to be effective.</value>
+  <value column="Description" original="Define Organizations">Tetapkan Organisasi</value>
+  <value column="Help" original="The Organization Tab is used to define an Organization.  Each Organization has a Key and Name and optionally a Description.  &#10;When adding a new organization, you must re-login to be able to access the new organization.">Tab Organisasi digunakan untuk mendefinisikan Organisasi. Setiap Organisasi memiliki Kunci dan Nama dan opsional Deskripsi.
+Saat menambahkan organisasi baru, Anda harus masuk kembali untuk dapat mengakses organisasi baru.</value>
+ </row>
+ <row id="145" trl="Y">
+  <value column="Name" original="Tenant">Klien</value>
+  <value column="CommitWarning" original="Create a new tenant via &quot;Initial Tenant Setup&quot;. You can only change information here!  You need execute Cache Reset and re-login for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">Create a new client via "Initial Tenant Setup". You can only change information here!  You need re-login and restart your application server for most changes made here to be effective.</value>
+  <value column="Description" original="Tenant Definition">Definisi Klien / Penyewa</value>
+  <value column="Help" original="The Tenant Definition Tab defines a unique tenant.&#10;Do not create a new tenant in this window, but use &quot;Initial Tenant Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new tenant here, you will not be able to view it and also the required tenant infrastructure would not have been set up.">Tab Definisi Klien mendefinisikan klien unik.
+Jangan membuat klien baru di jendela ini, tetapi gunakan "Pengaturan Klien Awal" (Peran Administrator Sistem) untuk mengatur keamanan yang diperlukan dan aturan akses. Jika Anda membuat klien baru di sini, Anda tidak akan dapat melihatnya dan infrastruktur klien yang diperlukan tidak akan diatur.</value>
+ </row>
+ <row id="146" trl="Y">
+  <value column="Name" original="Sequence">Definisi No Urut Dokumen</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Sequence Definition">Definisi Urutan</value>
+  <value column="Help" original="The Sequence Tab defines the numeric sequencing to use for documents.  These can also include a alpha suffix and / or prefix.">Tab Sequence mendefinisikan urutan numerik yang digunakan untuk dokumen. Ini juga dapat menyertakan akhiran alfa dan / atau awalan.</value>
+ </row>
+ <row id="148" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Workflow">Tentukan Alur Kerja</value>
+  <value column="Help" original="The Workflow Tab defines Workflows in the system.">Tab Workflow mendefinisikan Workflow di sistem.</value>
+ </row>
+ <row id="149" trl="Y">
+  <value column="Name" original="Workflow Translation">Terjemahan Workflow</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="150" trl="Y">
+  <value column="Name" original="Task">Tugas</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Task">Tugas</value>
+  <value column="Help" original="The Task Tab defines the unique tasks that will be used.">Tab Tugas menentukan tugas unik yang akan digunakan.</value>
+ </row>
+ <row id="151" trl="Y">
+  <value column="Name" original="Currency">Mata Uang</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Currency">Tentukan Mata Uang</value>
+  <value column="Help" original="The Currency Tab defines any currency you will transact with or report in.">Tab Mata Uang menentukan mata uang yang akan Anda gunakan bertransaksi atau melaporkan.</value>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Test">Uji</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Element">Elemen Akun</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Account Element definition">Definisi Elemen Akun</value>
+  <value column="Help" original="The Element Tab defines the Name, Description and Format for an Element.  Additionally, a Type of Account or User Defined is selected. Each Account Schema must have an Account Element type.  The User Defined Elements are optional.">Tab Elemen mendefinisikan Nama, Deskripsi dan Format untuk suatu Elemen. Selain itu, Jenis Akun atau Ditentukan Pengguna dipilih. Setiap Skema Akun harus memiliki jenis Elemen Akun. Elemen Buatan Pengguna adalah opsional.</value>
+ </row>
+ <row id="154" trl="Y">
+  <value column="Name" original="Location">Lokasi</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Location">Tentukan Lokasi</value>
+  <value column="Help" original="The Location Tab defines the location of an Organization.">Tab Lokasi menentukan lokasi Organisasi.</value>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Preference">Preferensi</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Maintain System Tenant Org and User Preferences">Maintain Org Klien dan Preferensi Pengguna Sistem</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="157" trl="Y">
+  <value column="Name" original="Project">Proyek (Service)</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Project">Tentukan Proyek</value>
+  <value column="Help" original="The Project Tab is used to define the Value, Name and Description for each project.  It also is defines the tracks the amounts assigned to, committed to and used for this project. Note that when the project Type is changed, the Phases and Tasks are re-created.">Tab Proyek digunakan untuk menentukan Nilai, Nama dan Deskripsi untuk setiap proyek. Ini juga mendefinisikan trek jumlah yang ditugaskan, berkomitmen dan digunakan untuk proyek ini. Perhatikan bahwa ketika Jenis proyek diubah, Fase dan Tugas dibuat kembali.</value>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="GL Category">Kategori GL</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define General Ledger Categories">Tentukan Kategori Buku Besar</value>
+  <value column="Help" original="The GL Category Tab defines optional identifiers for a document or journal.  Each Category may be used on a document, manual journal or import">Tab Kategori GL mendefinisikan pengidentifikasi opsional untuk dokumen atau jurnal. Setiap Kategori dapat digunakan pada dokumen, jurnal manual atau impor</value>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Batch">Batch</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="General Ledger Journal Batch">Buku Besar Jurnal Umum</value>
+  <value column="Help" original="The GL Journal Batch Tab defines the control parameters for a Journal Batch.  A Batch can consist of multiple Journals.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">GL Batch Journal Journal mendefinisikan parameter kontrol untuk Batch Journal. Sebuah Batch dapat terdiri dari beberapa Jurnal.
+Jika Jumlah Kontrol tidak nol, ini dibandingkan dengan Jumlah Debit Total. Jumlah Kontrol / Debit / Kredit dalam Mata Uang Sumber Dokumen.</value>
+ </row>
+ <row id="160" trl="Y">
+  <value column="Name" original="Journal">Jurnal</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="General Ledger Journal">Jurnal Buku Besar</value>
+  <value column="Help" original="The GL Journal Tab defines the control parameters for a single GL Journal.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">GL Journal Tab mendefinisikan parameter kontrol untuk GL Journal tunggal.
+Jika Jumlah Kontrol tidak nol, ini dibandingkan dengan Jumlah Debit Total. Jumlah Kontrol / Debit / Kredit dalam Mata Uang Sumber Dokumen.</value>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Line">Baris Jurnal</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="General Ledger Journal Line">Baris Jurnal Buku Besar</value>
+  <value column="Help" original="The GL Journal Line Tab defines the individual debit and credit transactions that comprise a journal.">Tab Line Jurnal GL mendefinisikan transaksi debit dan kredit individu yang terdiri dari jurnal.</value>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Document Type">Jenis Dokumen</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define a Document Type">Tentukan Jenis Dokumen</value>
+  <value column="Help" original="The Document Definition Tab defines the processing parameters and controls for the document.  Note that shipments for automatic documents like POS/Warehouse Orders cannot have confirmations!">Tab Definisi Dokumen menentukan parameter pemrosesan dan kontrol untuk dokumen. Perhatikan bahwa pengiriman untuk dokumen otomatis seperti POS / Pesanan Gudang tidak dapat memiliki konfirmasi!</value>
+ </row>
+ <row id="169" trl="Y">
+  <value column="Name" original="Tenant Info">Info Klien</value>
+  <value column="CommitWarning" original="You need to execute Cache Reset and re-login for most changes made here to be effective.">You need re-login and restart your application server for most changes made here to be effective.</value>
+  <value column="Description" original="Tenant Info">Info Klien</value>
+  <value column="Help" original="The Tenant Info Tab defines the details for each tenant.  The accounting rules and high level defaults are defined here. The Calendar is used to determine if a period is open or closed.">Tab Info Klien menentukan detail untuk setiap klien. Aturan akuntansi dan standar tingkat tinggi didefinisikan di sini. Kalender digunakan untuk menentukan apakah suatu periode terbuka atau tertutup.</value>
+ </row>
+ <row id="170" trl="Y">
+  <value column="Name" original="Organization Info">Info Organization</value>
+  <value column="CommitWarning" original="You need execute Cache Reset and re-login for most changes made here to be effective.&#10;">You need re-login and restart your application server for most changes made here to be effective.
+</value>
+  <value column="Description" original="Organization Detail Information">Informasi Detail Organisasi</value>
+  <value column="Help" original="The Organization Info Tab is used to define an Organization's address, DUNS number and Tax Identification number">Tab Info Organisasi digunakan untuk menentukan alamat Organisasi, nomor DUNS dan nomor Identifikasi Pajak</value>
+ </row>
+ <row id="171" trl="Y">
+  <value column="Name" original="Reference Translation">Terjemahan Referensi</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="172" trl="Y">
+  <value column="Name" original="List Translation">Daftar Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="173" trl="Y">
+  <value column="Name" original="Attachment">Lampiran</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Attachment">Lampiran</value>
+  <value column="Help" original="The Attachment tab displays the attributes of an attachment.">Tab Lampiran menampilkan atribut lampiran.</value>
+ </row>
+ <row id="174" trl="Y">
+  <value column="Name" original="Tax">Pajak</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Tax definition">Definisi pajak</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax.">Jendela Tarif Pajak menentukan berbagai pajak yang digunakan untuk setiap kategori pajak. Misalnya Pajak Penjualan harus ditentukan untuk setiap Negara bagian di mana ia berlaku.
+Jika Anda memiliki banyak pajak, buat pajak tingkat rangkuman dengan perkiraan total pajak dan tarif pajak aktual yang menunjuk ke pajak tingkat ringkasan sebagai induknya. Saat memasukkan baris pesanan atau faktur pajak diperkirakan pajak yang benar dihitung ketika dokumen diproses. Pajak selalu dihitung dari jumlah bersih baris. Jika satu pajak memiliki dasar pajak, jumlah bersih baris dan pajak lainnya, Anda perlu menyesuaikan persentase untuk menghasilkan jumlah yang benar.
+Berlaku Dari / Ke ditentukan oleh pajak induk.</value>
+ </row>
+ <row id="176" trl="Y">
+  <value column="Name" original="Tax Category">Kategori Pajak</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Tax Category">Kategori Pajak</value>
+  <value column="Help" original="The Tax Category Tab is used to define and maintain Tax Categories.  Each Product is associated with a Tax Category.  This facilitates adapting to changes in taxation.">Tab Kategori Pajak digunakan untuk menentukan dan mengelola Kategori Pajak. Setiap Produk dikaitkan dengan Kategori Pajak. Ini memfasilitasi adaptasi terhadap perubahan dalam perpajakan.</value>
+ </row>
+ <row id="177" trl="Y">
+  <value column="Name" original="Warehouse">Gudang</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Warehouse">Gudang</value>
+  <value column="Help" original="The Warehouse Tab defines each Warehouse that is used to store products.  If a Source warehouse is selected, all product replenishment is from that warehouse.  If you use custom replenishment algorithms, you need to define the class used per warehouse.">Tab Gudang mendefinisikan setiap Gudang yang digunakan untuk menyimpan produk. Jika gudang Sumber dipilih, semua pengisian ulang produk dari gudang itu. Jika Anda menggunakan algoritme pengisian ulang kustom, Anda perlu menentukan kelas yang digunakan per gudang.</value>
+ </row>
+ <row id="178" trl="Y">
+  <value column="Name" original="Locator">Lokasi</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Locator">Pencari Lokasi</value>
+  <value column="Help" original="The Locator Tab defines any Locators for that Warehouse.">Tab Locator mendefinisikan Locator apa pun untuk Gudang itu.</value>
+ </row>
+ <row id="179" trl="Y">
+  <value column="Name" original="Storage">Persediaan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Detail Storage Information">Informasi Penyimpanan Detail</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="180" trl="Y">
+  <value column="Name" original="Product">Produk</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Product">Tentukan Produk</value>
+  <value column="Help" original="The Product Tab defines each product and identifies it for use in price lists and orders. The Location is the default location when receiving the stored product.">Tab Produk mendefinisikan setiap produk dan mengidentifikasinya untuk digunakan dalam daftar harga dan pesanan. Lokasi adalah lokasi default saat menerima produk yang disimpan.</value>
+ </row>
+ <row id="181" trl="Y">
+  <value column="Name" original="Substitute">Pengganti</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Substitute">Tentukan Pengganti</value>
+  <value column="Help" original="The Substitute Tab defines products which may be used as a replacement for the selected product.">Tab Pengganti mendefinisikan produk yang dapat digunakan sebagai pengganti untuk produk yang dipilih.</value>
+ </row>
+ <row id="182" trl="Y">
+  <value column="Name" original="Replenish">Pengadaan Kembali</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Product Replenishment">Tentukan Pengisian Ulang Produk</value>
+  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">Tab Pengisian Ulang mendefinisikan jenis jumlah pengisian. Ini digunakan untuk pemesanan otomatis. Jika Anda memilih jenis pengisian ulang kustom, Anda perlu membuat kelas yang mengimplementasikan org.compiere.util.ReplenishInterface dan mengaturnya di tingkat gudang.</value>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="Price">Harga</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Product Pricing">Harga Produk</value>
+  <value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a product is contained in.">Tab Penentuan Harga menampilkan Daftar, Harga Standar dan Batas untuk setiap daftar harga produk.</value>
+ </row>
+ <row id="184" trl="Y">
+  <value column="Name" original="Payment Term">Termin Pembayaran</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Payment Terms">Tetapkan Ketentuan Pembayaran</value>
+  <value column="Help" original="The Payment Term Tab defines the different payments terms that you offer to your Business Partners when paying invoices and also those terms which your Vendors offer you for payment of your invoices. On the standard invoice, the Name and the Document Note of the Payment Term is printed.">Tab Istilah Pembayaran menentukan berbagai ketentuan pembayaran yang Anda tawarkan kepada Mitra Bisnis Anda ketika membayar faktur dan juga syarat-syarat yang ditawarkan Vendor Anda untuk pembayaran faktur Anda. Pada faktur standar, Nama dan Catatan Dokumen dari Ketentuan Pembayaran dicetak.</value>
+ </row>
+ <row id="185" trl="Y">
+  <value column="Name" original="Shipper">Pengirim</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Shippers">Pengirim</value>
+  <value column="Help" original="The Shippers Tab defines any entity who will provide shipping to or shipping from an Organization.">Tab Pengirim mendefinisikan setiap entitas yang akan menyediakan pengiriman ke atau pengiriman dari suatu Organisasi.</value>
+ </row>
+ <row id="186" trl="Y">
+  <value column="Name" original="Order">Pesanan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Order Header">Header Pesanan</value>
-  <value column="Help" original="The Order Header Tab defines the parameters of an order.  The field values defined will determine how the Order Lines are processed.">Tab Header Pesanan menentukan parameter pesanan. Nilai bidang yang ditentukan akan menentukan bagaimana Jalur Pesanan diproses.</value>
+  <value column="Help" original="The Order Header Tab defines the parameters of an Order. Changing the Organization, Business Partner, Warehouse, Date Promised, etc. changes these values on all the lines. ">Tab Header Pesanan mendefinisikan parameter Pesanan. Mengubah Organisasi, Mitra Bisnis, Gudang, Tanggal yang Dijanjikan, dll. Mengubah nilai-nilai ini di semua lini. Proses default: Pesan Print_Rpt C_Order</value>
  </row>
- <row id="295" trl="Y">
+ <row id="187" trl="Y">
+  <value column="Name" original="Order Line">Baris Pesanan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Order Line">Jalur Pemesanan</value>
+  <value column="Help" original="The Order Line Tab defines the individual line items that comprise an Order.">Tab Baris Pesanan menentukan item baris individual yang terdiri dari Pesanan.</value>
+ </row>
+ <row id="189" trl="Y">
+  <value column="Name" original="Product Category">Kategori Produk</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Product Category">Tentukan Kategori Produk</value>
+  <value column="Help" original="The Product Category defines unique groupings of products.  Product categories can be used in building price lists.">Kategori Produk mendefinisikan pengelompokan produk yang unik. Kategori produk dapat digunakan dalam membangun daftar harga.</value>
+ </row>
+ <row id="191" trl="Y">
+  <value column="Name" original="Price List">Daftar Harga</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Price Lists">Tentukan Daftar Harga</value>
+  <value column="Help" original="Price lists determine currency of the document as well as tax treatment.">Daftar harga menentukan mata uang dokumen serta perlakuan pajak.</value>
+ </row>
+ <row id="192" trl="Y">
+  <value column="Name" original="Product Price">Harga Produk</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Maintain Product Prices">Maintain Harga Produk</value>
+  <value column="Help" original="The Price List Tab displays the prices for a product based on the selected price list.">Tab Daftar Harga menampilkan harga suatu produk berdasarkan daftar harga yang dipilih.</value>
+ </row>
+ <row id="193" trl="Y">
+  <value column="Name" original="Invoice Schedule">Jadwal Invoice</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Invoice Schedule">Tentukan Jadwal Faktur</value>
+  <value column="Help" original="The Invoice Schedule Tab defines the frequency for which batch invoices will be generated for a Business Partner.">Tab Jadwal Faktur menentukan frekuensi pembuatan faktur batch untuk Mitra Bisnis.</value>
+ </row>
+ <row id="198" trl="Y">
+  <value column="Name" original="Conversion Rate">Rate Konversi</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Currency Conversion Rates">Tentukan Nilai Konversi Mata Uang</value>
+  <value column="Help" original="The Conversion Rates tab is used to define conversion rates to be used when converting document amounts from one currency to another.  Conversion rates can be defined for multiple rate types.  They can also be effective for a defined range of dates. Note that only the multiply rate is used; The divide rate is for visualization only.">Tab Tingkat Konversi digunakan untuk menentukan tingkat konversi yang akan digunakan saat mengonversi jumlah dokumen dari satu mata uang ke mata uang lainnya. Tingkat konversi dapat ditentukan untuk berbagai jenis tarif. Mereka juga bisa efektif untuk rentang tanggal yang ditentukan. Perhatikan bahwa hanya laju pengali yang digunakan; Tingkat pembagian hanya untuk visualisasi.</value>
+ </row>
+ <row id="199" trl="Y">
+  <value column="Name" original="Accounting Schema">Skema Akunting</value>
+  <value column="CommitWarning" original="If you change the currency or costing method, you must reset all accounting transactions.&#10;For changes to become effective, you must re-login and re-start the Application Server. ">If you change the currency or costing method, you must reset all accounting transactions.
+For changes to become effective, you must re-login and re-start the Application Server. </value>
+  <value column="Description" original="Define your Account Schema Structure">Tentukan Struktur Skema Akun Anda</value>
+  <value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per tenant (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">Tab Skema Akuntansi mendefinisikan kontrol yang digunakan untuk akuntansi. Anda dapat menentukan beberapa skema akuntansi per klien (untuk akuntansi paralel).
+Posting dihasilkan untuk skema akuntansi, jika skema itu valid dan Anda telah menetapkan akun GL dan Default dan setelah menyelesaikan proses Tambah / Salin Akun.</value>
+ </row>
+ <row id="200" trl="Y">
+  <value column="Name" original="General Ledger">Jurnal Umum</value>
+  <value column="CommitWarning" original="For changes to become effective, you must re-login and re-start the Application Server.">For changes to become effective, you must re-login and re-start the Application Server.</value>
+  <value column="Description" original="Accounts for GL">Akun untuk GL</value>
+  <value column="Help" original="The General Ledger Tab defines error and balance handling to use as well as  the necessary accounts for posting to General Ledger.  ">General Ledger Tab mendefinisikan kesalahan dan penanganan keseimbangan untuk digunakan serta akun yang diperlukan untuk posting ke General Ledger.</value>
+ </row>
+ <row id="201" trl="Y">
+  <value column="Name" original="Campaign">Kampanye</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Marketing Campaign">Kampanye pemasaran</value>
+  <value column="Help" original="The Marketing Campaign Tab defines the parameters for a Campaign.  These include a start and end date as well as the amount of any invoices that have been processed which reference this campaign.">Tab Kampanye Pemasaran menentukan parameter untuk Kampanye. Ini termasuk tanggal mulai dan berakhir serta jumlah faktur yang telah diproses yang merujuk pada kampanye ini.</value>
+ </row>
+ <row id="202" trl="Y">
+  <value column="Name" original="Channel">Metode</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Distribution Channel">Saluran distribusi</value>
+  <value column="Help" original="The Marketing Channel Tab defines the different methods or processes through which customers are obtained.">Tab Saluran Pemasaran menentukan berbagai metode atau proses yang digunakan untuk mendapatkan pelanggan.</value>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Element">Elemen</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Element">Elemen</value>
+  <value column="Help" original="The Element Tab defines each system level element.">Tab Elemen mendefinisikan setiap elemen tingkat sistem.</value>
+ </row>
+ <row id="204" trl="Y">
+  <value column="Name" original="Translation">Terjemahan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="205" trl="Y">
+  <value column="Name" original="Period Control">Kontrol Periode</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Period Control">Tentukan Kontrol Periode</value>
+  <value column="Help" original="The Period Control Tab displays the status of a Period (Never Opened, Opened, Closed).  ">Tab Kontrol Periode menampilkan status Periode (Tidak Pernah Dibuka, Dibuka, Tertutup).</value>
+ </row>
+ <row id="206" trl="Y">
+  <value column="Name" original="Sales Region">Area Penjualan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Sales Region">Wilayah Penjualan</value>
+  <value column="Help" original="The Sales Region Tab defines the different regions where you do business.  Sales Regions can be used when generating reports or calculating commissions.">Tab Wilayah Penjualan menentukan berbagai wilayah tempat Anda menjalankan bisnis. Wilayah Penjualan dapat digunakan saat membuat laporan atau menghitung komisi.</value>
+ </row>
+ <row id="207" trl="Y">
+  <value column="Name" original="Combination">Kombinasi</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Valid Account Combinations">Kombinasi Akun yang Valid</value>
+  <value column="Help" original="The Account Combination Tab defines and displays valid account combination.  An Alias can be defined to facilitate document entry.">Tab Kombinasi Akun menetapkan dan menampilkan kombinasi akun yang valid. Alias dapat didefinisikan untuk memfasilitasi entri dokumen.</value>
+ </row>
+ <row id="208" trl="Y">
+  <value column="Name" original="Budget">Anggaran</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="The GL Budget Tab defines a General Ledger Budget">Tab Anggaran GL mendefinisikan Anggaran Buku Besar Umum</value>
+  <value column="Help" original="The GL Budgets are used to define the anticipated costs of doing business.  They are used in reporting as a comparison to actual amounts.">Anggaran GL digunakan untuk menentukan biaya yang diantisipasi untuk melakukan bisnis. Mereka digunakan dalam pelaporan sebagai perbandingan dengan jumlah aktual.</value>
+ </row>
+ <row id="209" trl="Y">
+  <value column="Name" original="Accounting">Akunting</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Accounting">Akuntansi</value>
+  <value column="Help" original="The Accounting Tab defines the Accounting parameters to be used for inventory in that Warehouse.">Tab Akuntansi mendefinisikan parameter Akuntansi yang akan digunakan untuk inventaris di Gudang itu.</value>
+ </row>
+ <row id="210" trl="Y">
+  <value column="Name" original="Accounting">Akunting</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Accounting Parameters">Tetapkan Parameter Akuntansi</value>
+  <value column="Help" original="The Accounting Tab defines the defaults to use when generating accounting transactions for orders and invoices which contain this product.">Tab Akuntansi mendefinisikan standar untuk digunakan ketika menghasilkan transaksi akuntansi untuk pesanan dan faktur yang mengandung produk ini.</value>
+ </row>
+ <row id="211" trl="Y">
+  <value column="Name" original="Accounting">Akunting</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Project Accounting">Tentukan Akuntansi Proyek</value>
+  <value column="Help" original="The Accounting Tab is used to define the Asset Account to use when a project is completed and the associated asset realized.">Tab Akuntansi digunakan untuk menentukan Akun Aset yang akan digunakan ketika proyek selesai dan aset terkait direalisasikan.</value>
+ </row>
+ <row id="212" trl="Y">
+  <value column="Name" original="Customer Accounting">Akuntansi Pelanggan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Customer Accounting">Definisikan Akuntansi Pelanggan</value>
+  <value column="Help" original="The Customer Accounting Tab defines the default accounts to use when this business partner is referenced on an accounts receivable transaction.">Tab Akuntansi Pelanggan menentukan akun default untuk digunakan ketika mitra bisnis ini direferensikan pada transaksi piutang.</value>
+ </row>
+ <row id="213" trl="Y">
+  <value column="Name" original="Vendor Accounting">Akuntansi Vendor</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Vendor Accounting">Definisikan Vendor Accounting</value>
+  <value column="Help" original="The Vendor Accounting Tab defines the default accounts to use when this business partner is referenced in an accounts payable transaction.">Vendor Accounting Tab mendefinisikan akun default untuk digunakan ketika mitra bisnis ini direferensikan dalam transaksi hutang dagang.</value>
+ </row>
+ <row id="215" trl="Y">
+  <value column="Name" original="City">Kota</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Cities">Tentukan Kota</value>
+  <value column="Help" original="The Cities Tab defines Cities within a Country or Region.  Cities entered here are not referenced when entering the address.">Tab Kota mendefinisikan Kota dalam suatu Negara atau Wilayah. Kota yang dimasukkan di sini tidak direferensikan saat memasukkan alamat.</value>
+ </row>
+ <row id="217" trl="Y">
+  <value column="Name" original="Account Schema Dimensions">Elemen Skema Akunting</value>
+  <value column="CommitWarning" original="ATTENTION: ANY CHANGES here will affect the structure of your chart of accounts!&#10;Depending what changes you did, you should reset accounting.&#10;For changes to become effective, you must and execute Cache Reset and re-login.&#10;Saving/deleting the record starts processes which may take a while.">ATTENTION: ANY CHANGES here will effect the structure of your chart of accounts!
+Depending what changes you did, you should reset accounting.
+For changes to become effective, you must re-login and re-start the Application Server.
+Saving/deleting the record starts processes which may take a while.</value>
+  <value column="Description" original="Define the dimensions of your Account Key">Tentukan dimensi Kunci Akun Anda</value>
+  <value column="Help" original="The Account Schema Dimensions Tab defines the dimensions that comprise the account key. A name is defined which will display in documents.  Also the order of the dimensions and if they are balanced and mandatory are indicated.">Tab Dimensi Skema Akun menentukan dimensi yang terdiri dari kunci akun. Nama didefinisikan yang akan ditampilkan dalam dokumen. Juga urutan dimensi dan jika mereka seimbang dan wajib ditunjukkan.</value>
+ </row>
+ <row id="220" trl="Y">
+  <value column="Name" original="Business Partner">Rekan Bisnis</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Business Partner">Mitra bisnis</value>
+  <value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">Tab Mitra Bisnis mendefinisikan Entitas yang dengannya organisasi melakukan transaksi.</value>
+ </row>
+ <row id="222" trl="Y">
+  <value column="Name" original="Location">Lokasi</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Location">Tentukan Lokasi</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Tab Lokasi menentukan lokasi fisik mitra bisnis. Mitra bisnis dapat memiliki beberapa catatan lokasi.</value>
+ </row>
+ <row id="226" trl="Y">
+  <value column="Name" original="Bank Account">Rekening Bank</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Bank Account">Tentukan Rekening Bank</value>
+  <value column="Help" original="The Define Bank Account Tab defines the banking information for this business partner.  This data is used for processing payments and remittances.">Tab Tentukan Rekening Bank mendefinisikan informasi perbankan untuk mitra bisnis ini. Data ini digunakan untuk memproses pembayaran dan pengiriman uang.</value>
+ </row>
+ <row id="227" trl="Y">
+  <value column="Name" original="Bank/Cash">Bank</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Maintain Bank">Maintain Bank</value>
+  <value column="Help" original="The Bank Tab defines a bank that is used by an organization or business partner.  Each Bank is given an identifying Name, Address, Routing No and Swift Code">Tab Bank mendefinisikan bank yang digunakan oleh organisasi atau mitra bisnis. Setiap Bank diberi Nama, Alamat, Nomor Perutean, dan Kode Swift yang teridentifikasi</value>
+ </row>
+ <row id="228" trl="Y">
+  <value column="Name" original="Account">Rekening</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Maintain Bank Account">Maintain Rekening Bank</value>
+  <value column="Help" original="The Account Tab is used to define one or more accounts for a Bank.  Each account has a unique Account No and Currency.  The bank account organization is used for accounting.">Tab Akun digunakan untuk mendefinisikan satu atau lebih akun untuk Bank. Setiap akun memiliki Nomor dan Mata Uang Akun yang unik. Organisasi rekening bank digunakan untuk akuntansi.</value>
+ </row>
+ <row id="229" trl="Y">
+  <value column="Name" original="Withholding">Pemotongan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Withholding (Beta)">Tentukan Pemotongan (Beta)</value>
+  <value column="Help" original="The Withholding Tab defines any withholding information for this business partner.">Withholding Tab mendefinisikan informasi pemotongan untuk mitra bisnis ini.</value>
+ </row>
+ <row id="230" trl="Y">
+  <value column="Name" original="Translation">Terjemahan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Translation ">Terjemahan</value>
+  <value column="Help" original="The Translation Tab defines a Document Type in an alternate language.">Tab Terjemahan mendefinisikan Jenis Dokumen dalam bahasa alternatif.</value>
+ </row>
+ <row id="231" trl="Y">
+  <value column="Name" original="Dunning">Penagihan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Maintain Dunning Rules">Maintain Aturan Dunning</value>
+  <value column="Help" original="The Dunning Tab defines the parameters for a dunning level.">Tab Dunning mendefinisikan parameter untuk level docking.</value>
+ </row>
+ <row id="232" trl="Y">
+  <value column="Name" original="Translation">Terjemahan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Translation">Tentukan Terjemahan</value>
+  <value column="Help" original="The Translation Tab defines the translation to an alternate language">Tab Terjemahan mendefinisikan terjemahan ke bahasa alternatif</value>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Translation">Terjemahan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="235" trl="Y">
+  <value column="Name" original="Translation">Terjemahan</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="236" trl="Y">
   <value column="Name" original="Order Tax">Faktur Pajak</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Order Tax">Pajak Pesanan</value>
-  <value column="Help" original="The Order Tax Tab displays the tax associated with the Order Lines.">Tab Pajak Pesanan menampilkan pajak yang terkait dengan Baris Pesanan.</value>
+  <value column="Help" original="The Order Tax Tab displays the tax amount for an Order based on the lines entered.">Tab Pajak Pesanan menampilkan jumlah pajak untuk Pesanan berdasarkan pada baris yang dimasukkan.</value>
  </row>
- <row id="296" trl="Y">
-  <value column="Name" original="Material Receipt">Penerimaan Pembelian</value>
+ <row id="237" trl="Y">
+  <value column="Name" original="Charge">Beban</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter Receipts">Masukkan Tanda Terima</value>
-  <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor.">Tab Pengiriman memungkinkan Anda menghasilkan, memelihara, memasuki, dan memproses Pengiriman dari Vendor.</value>
+  <value column="Description" original="Charge">Biaya</value>
+  <value column="Help" original="The Charge Tab defines the unique charges that may be associated with a document.&#10;The optional Business Partner allows to create Purchase Orders from Requisitions.">Tab Biaya menetapkan biaya unik yang mungkin terkait dengan dokumen.
+Mitra Bisnis opsional memungkinkan untuk membuat Pesanan Pembelian dari Daftar Permintaan.</value>
  </row>
- <row id="297" trl="Y">
-  <value column="Name" original="Receipt Line">Baris Penerimaan</value>
+ <row id="238" trl="Y">
+  <value column="Name" original="Version">Versi</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Shipment Line">Jalur Pengiriman</value>
-  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">Tab Jalur Pengiriman menentukan masing-masing item dalam suatu Pengiriman.</value>
+  <value column="Description" original="Maintain price list versions">Maintain versi daftar harga</value>
+  <value column="Help" original="Price lists are automatically created based on Product Purchasing Information and the Vendor Category Discount.&#10;The other alternative is to copy them from existing pricelists and the re-calculate them.&#10;You can also re-calculate the pricelist by referencing no pricelist or referencing the same pricelist.  If no base price list is selected, the Procuct Purchase records are used as reference.">Daftar harga dibuat secara otomatis berdasarkan Informasi Pembelian Produk dan Diskon Kategori Vendor.
+Alternatif lain adalah menyalinnya dari daftar harga yang ada dan menghitung ulang.
+Anda juga dapat menghitung ulang daftar harga dengan merujuk tidak ada daftar harga atau merujuk daftar harga yang sama. Jika tidak ada daftar harga dasar yang dipilih, catatan Pembelian Lelang digunakan sebagai referensi.</value>
  </row>
- <row id="298" trl="Y">
-  <value column="Name" original="EDI Definition">Definisi EDI</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain EDI Definition">Maintain Definisi EDI</value>
-  <value column="Help" original=""/>
- </row>
- <row id="299" trl="Y">
-  <value column="Name" original="EDI Transaction">Transaksi EDI</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="300" trl="Y">
-  <value column="Name" original="EDI Log">EDI Log</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="302" trl="Y">
-  <value column="Name" original="Form">Form</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Special Form">Formulir Khusus</value>
-  <value column="Help" original="The Forms Tab defines any window which is not automatically generated.  For System Admin use only.">Forms Tab mendefinisikan semua jendela yang tidak secara otomatis dihasilkan. Hanya untuk Admin Sistem.</value>
- </row>
- <row id="303" trl="Y">
-  <value column="Name" original="Translation">Terjemahan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="304" trl="Y">
-  <value column="Name" original="Window Access">Akses Window</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Window Access">Akses Jendela</value>
-  <value column="Help" original="The Window Access Tab defines the Windows and type of access that this Role is granted.">Tab Akses Jendela mendefinisikan Windows dan jenis akses yang diberikan Peran ini.</value>
- </row>
- <row id="305" trl="Y">
-  <value column="Name" original="Process Access">Akses Proses</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Process Access">Akses Proses</value>
-  <value column="Help" original="The Process Access Tab defines the Processes and type of access that this Role is granted.">Tab Akses Proses mendefinisikan Proses dan jenis akses yang diberikan Peran ini.</value>
- </row>
- <row id="306" trl="Y">
-  <value column="Name" original="Form Access">Akses Form</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Form Access">Formulir Akses</value>
-  <value column="Help" original="The Form Access Tab defines the Forms and type of access that this Role is granted.">Tab Akses Formulir mendefinisikan Formulir dan jenis akses yang diberikan Peran ini.</value>
- </row>
- <row id="307" trl="Y">
-  <value column="Name" original="Workflow Access">Akses Workflow</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Access">Akses Alur Kerja</value>
-  <value column="Help" original="The Workflow Access Tab defines the Workflows and type of access that this Role is granted.">Tab Akses Alur Kerja menentukan Alur kerja dan jenis akses yang diberikan Peran ini.</value>
- </row>
- <row id="308" trl="Y">
-  <value column="Name" original="Report Access">Laporan Akses</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Report Access">Laporkan Akses</value>
-  <value column="Help" original="The Report Access Tab determines who can access a report or process">Tab Akses Laporan menentukan siapa yang dapat mengakses laporan atau proses</value>
- </row>
- <row id="309" trl="Y">
-  <value column="Name" original="Access">Akses</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Form Access">Formulir Akses</value>
-  <value column="Help" original="The Forms Access Tab defines the access rules for this form">Tab Akses Formulir mendefinisikan aturan akses untuk formulir ini</value>
- </row>
- <row id="310" trl="Y">
-  <value column="Name" original="Access">Akses</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Task Access">Akses Tugas</value>
-  <value column="Help" original="The Task Access Tab defines the Roles that will have access to this task and the type of access each Role is granted.">Tab Akses Tugas menentukan Peran yang akan memiliki akses ke tugas ini dan jenis akses yang diberikan masing-masing Peran.</value>
- </row>
- <row id="311" trl="Y">
-  <value column="Name" original="Access">Akses</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Window Access">Akses Jendela</value>
-  <value column="Help" original="The Window Access Tab defines the Roles which have access to this Window.">Tab Akses Jendela mendefinisikan Peran yang memiliki akses ke Jendela ini.</value>
- </row>
- <row id="312" trl="Y">
-  <value column="Name" original="Access">Akses</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Access">Akses Alur Kerja</value>
-  <value column="Help" original="The Workflow Access Tab defines the Roles who have access to this Workflow. ">Tab Akses Alur Kerja mendefinisikan Peran yang memiliki akses ke Alur Kerja ini.</value>
- </row>
- <row id="313" trl="Y">
-  <value column="Name" original="Task Access">Akses Tugas</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Task Access">Akses Tugas</value>
-  <value column="Help" original="The Task Access Tab defines the Task and type of access that this Role is granted.">Tab Akses Tugas menentukan Tugas dan jenis akses yang diberikan Peran ini.</value>
- </row>
- <row id="314" trl="Y">
-  <value column="Name" original="Error Message">Pesan Kesalahan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Error Message">Pesan eror</value>
-  <value column="Help" original="The Error Message Tab displays error messages that have been generated.  They can be deleted with an automated clean up process.">Tab Pesan Kesalahan menampilkan pesan kesalahan yang telah dihasilkan. Mereka dapat dihapus dengan proses pembersihan otomatis.</value>
- </row>
- <row id="315" trl="Y">
-  <value column="Name" original="Import Format">Format Impor</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="316" trl="Y">
-  <value column="Name" original="Format Field">Format Kolom</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Format Fields">Maintain Bidang Format</value>
-  <value column="Help" original="Define the individual field based on the table definition.  Please note that you have to make sure that a Constant has the correct  SQL data type (i.e. if it is a 'string', you need to enclose it like 'this').&#10;&lt;p&gt;Product mapping (for details see documentation):&#10;&lt;pre&gt;&#10;H_Item =&gt; Value&#10;H_ItemDesc =&gt; Name / Description&#10;H_ItemDefn =&gt; Help&#10;H_ItemType =&gt; ProductCategory&#10;H_PartnrID =&gt; Value of Business Partner&#10;H_Commodity1 =&gt; Vendor Product No&#10;H_Commodity2 =&gt; SKU&#10;H_ItemClass =&gt; Classification (A,B,C..)&#10;V_OperAmt_T_Cur =&gt; Currency&#10;V_OperAmt_T =&gt; Price &#10;&lt;/pre&gt;" xml:space="preserve"><![CDATA[Tentukan bidang individual berdasarkan definisi tabel. Harap perhatikan bahwa Anda harus memastikan bahwa Konstan memiliki tipe data SQL yang benar (mis. Jika itu adalah 'string', Anda harus melampirkannya seperti 'ini').
+  <row id="239" trl="Y">
+   <value column="Name" original="Purchasing">Pembelian</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Purchasing">Membeli</value>
+   <value column="Help" original="The Purchasing Tab define the pricing and rules ( pack quantity, UPC, minimum order quantity) for each product.">Tab Pembelian menentukan harga dan aturan (jumlah paket, UPC, jumlah pesanan minimum) untuk setiap produk.</value>
+  </row>
+  <row id="241" trl="Y">
+   <value column="Name" original="Withholding">Pemotongan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Withholding Rules">Aturan Pemotongan</value>
+   <value column="Help" original="The Withholding Rules Tab define the rules governing the withholding of amounts.">Tab Withholding Rules menentukan aturan yang mengatur pemotongan jumlah.</value>
+  </row>
+  <row id="242" trl="Y">
+   <value column="Name" original="Accounting">Akunting</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="View Accounting Fact Details">Lihat Detail Fakta Akuntansi</value>
+   <value column="Help" original=""/>
+  </row>
+  <row id="243" trl="Y">
+   <value column="Name" original="Tree">Pohon</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Tree">Pohon</value>
+   <value column="Help" original="The Tree Tab defines a Tree which will be displayed.">Tab Pohon mendefinisikan Pohon yang akan ditampilkan.</value>
+  </row>
+  <row id="245" trl="Y">
+   <value column="Name" original="Report &amp; Process" xml:space="preserve"><![CDATA[Laporan & Proses]]></value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Define Report &amp; Process" xml:space="preserve"><![CDATA[Tentukan Laporan & Proses]]></value>
+   <value column="Help" original="The Report and Process Tab defines each report and process run in the system.  &#10;Please note that the Print Format is only used for Document Print when you want to share a common format defined on System level. For normal reports and formats, you would not define a Print Format here, but modify the generated print format and set it as the default.">Tab Laporan dan Proses menentukan setiap laporan dan proses yang dijalankan dalam sistem.
+Harap dicatat bahwa Format Cetak hanya digunakan untuk Cetak Dokumen ketika Anda ingin berbagi format umum yang didefinisikan pada tingkat Sistem. Untuk laporan dan format normal, Anda tidak akan menentukan Format Cetak di sini, tetapi memodifikasi format cetak yang dihasilkan dan menetapkannya sebagai default.</value>
+  </row>
+  <row id="246" trl="Y">
+   <value column="Name" original="Parameter">Parameter</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Report Parameter">Parameter Laporan</value>
+   <value column="Help" original="The Report Parameter Tab defines any parameters required to execute a report or process.">Tab Parameter Laporan mendefinisikan setiap parameter yang diperlukan untuk menjalankan laporan atau proses.</value>
+  </row>
+  <row id="247" trl="Y">
+   <value column="Name" original="Parameter Translation">Terjemahan Parameter</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="248" trl="Y">
+   <value column="Name" original="Report Translation">Laporan Translation</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="249" trl="Y">
+   <value column="Name" original="Activity">Aktivitas</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Activity for Activity Based Costing">Aktivitas untuk Penetapan Biaya Berbasis Aktivitas</value>
+   <value column="Help" original=""/>
+  </row>
+  <row id="252" trl="Y">
+   <value column="Name" original="Defaults">Default</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Default Accounts">Akun Default</value>
+   <value column="Help" original="The Defaults Tab displays the Default accounts for an Accounting Schema.  These values will display when a new document is opened.  The user can override these defaults within the document.">Tab Default menampilkan akun Default untuk Skema Akuntansi. Nilai-nilai ini akan ditampilkan ketika dokumen baru dibuka. Pengguna dapat mengganti default ini di dalam dokumen.</value>
+  </row>
+  <row id="255" trl="Y">
+   <value column="Name" original="Inventory Count">Opname Persediaan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Define Inventory Count">Tetapkan Jumlah Persediaan</value>
+   <value column="Help" original="The Inventory Count Tab defines the parameters for a manual count and adjustment of inventory.  When creating the inventory count list automatically, only the actual stored products are included. The exception is when you select the equals 0 (=0) option, then zero on hand records of all stocked products is created for that location.">Tab Hitungan Inventaris menetapkan parameter untuk penghitungan manual dan penyesuaian inventaris. Saat membuat daftar penghitungan inventaris secara otomatis, hanya produk yang tersimpan aktual yang disertakan. Pengecualiannya adalah ketika Anda memilih opsi sama dengan 0 (= 0), maka nol catatan tangan dari semua produk yang ditebar dibuat untuk lokasi itu.</value>
+  </row>
+  <row id="256" trl="Y">
+   <value column="Name" original="Inventory Count Line">Baris Opname Persediaan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Inventory Count Line">Garis Hitung Persediaan</value>
+   <value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.&#10;You can set the Organization, if it is a charge, otherwise it is set to the header organization.">Inventaris Count Line mendefinisikan jumlah masing-masing produk dalam inventaris. Biasanya Anda akan membuat jalur penghitungan inventaris secara otomatis. Jika Anda membuatnya secara manual, pastikan nilai buku sudah benar.
+Anda dapat mengatur Organisasi, jika itu adalah tagihan, jika tidak diatur ke tajuk organisasi.</value>
+  </row>
+  <row id="257" trl="Y">
+   <value column="Name" original="Shipment">Pengiriman</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Shipments and Customer Returns">Pengiriman dan Pengembalian Pelanggan</value>
+   <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">Tab Pengiriman memungkinkan Anda untuk menghasilkan, memelihara, memasuki, dan memproses Pengiriman ke Pelanggan atau Pengembalian dari Pelanggan. Proses Default: Catatan Pengiriman / Pengiriman Cetak _Rpt M_InOut</value>
+  </row>
+  <row id="258" trl="Y">
+   <value column="Name" original="Shipment Line">Baris Pengiriman</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Shipment Line">Jalur Pengiriman</value>
+   <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">Tab Jalur Pengiriman menentukan masing-masing item dalam suatu Pengiriman.</value>
+  </row>
+  <row id="259" trl="Y">
+   <value column="Name" original="Move">Pindah</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Enter Inventory Movement">Masukkan Gerakan Inventaris</value>
+   <value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">Tab Gerakkan mendefinisikan dan mengidentifikasi pergerakan suatu barang atau barang dalam persediaan.</value>
+  </row>
+  <row id="260" trl="Y">
+   <value column="Name" original="Move Line">Baris Pindah</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Enter Inventory Movement Line">Masukkan Baris Gerakan Inventaris</value>
+   <value column="Help" original="The Move Line Tab defines the product and quantity to be moved and the location it is moving from and to.  ">Tab Garis Pindah menentukan produk dan jumlah yang akan dipindahkan dan lokasi dari mana ia bergerak.</value>
+  </row>
+  <row id="263" trl="Y">
+   <value column="Name" original="Invoice">Invoice</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Customer Invoice">Faktur pelanggan</value>
+   <value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated for a Business Partner.  It constitutes an accounts receivable.">Tab Faktur menentukan parameter Faktur yang dihasilkan untuk Mitra Bisnis. Ini merupakan piutang dagang. Proses Default: Cetak Faktur _Rpt C_Invoice</value>
+  </row>
+  <row id="268" trl="Y">
+   <value column="Name" original="Level">Level</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Maintain Dunning Level">Maintain Level Dunning</value>
+   <value column="Help" original="The Dunning Level Tab defines the timing and frequency of the dunning notices.">Tab Level Dunning menentukan waktu dan frekuensi pemberitahuan yang mengganggu.</value>
+  </row>
+  <row id="269" trl="Y">
+   <value column="Name" original="Translation">Terjemahan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Dunning Level Translation">Terjemahan Dunning Level</value>
+   <value column="Help" original=""/>
+  </row>
+  <row id="270" trl="Y">
+   <value column="Name" original="Invoice Line">Baris Invoice</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Customer Invoice Line">Jalur Faktur Pelanggan</value>
+   <value column="Help" original="The Invoice Line Tab defines the individual items or charges on an Invoice.">Tab Baris Faktur menentukan masing-masing item atau biaya pada Faktur.</value>
+  </row>
+  <row id="271" trl="Y">
+   <value column="Name" original="Invoice Tax">Faktur Pajak</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Customer Invoice Tax">Pajak Faktur Pelanggan</value>
+   <value column="Help" original="The Invoice Tax Tab displays the total tax due based on the Invoice Lines.">Tab Pajak Faktur menampilkan jumlah pajak yang terutang berdasarkan Garis Faktur.</value>
+  </row>
+  <row id="272" trl="Y">
+   <value column="Name" original="Revenue Recognition">Pengakuan Pendapatan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Revenue Recognition">Pengakuan Pendapatan</value>
+   <value column="Help" original="The Revenue Recognition Tab defines the intervals at which revenue will be recognized.  You can also base the revenue recognition on provided Service Levels.">Tab Pengakuan Pendapatan mendefinisikan interval di mana pendapatan akan diakui. Anda juga dapat mendasarkan pengakuan pendapatan pada Level Layanan yang disediakan.</value>
+  </row>
+  <row id="273" trl="Y">
+   <value column="Name" original="Translation">Terjemahan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Unit of Measure Translation">Unit Terjemahan Ukur</value>
+   <value column="Help" original=""/>
+  </row>
+  <row id="275" trl="Y">
+   <value column="Name" original="Perpetual Inventory">Persediaan Perpetual</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="276" trl="Y">
+   <value column="Name" original="Vendor">Vendor</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Vendor">Penjaja</value>
+   <value column="Help" original="The Vendor Tab displays the Vendors.  A Vendor is selected and all products for that Vendor will be displayed.">Tab Vendor menampilkan Vendor. Vendor dipilih dan semua produk untuk Vendor itu akan ditampilkan.</value>
+  </row>
+  <row id="278" trl="Y">
+   <value column="Name" original="Product Details">Detail Produk</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Product Details">Rincian Produk</value>
+   <value column="Help" original="The Product Details Tab allows you to display and maintain all products for a selected Vendor.">Tab Detail Produk memungkinkan Anda untuk menampilkan dan memelihara semua produk untuk Vendor yang dipilih.</value>
+  </row>
+  <row id="282" trl="Y">
+   <value column="Name" original="Greeting">Titel</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Define Greeting">Tentukan Ucapan</value>
+   <value column="Help" original="The Greeting Tab defines the manner in which you will address business partners on documents.">Tab Ucapan Menentukan cara Anda akan menangani mitra bisnis pada dokumen.</value>
+  </row>
+  <row id="283" trl="Y">
+   <value column="Name" original="Translation">Terjemahan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="284" trl="Y">
+   <value column="Name" original="Translation">Terjemahan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="288" trl="Y">
+   <value column="Name" original="Report View">View untuk Laporan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Define Report View">Tentukan Tampilan Laporan</value>
+   <value column="Help" original="The Define Report View defines the views used in report generation">Tampilan Tentukan Laporan mendefinisikan pandangan yang digunakan dalam pembuatan laporan</value>
+  </row>
+  <row id="289" trl="Y">
+   <value column="Name" original="Transactions">Transaksi</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Transactions for stored Products">Transaksi untuk Produk yang disimpan</value>
+   <value column="Help" original="The Transaction Tab displays the transactions that have been processed for this product.">Tab Transaksi menampilkan transaksi yang telah diproses untuk produk ini.</value>
+  </row>
+  <row id="290" trl="Y">
+   <value column="Name" original="Invoice">Invoice</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Vendor Invoice">Faktur Penjual</value>
+   <value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated by a Business Partner.  It constitutes an accounts payable.">Tab Faktur menentukan parameter Faktur yang dihasilkan oleh Mitra Bisnis. Ini merupakan hutang dagang. Proses Default: Cetak Faktur _Rpt C_Invoice</value>
+  </row>
+  <row id="291" trl="Y">
+   <value column="Name" original="Invoice Line">Baris Invoice</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Vendor Invoice Line">Vendor Invoice Line</value>
+   <value column="Help" original="The Invoice Line Tab defines the individual items or charges on an Invoice.">Tab Baris Faktur menentukan masing-masing item atau biaya pada Faktur.</value>
+  </row>
+  <row id="292" trl="Y">
+   <value column="Name" original="Invoice Tax">Faktur Pajak</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Vendor Invoice Tax">Pajak Faktur Penjual</value>
+   <value column="Help" original="The Invoice Tax Tab displays the total tax due based on the Invoice Lines.&#10;">Tab Pajak Faktur menampilkan jumlah pajak yang terutang berdasarkan Garis Faktur.</value>
+  </row>
+  <row id="293" trl="Y">
+   <value column="Name" original="PO Line">Baris PO</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Purchase Order Line">Jalur Pemesanan Pembelian</value>
+   <value column="Help" original="The Purchase Order Line Tab defines the individual items in an order.">Tab Baris Pesanan Pembelian menentukan masing-masing item dalam suatu pesanan.</value>
+  </row>
+  <row id="294" trl="Y">
+   <value column="Name" original="Purchase Order">Order Pembelian</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Order Header">Header Pesanan</value>
+   <value column="Help" original="The Order Header Tab defines the parameters of an order.  The field values defined will determine how the Order Lines are processed.">Tab Header Pesanan menentukan parameter pesanan. Nilai bidang yang ditentukan akan menentukan bagaimana Jalur Pesanan diproses.</value>
+  </row>
+  <row id="295" trl="Y">
+   <value column="Name" original="Order Tax">Faktur Pajak</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Order Tax">Pajak Pesanan</value>
+   <value column="Help" original="The Order Tax Tab displays the tax associated with the Order Lines.">Tab Pajak Pesanan menampilkan pajak yang terkait dengan Baris Pesanan.</value>
+  </row>
+  <row id="296" trl="Y">
+   <value column="Name" original="Material Receipt">Penerimaan Pembelian</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Enter Receipts">Masukkan Tanda Terima</value>
+   <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor.">Tab Pengiriman memungkinkan Anda menghasilkan, memelihara, memasuki, dan memproses Pengiriman dari Vendor.</value>
+  </row>
+  <row id="297" trl="Y">
+   <value column="Name" original="Receipt Line">Baris Penerimaan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Shipment Line">Jalur Pengiriman</value>
+   <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">Tab Jalur Pengiriman menentukan masing-masing item dalam suatu Pengiriman.</value>
+  </row>
+  <row id="298" trl="Y">
+   <value column="Name" original="EDI Definition">Definisi EDI</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Maintain EDI Definition">Maintain Definisi EDI</value>
+   <value column="Help" original=""/>
+  </row>
+  <row id="299" trl="Y">
+   <value column="Name" original="EDI Transaction">Transaksi EDI</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="300" trl="Y">
+   <value column="Name" original="EDI Log">EDI Log</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="302" trl="Y">
+   <value column="Name" original="Form">Form</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Special Form">Formulir Khusus</value>
+   <value column="Help" original="The Forms Tab defines any window which is not automatically generated.  For System Admin use only.">Forms Tab mendefinisikan semua jendela yang tidak secara otomatis dihasilkan. Hanya untuk Admin Sistem.</value>
+  </row>
+  <row id="303" trl="Y">
+   <value column="Name" original="Translation">Terjemahan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="304" trl="Y">
+   <value column="Name" original="Window Access">Akses Window</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Window Access">Akses Jendela</value>
+   <value column="Help" original="The Window Access Tab defines the Windows and type of access that this Role is granted.">Tab Akses Jendela mendefinisikan Windows dan jenis akses yang diberikan Peran ini.</value>
+  </row>
+  <row id="305" trl="Y">
+   <value column="Name" original="Process Access">Akses Proses</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Process Access">Akses Proses</value>
+   <value column="Help" original="The Process Access Tab defines the Processes and type of access that this Role is granted.">Tab Akses Proses mendefinisikan Proses dan jenis akses yang diberikan Peran ini.</value>
+  </row>
+  <row id="306" trl="Y">
+   <value column="Name" original="Form Access">Akses Form</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Form Access">Formulir Akses</value>
+   <value column="Help" original="The Form Access Tab defines the Forms and type of access that this Role is granted.">Tab Akses Formulir mendefinisikan Formulir dan jenis akses yang diberikan Peran ini.</value>
+  </row>
+  <row id="307" trl="Y">
+   <value column="Name" original="Workflow Access">Akses Workflow</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Workflow Access">Akses Alur Kerja</value>
+   <value column="Help" original="The Workflow Access Tab defines the Workflows and type of access that this Role is granted.">Tab Akses Alur Kerja menentukan Alur kerja dan jenis akses yang diberikan Peran ini.</value>
+  </row>
+  <row id="308" trl="Y">
+   <value column="Name" original="Report Access">Laporan Akses</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Report Access">Laporkan Akses</value>
+   <value column="Help" original="The Report Access Tab determines who can access a report or process">Tab Akses Laporan menentukan siapa yang dapat mengakses laporan atau proses</value>
+  </row>
+  <row id="309" trl="Y">
+   <value column="Name" original="Access">Akses</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Form Access">Formulir Akses</value>
+   <value column="Help" original="The Forms Access Tab defines the access rules for this form">Tab Akses Formulir mendefinisikan aturan akses untuk formulir ini</value>
+  </row>
+  <row id="310" trl="Y">
+   <value column="Name" original="Access">Akses</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Task Access">Akses Tugas</value>
+   <value column="Help" original="The Task Access Tab defines the Roles that will have access to this task and the type of access each Role is granted.">Tab Akses Tugas menentukan Peran yang akan memiliki akses ke tugas ini dan jenis akses yang diberikan masing-masing Peran.</value>
+  </row>
+  <row id="311" trl="Y">
+   <value column="Name" original="Access">Akses</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Window Access">Akses Jendela</value>
+   <value column="Help" original="The Window Access Tab defines the Roles which have access to this Window.">Tab Akses Jendela mendefinisikan Peran yang memiliki akses ke Jendela ini.</value>
+  </row>
+  <row id="312" trl="Y">
+   <value column="Name" original="Access">Akses</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Workflow Access">Akses Alur Kerja</value>
+   <value column="Help" original="The Workflow Access Tab defines the Roles who have access to this Workflow. ">Tab Akses Alur Kerja mendefinisikan Peran yang memiliki akses ke Alur Kerja ini.</value>
+  </row>
+  <row id="313" trl="Y">
+   <value column="Name" original="Task Access">Akses Tugas</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Task Access">Akses Tugas</value>
+   <value column="Help" original="The Task Access Tab defines the Task and type of access that this Role is granted.">Tab Akses Tugas menentukan Tugas dan jenis akses yang diberikan Peran ini.</value>
+  </row>
+  <row id="314" trl="Y">
+   <value column="Name" original="Error Message">Pesan Kesalahan</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Error Message">Pesan eror</value>
+   <value column="Help" original="The Error Message Tab displays error messages that have been generated.  They can be deleted with an automated clean up process.">Tab Pesan Kesalahan menampilkan pesan kesalahan yang telah dihasilkan. Mereka dapat dihapus dengan proses pembersihan otomatis.</value>
+  </row>
+  <row id="315" trl="Y">
+   <value column="Name" original="Import Format">Format Impor</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="316" trl="Y">
+   <value column="Name" original="Format Field">Format Kolom</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original="Maintain Format Fields">Maintain Bidang Format</value>
+   <value column="Help" original="Define the individual field based on the table definition.  Please note that you have to make sure that a Constant has the correct  SQL data type (i.e. if it is a 'string', you need to enclose it like 'this').&#10;&lt;p&gt;Product mapping (for details see documentation):&#10;&lt;pre&gt;&#10;H_Item =&gt; Value&#10;H_ItemDesc =&gt; Name / Description&#10;H_ItemDefn =&gt; Help&#10;H_ItemType =&gt; ProductCategory&#10;H_PartnrID =&gt; Value of Business Partner&#10;H_Commodity1 =&gt; Vendor Product No&#10;H_Commodity2 =&gt; SKU&#10;H_ItemClass =&gt; Classification (A,B,C..)&#10;V_OperAmt_T_Cur =&gt; Currency&#10;V_OperAmt_T =&gt; Price &#10;&lt;/pre&gt;" xml:space="preserve"><![CDATA[Tentukan bidang individual berdasarkan definisi tabel. Harap perhatikan bahwa Anda harus memastikan bahwa Konstan memiliki tipe data SQL yang benar (mis. Jika itu adalah 'string', Anda harus melampirkannya seperti 'ini').
 Pemetaan produk (untuk detail lihat dokumentasi):
+```
+</value>
+  </row>
+  <row id="200385" trl="Y">
+  <value column="Name" original="Broadcast Message">Pesan Siaran</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="200386" trl="Y">
+  <value column="Name" original="Chart">Grafik</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="200387" trl="Y">
+  <value column="Name" original="Chart Datasource">Sumber Data Grafik</value>
+   <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+ </idempiereTrl>
 
 H_Item => Nilai
 H_ItemDesc => Nama / Deskripsi
@@ -1353,7 +2040,7 @@ Definisi SELECT harus berisi kata kunci SELECT dan FROM dalam huruf besar, defin
   <value column="Name" original="Service Level Line">Baris Level Service</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Service Levels">Maintain Tingkat Layanan</value>
-  <value column="Help" original="Add new service level lines to change the recognized amount">Tambahkan garis tingkat layanan baru untuk mengubah jumlah yang diakui</value>
+  <value column="Help" original="Tambahkan garis tingkat layanan baru untuk mengubah jumlah yang diakui">Tambahkan garis tingkat layanan baru untuk mengubah jumlah yang diakui</value>
  </row>
  <row id="382" trl="Y">
   <value column="Name" original="Find">Temukan</value>
@@ -1371,13 +2058,13 @@ Definisi SELECT harus berisi kata kunci SELECT dan FROM dalam huruf besar, defin
   <value column="Name" original="Print Form">Cetak Form</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Print Form (Invoices, Checks, ..) information">Menyimpan informasi Formulir Cetak (Faktur, Cek, ..)</value>
-  <value column="Help" original="The selection determines what Print Format is used to print a particular Form for your Organization.">Pilihan menentukan Format Cetak apa yang digunakan untuk mencetak Formulir tertentu untuk Organisasi Anda.</value>
+  <value column="Help" original="Pilihan menentukan Format Cetak apa yang digunakan untuk mencetak Formulir tertentu untuk Organisasi Anda.">Pilihan menentukan Format Cetak apa yang digunakan untuk mencetak Formulir tertentu untuk Organisasi Anda.</value>
  </row>
  <row id="386" trl="Y">
   <value column="Name" original="Bank Account Document">Dokumen Rekening Bank</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Bank Account Documents">Menyimpan Dokumen Rekening Bank</value>
-  <value column="Help" original="In this tab, you define the documents used for this bank account.  You define your check and other payment document (sequence) number as well as format.">Di tab ini, Anda menentukan dokumen yang digunakan untuk rekening bank ini. Anda menentukan nomor cek dan dokumen (urutan) pembayaran Anda, serta formatnya.</value>
+  <value column="Help" original="Di tab ini, Anda menentukan dokumen yang digunakan untuk rekening bank ini. Anda menentukan nomor cek dan dokumen (urutan) pembayaran Anda, serta formatnya.">Di tab ini, Anda menentukan dokumen yang digunakan untuk rekening bank ini. Anda menentukan nomor cek dan dokumen (urutan) pembayaran Anda, serta formatnya.</value>
  </row>
  <row id="387" trl="Y">
   <value column="Name" original="System Color">Warna Sistem</value>
@@ -1389,7 +2076,7 @@ Definisi SELECT harus berisi kata kunci SELECT dan FROM dalam huruf besar, defin
   <value column="Name" original="Desktop">Desktop</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Desktop is a collection of Workbenches">Desktop adalah kumpulan Meja Kerja</value>
-  <value column="Help" original="Desktop is a collection of Workbenches">Desktop adalah kumpulan Meja Kerja</value>
+  <value column="Help" original="Desktop adalah kumpulan Meja Kerja">Desktop adalah kumpulan Meja Kerja</value>
  </row>
  <row id="389" trl="Y">
   <value column="Name" original="Translation">Terjemahan</value>
@@ -1473,7 +2160,7 @@ Definisi SELECT harus berisi kata kunci SELECT dan FROM dalam huruf besar, defin
   <value column="Name" original="Schema Line">Baris Skema</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Trade Discount Price List Lines">Daftar Baris Harga Diskon Perdagangan</value>
-  <value column="Help" original="Pricelists are created based on Product Purchase and Category Discounts.&#10;The parameters listed here allow to copy and calculate pricelists.&lt;BR&gt;&#10;The calculation:&#10;&lt;UL&gt;&#10;&lt;LI&gt;Copy and convert price from referenced price list&#10;&lt;LI&gt;result plus Surcharge Amount&#10;&lt;LI&gt;result minus Discount&#10;&lt;LI&gt;if resulting price is less than the original limit price plus min Margin, use this price (only if Margin is not zero)&#10;&lt;LI&gt;if resulting price is more than the original limit price plus max Margin, use this price (only if Margin us not zero)&#10;&lt;LI&gt;Round resulting price&#10;&lt;/UL&gt;&#10;&lt;B&gt;The Formula&lt;/B&gt; is&lt;BR&gt;&#10;NewPrice = (Convert(BasePrice) + Surcharge) * (100-Discount) / 100;&lt;BR&gt;&#10;if MinMargin &lt;&gt; 0 then NewPrice = Max (NewPrice, Convert(OrigLimitPrice) + MinMargin);&lt;BR&gt;&#10;if MaxMargin &lt;&gt; 0 then NewPrice = Min (NewPrice, Convert(OrigLimitPrice) + MaxMargin);&lt;BR&gt;&#10; &lt;BR&gt;&#10;&lt;B&gt;Example:&lt;/B&gt; (assuming same currency)&lt;BR&gt;&#10;Original Prices:  List=300, Standard=250, Limit=200;&lt;BR&gt;&#10;New List Price: Base=List, Surcharge=0, Discount=0, Round">Harga dibuat berdasarkan Pembelian Produk dan Diskon Kategori.
+  <value column="Help" original="Pricelists are created based on Product Purchase and Category Discounts.&#10;The parameters listed here allow to copy and calculate pricelists.&lt;BR&gt;&#10;&lt;UL&gt;&#10;&lt;LI&gt;Copy and convert price from referenced price list&#10;&lt;LI&gt;result plus Surcharge Amount&#10;&lt;LI&gt;result minus Discount&#10;&lt;LI&gt;if resulting price is less than the original limit price plus min Margin, use this price (only if Margin is not zero)&#10;&lt;LI&gt;if resulting price is more than the original limit price plus max Margin, use this price (only if Margin us not zero)&#10;&lt;LI&gt;Round resulting price&#10;&lt;/UL&gt;&#10;&lt;B&gt;The Formula&lt;/B&gt; is&lt;BR&gt;&#10;NewPrice = (Convert(BasePrice) + Surcharge) * (100-Discount) / 100;&#10;&lt;BR&gt;&#10;if MinMargin &lt;&gt; 0 then NewPrice = Max (NewPrice, Convert(OrigLimitPrice) + MinMargin);&#10;&lt;BR&gt;&#10;if MaxMargin &lt;&gt; 0 then NewPrice = Min (NewPrice, Convert(OrigLimitPrice) + MaxMargin);&#10;&lt;BR&gt;&#10;&lt;BR&gt;&#10;&lt;B&gt;Example:&lt;/B&gt; (assuming same currency)&#10;&lt;BR&gt;&#10;Original Prices:  List=300, Standard=250, Limit=200;&#10;&lt;BR&gt;&#10;New List Price: Base=List, Surcharge=0, Discount=0, Round">Harga dibuat berdasarkan Pembelian Produk dan Diskon Kategori.
 Parameter yang tercantum di sini memungkinkan untuk menyalin dan menghitung daftar harga.
 Penghitungan:
 
@@ -1488,7 +2175,7 @@ Formula adalah
 NewPrice = (Konversi (Harga Dasar) + Biaya tambahan) * (Diskon 100) / 100;
 jika MinMargin 0 maka NewPrice = Max (NewPrice, Konversi (OrigLimitPrice) + MinMargin);
 jika MaxMargin 0 maka NewPrice = Min (NewPrice, Konversi (OrigLimitPrice) + MaxMargin);
- 
+
 Contoh: (dengan asumsi mata uang yang sama)
 Harga Asli: Daftar = 300, Standar = 250, Batas = 200;
 Daftar Baru Harga: Base = Daftar, Biaya Tambahan = 0, Diskon = 0, Bulat</value>
@@ -1688,18 +2375,6 @@ Jika namanya tidak ditemukan, SizeX / Y dengan dimensi digunakan. Ukuran dan dim
   <value column="Description" original="Define Report Table Format">Tentukan Format Tabel Laporan</value>
   <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. If you leave the entries empty, the default colors and fonts are used:&lt;br&gt;&#10;Fonts are based on the Font used in the Report; Page Header and Table Header will be bold, the Function Font is Bold-Italic, the Footer Font is two points smaller, the Parameter Font is Italic.">Format Tabel Cetak memungkinkan Anda menentukan bagaimana tajuk tabel, dll. Dicetak. Jika Anda membiarkan entri kosong, warna dan font default digunakan:
 Font didasarkan pada Font yang digunakan dalam Laporan; Header Halaman dan Header Tabel akan dicetak tebal, Function Font adalah Bold-Italic, Footer Font dua poin lebih kecil, Font Parameter adalah Italic.</value>
- </row>
- <row id="436" trl="Y">
-  <value column="Name" original="Prepared Payment">Disiapkan Pembayaran</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="View Generated Prepared Payments (Checks)">Lihat Pembayaran yang Disiapkan pada Generasi (Cek)</value>
-  <value column="Help" original="You create the actual Payments via Payment Print/Export">Anda membuat Pembayaran aktual melalui Cetak Pembayaran / Ekspor</value>
- </row>
- <row id="437" trl="Y">
-  <value column="Name" original="Request Type">Jenis Permintaan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Type of request (e.g. Inquiry, Complaint, ..)">Jenis permintaan (mis. Pertanyaan, Keluhan, ..)</value>
-  <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">Jenis Permintaan digunakan untuk memproses dan mengelompokkan permintaan. Pilihannya adalah Permintaan Akun, Masalah Garansi, dll.</value>
  </row>
  <row id="438" trl="Y">
   <value column="Name" original="Interest Area">Area Interes</value>
@@ -1994,12 +2669,6 @@ Perhatikan bahwa akses informasi di-cache dan memerlukan login ulang atau reset 
   <value column="Help" original="Select Role for with Data Access Restrictions.&#10;Note that access information is cached and requires re-login or reset of cache.">Pilih Peran untuk dengan Pembatasan Akses Data.
 Perhatikan bahwa akses informasi di-cache dan memerlukan login ulang atau reset cache.</value>
  </row>
- <row id="486" trl="Y">
-  <value column="Name" original="Advertisement">Iklan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Advertisement">Iklan Web</value>
-  <value column="Help" original="Advertisement on the Web">Beriklan di Web</value>
- </row>
  <row id="487" trl="Y">
   <value column="Name" original="Change Audit">Audit Perubahan</value>
   <value column="CommitWarning" original=""/>
@@ -2119,9 +2788,9 @@ Perhatikan bahwa akses informasi di-cache dan memerlukan login ulang atau reset 
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Import General Ledger">Impor Buku Besar Umum</value>
   <value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Journal by selecting the create new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required if no Valid Account Combination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences.">Jurnal Batch baru dibuat, jika Dokumen Batch No atau skema akuntansi berbeda. Jurnal baru dibuat, jika No Dokumen, Mata Uang, Jenis Dokumen, Kategori GL, Jenis Posting atau jenis Akuntansi berbeda. Anda juga dapat memaksa pembuatan Batch atau Jornal baru dengan memilih bendera baru yang diciptakan.
-Harap dicatat bahwa ada tiga Bidang Organisasi: Organisasi Dokumen adalah pemilik dokumen dan ditetapkan secara langsung atau per parameter default. Organisasi adalah bagian dari kunci akuntansi dan hanya diperlukan id no Comission Account Valid yang ditentukan; Jika tidak didefinisikan, ini berasal dari Organisasi Dokumen. Organisasi Transaksi adalah bagian dari kombinasi akun.
-Pemeriksaan saldo opsional berlaku untuk seluruh impor, bukan untuk kumpulan atau jurnal individual.
-Nomor dokumen akan ditimpa jika jenis dokumen tidak diatur ke urutan manual.</value>
+ Harap dicatat bahwa ada tiga Bidang Organisasi: Organisasi Dokumen adalah pemilik dokumen dan ditetapkan secara langsung atau per parameter default. Organisasi adalah bagian dari kunci akuntansi dan hanya diperlukan id no Comission Account Valid yang ditentukan; Jika tidak didefinisikan, ini berasal dari Organisasi Dokumen. Organisasi Transaksi adalah bagian dari kombinasi akun.
+ Pemeriksaan saldo opsional berlaku untuk seluruh impor, bukan untuk kumpulan atau jurnal individual.
+ Nomor dokumen akan ditimpa jika jenis dokumen tidak diatur ke urutan manual.</value>
  </row>
  <row id="510" trl="Y">
   <value column="Name" original="Invoice">Import Invoice</value>
@@ -2343,19 +3012,19 @@ Nomor dokumen akan ditimpa jika jenis dokumen tidak diatur ke urutan manual.</va
   <value column="Name" original="Comment">Komentar</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Knowledge Entry Comment">Komentar Entri Pengetahuan</value>
-  <value column="Help" original="Comment regarding a knowledge entry">Komentar tentang entri pengetahuan</value>
+  <value column="Help" original="Komentar tentang entri pengetahuan">Komentar tentang entri pengetahuan</value>
  </row>
  <row id="547" trl="Y">
   <value column="Name" original="Knowledge Source">Sumber Pengetahuan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Source of Knowledge Entries">Sumber Entri Pengetahuan</value>
-  <value column="Help" original="The Source of a Knowledge Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.">Sumber Entri Pengetahuan adalah penunjuk ke sistem asal. Entri Pengetahuan memiliki entri tambahan (URL Deskripsi) untuk info lebih rinci.</value>
+  <value column="Help" original="Sumber Entri Pengetahuan adalah penunjuk ke sistem asal. Entri Pengetahuan memiliki entri tambahan (URL Deskripsi) untuk info lebih rinci.">Sumber Entri Pengetahuan adalah penunjuk ke sistem asal. Entri Pengetahuan memiliki entri tambahan (URL Deskripsi) untuk info lebih rinci.</value>
  </row>
  <row id="548" trl="Y">
   <value column="Name" original="Knowledge Synonym">Sinonim Pengetahuan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Knowledge Keyword Synonym">Sinonim Kata Kunci Pengetahuan</value>
-  <value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">Cari Sinonim untuk Kata Kunci Pengetahuan; Contoh: Produk = Barang</value>
+  <value column="Help" original="Cari Sinonim untuk Kata Kunci Pengetahuan; Contoh: Produk = Barang">Cari Sinonim untuk Kata Kunci Pengetahuan; Contoh: Produk = Barang</value>
  </row>
  <row id="549" trl="Y">
   <value column="Name" original="Translation">Terjemahan</value>
@@ -2398,354 +3067,6 @@ Nomor dokumen akan ditimpa jika jenis dokumen tidak diatur ke urutan manual.</va
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner Assets">Aset Mitra Bisnis</value>
   <value column="Help" original=""/>
- </row>
- <row id="556" trl="Y">
-  <value column="Name" original="Partner Requests">Permintaan Rekan Bisnis</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Requests">Permintaan Mitra Bisnis</value>
-  <value column="Help" original=""/>
- </row>
- <row id="557" trl="Y">
-  <value column="Name" original="Translation">Terjemahan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="558" trl="Y">
-  <value column="Name" original="Issues">Pemakaian Ke Proyek</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Issues to the Project">Masalah pada Proyek</value>
-  <value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">Laboratorium mencantumkan Masalah pada proyek yang diprakarsai oleh proses "Issue to Project". Anda dapat menerbitkan Tanda Terima, Waktu dan Biaya, atau Saham.</value>
- </row>
- <row id="559" trl="Y">
-  <value column="Name" original="Printer">Pencetak</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Label Printer">Tentukan Label Printer</value>
-  <value column="Help" original=""/>
- </row>
- <row id="560" trl="Y">
-  <value column="Name" original="Function">Fungsi</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Label Printer Function">Label Fungsi Printer</value>
-  <value column="Help" original=""/>
- </row>
- <row id="561" trl="Y">
-  <value column="Name" original="Registration">Pendaftaran</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="System Registration">Pendaftaran Sistem</value>
-  <value column="Help" original="System Registration Information">Informasi Pendaftaran Sistem</value>
- </row>
- <row id="562" trl="Y">
-  <value column="Name" original="Business Partner">Rekan Bisnis</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner specific Information of a Product">Informasi spesifik Mitra Bisnis suatu Produk</value>
-  <value column="Help" original="Note that some information is for reference only!  The ">Perhatikan bahwa beberapa informasi hanya untuk referensi! Itu</value>
- </row>
- <row id="563" trl="Y">
-  <value column="Name" original="Company Agent">Agen Perusahaan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Sales Representative Selection">Seleksi Perwakilan Penjualan</value>
-  <value column="Help" original=""/>
- </row>
- <row id="564" trl="Y">
-  <value column="Name" original="Orders">Pesanan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="All Orders where the Agent &quot;owns&quot; the Order, the Business Partner or the Product">Semua Pesanan di mana Agen "memiliki" Pesanan, Mitra Bisnis atau Produk</value>
-  <value column="Help" original=""/>
- </row>
- <row id="565" trl="Y">
-  <value column="Name" original="Order Lines">Baris Pesanan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="All Order Lines where the Agent &quot;owns&quot; the Order, the Business Partner or the Product">Semua Baris Pesanan tempat Agen "memiliki" Order, Mitra Bisnis, atau Produk</value>
-  <value column="Help" original=""/>
- </row>
- <row id="566" trl="Y">
-  <value column="Name" original="Invoices">Invoice</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="All Invoices where the Agent &quot;owns&quot; the Invoice, the Business Partner or the Product">Semua Faktur tempat Agen "memiliki" Faktur, Mitra Bisnis, atau Produk</value>
-  <value column="Help" original=""/>
- </row>
- <row id="567" trl="Y">
-  <value column="Name" original="Invoice Line">Baris Invoice</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="All Invoice Liness where the Agent &quot;owns&quot; the Invoice, the Business Partner or the Product">Semua Faktur Liness di mana Agen "memiliki" Faktur, Mitra Bisnis atau Produk</value>
-  <value column="Help" original=""/>
- </row>
- <row id="570" trl="Y">
-  <value column="Name" original="Conversion Type">Jenis Konversi</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Currency Conversion Rate Type">Maintain Jenis Tingkat Konversi Mata Uang</value>
-  <value column="Help" original="The Currency Conversion Rate Type lets you define different type of rates, e.g. Spot, Corporate and/or Sell/Buy rates.">Jenis Nilai Konversi Mata Uang memungkinkan Anda menentukan berbagai jenis tarif, mis. Harga Spot, Perusahaan dan / atau Jual / Beli.</value>
- </row>
- <row id="571" trl="Y">
-  <value column="Name" original="Statement Loader">Pernyataan Loader</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Definition of Bank Statement Loader (SWIFT, OFX)">Definisi Loader Laporan Bank (SWIFT, OFX)</value>
-  <value column="Help" original="The loader definition provides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX. The required parameters depend on the actual statement loader class">Definisi loader menyediakan parameter untuk memuat laporan bank dari format EFT seperti SWIFT (MT940) atau OFX. Parameter yang diperlukan tergantung pada kelas pemuat pernyataan yang sebenarnya</value>
- </row>
- <row id="572" trl="Y">
-  <value column="Name" original="Import Currency Rate">Impor Kurs</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Import Currency Conversion Rate">Nilai Konversi Mata Uang Impor</value>
-  <value column="Help" original=""/>
- </row>
- <row id="573" trl="Y">
-  <value column="Name" original="User Substitute">User Pengganti</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Substitute of the user">Pengganti pengguna</value>
-  <value column="Help" original="A user who can act for this user.">Pengguna yang dapat bertindak untuk pengguna ini.</value>
- </row>
- <row id="574" trl="Y">
-  <value column="Name" original="Process">Proses</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Actual Workflow Process Instance">Contoh Proses Alur Kerja Aktual</value>
-  <value column="Help" original="Instance of a workflow execution">Contoh eksekusi alur kerja</value>
- </row>
- <row id="575" trl="Y">
-  <value column="Name" original="Activity">Aktivitas</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Activity">Aktivitas Alur Kerja</value>
-  <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">Aktivitas Workflow adalah Node Workflow yang sebenarnya dalam contoh Proses Workflow</value>
- </row>
- <row id="576" trl="Y">
-  <value column="Name" original="Activity">Aktivitas</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Activities">Kegiatan Alur Kerja</value>
-  <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">Aktivitas Workflow adalah Node Workflow yang sebenarnya dalam contoh Proses Workflow</value>
- </row>
- <row id="577" trl="Y">
-  <value column="Name" original="Parameter">Parameter</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Node Parameter">Parameter Node Alur Kerja</value>
-  <value column="Help" original="Parameter for the execution of the Workflow Node">Parameter untuk pelaksanaan Workflow Node</value>
- </row>
- <row id="578" trl="Y">
-  <value column="Name" original="Responsible">Penanggung Jawab</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Responsible for Workflow Execution">Bertanggung jawab atas Eksekusi Alur Kerja</value>
-  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">Tanggung jawab utama untuk alur kerja adalah dengan pengguna yang sebenarnya. Workflow Responsible memungkinkan Anda menentukan cara untuk menemukan Pengguna yang sebenarnya.</value>
- </row>
- <row id="582" trl="Y">
-  <value column="Name" original="Event">Peristiwa</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Process Activity Event Audit Information">Alur Kerja Proses Kegiatan Informasi Audit</value>
-  <value column="Help" original="History of chenges ov the Workflow Process Activity">Sejarah perubahan melalui Kegiatan Proses Workflow</value>
- </row>
- <row id="583" trl="Y">
-  <value column="Name" original="Attribute">Atribut</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Asset Registration Attribute">Atribut Pendaftaran Aset</value>
-  <value column="Help" original="Define the individual values for the Asset Registration">Tentukan nilai individual untuk Pendaftaran Aset</value>
- </row>
- <row id="584" trl="Y">
-  <value column="Name" original="Registration">Pendaftaran</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Asset User Registration">Registrasi Pengguna Aset</value>
-  <value column="Help" original="User Registration of an Asset">Registrasi Pengguna Aset</value>
- </row>
- <row id="585" trl="Y">
-  <value column="Name" original="Value">Nilai</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Registration Values">Nilai Pendaftaran</value>
-  <value column="Help" original="Indivifual values of Registration Attribute">Nilai individual dari Atribut Registrasi</value>
- </row>
- <row id="586" trl="Y">
-  <value column="Name" original="Bank Statement Matcher">Pencocokan Bank Statement</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritma untuk mencocokkan Info Pernyataan Bank dengan Mitra Bisnis, Faktur dan Pembayaran</value>
-  <value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements. The class need to implement the interface org.compiere.impexp.BankStatementMatcherInterface">Algoritma untuk menemukan Mitra Bisnis, Faktur, Pembayaran dalam Laporan Bank yang diimpor. Kelas perlu mengimplementasikan antarmuka org.compiere.impexp.BankStatementMatcherInterface</value>
- </row>
- <row id="587" trl="Y">
-  <value column="Name" original="Payment">Pembayaran</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="View Payment Information">Lihat Informasi Pembayaran</value>
-  <value column="Help" original=""/>
- </row>
- <row id="588" trl="Y">
-  <value column="Name" original="Org Type">Jenis Organisasi</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Organization Type allows you to categorize your organizations">Jenis Organisasi memungkinkan Anda untuk mengkategorikan organisasi Anda</value>
-  <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">Jenis Organisasi memungkinkan Anda untuk mengkategorikan organisasi Anda untuk tujuan pelaporan</value>
- </row>
- <row id="589" trl="Y">
-  <value column="Name" original="Schedule Process">Jadwal Proses</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Schedule processes">Jadwalkan proses</value>
-  <value column="Help" original="Schedule processes to be executed asynchronously">Jadwalkan proses yang akan dijalankan secara tidak sinkron</value>
- </row>
- <row id="590" trl="Y">
-  <value column="Name" original="Parameter">Parameter</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Scheduler Parameter">Parameter Penjadwal</value>
-  <value column="Help" original="Provide parameter for scheduled process">Berikan parameter untuk proses yang dijadwalkan</value>
- </row>
- <row id="591" trl="Y">
-  <value column="Name" original="Log">Log</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Scheduler Log">Log Penjadwal</value>
-  <value column="Help" original="Result of the execution of the Scheduler">Hasil eksekusi Penjadwal</value>
- </row>
- <row id="592" trl="Y">
-  <value column="Name" original="Workflow Processor">Prosesor Workflow</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Processor Server">Server Prosesor Workflow</value>
-  <value column="Help" original="Workflow Processor Server">Server Prosesor Workflow</value>
- </row>
- <row id="593" trl="Y">
-  <value column="Name" original="Log">Log Pros. Workflow</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Processor Log">Log Prosesor Alur Kerja</value>
-  <value column="Help" original="Result of the execution of the Workflow Processor">Hasil dari pelaksanaan Workflow Processor</value>
- </row>
- <row id="594" trl="Y">
-  <value column="Name" original="Bid Topic">Bid Topic</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Topic of the Auction">Topik Lelang</value>
-  <value column="Help" original="Description of the item to sell or create/fund.">Deskripsi barang yang akan dijual atau dibuat / didanai.</value>
- </row>
- <row id="595" trl="Y">
-  <value column="Name" original="Bid">Tawaran</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="View bids for a Topic">Lihat tawaran untuk Topik</value>
-  <value column="Help" original="You can create a bid for a topic.  Depending on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">Anda dapat membuat tawaran untuk suatu topik. Bergantung pada jenisnya, penawar tertinggi memenangkan Topik - atau Anda berpartisipasi dalam pendanaan untuk suatu Topik.</value>
- </row>
- <row id="596" trl="Y">
-  <value column="Name" original="Offer">Menawarkan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Offer for a Topic">Tawarkan untuk Topik</value>
-  <value column="Help" original="You can create an offer for a topic.">Anda dapat membuat penawaran untuk suatu topik.</value>
- </row>
- <row id="597" trl="Y">
-  <value column="Name" original="Bid Funds">Tawaran Dana</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Buyer Funds for Bid on Topic">Dana Pembeli untuk Tawaran pada Topik</value>
-  <value column="Help" original="Committed or Uncommitted funds for Bids">Dana Komitmen atau Tidak Berkomitmen untuk Tawaran</value>
- </row>
- <row id="598" trl="Y">
-  <value column="Name" original="Offer Funds">Dana Penawaran</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Seller Funds from Offers on Topics">Dana Penjual dari Penawaran pada Topik</value>
-  <value column="Help" original="Committed or Uncommitted funds from Offers">Dana yang berkomitmen atau tidak dikomit dari Penawaran</value>
- </row>
- <row id="599" trl="Y">
-  <value column="Name" original="Topic Type">Jenis Topik</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Auction Topic Type">Jenis Topik Lelang</value>
-  <value column="Help" original="The Auction Topic Type determines what kind of auction is used for a particular area">Jenis Topik Lelang menentukan jenis lelang apa yang digunakan untuk area tertentu</value>
- </row>
- <row id="600" trl="Y">
-  <value column="Name" original="Type Category">Jenis Kategori</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Auction Topic Type Category">Kategori Jenis Topik Lelang</value>
-  <value column="Help" original="For an Auction Topic Type, define the different Categories used.">Untuk Jenis Topik Lelang, tentukan Kategori berbeda yang digunakan.</value>
- </row>
- <row id="601" trl="Y">
-  <value column="Name" original="Comments">Komentar-Komentar</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Make a comment to a Bid Topic">Buat komentar ke Topik Penawaran</value>
-  <value column="Help" original="Everyone can give comments concerning a Bid Topic - e.g. Questions, Suggestions">Setiap orang dapat memberikan komentar mengenai Topik Penawaran - mis. Pertanyaan, Saran</value>
- </row>
- <row id="602" trl="Y">
-  <value column="Name" original="Seller">Penjual</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Aution Seller Information">Informasi Penjual Lelang</value>
-  <value column="Help" original="Information about a participant in an Auction as a Seller">Informasi tentang peserta dalam Lelang sebagai Penjual</value>
- </row>
- <row id="603" trl="Y">
-  <value column="Name" original="Funds">Dana Penjual</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Seller Funds from Offers on Topics">Dana Penjual dari Penawaran pada Topik</value>
-  <value column="Help" original="Available Funds (for Payments) and Committed or Uncommitted funds from Offers">Dana yang Tersedia (untuk Pembayaran) dan dana yang Dikomit atau Tidak Dikomit dari Penawaran</value>
- </row>
- <row id="604" trl="Y">
-  <value column="Name" original="Offer">Menawarkan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Offer for a Topic">Tawarkan untuk Topik</value>
-  <value column="Help" original="You can create an offer for a topic.">Anda dapat membuat penawaran untuk suatu topik.</value>
- </row>
- <row id="605" trl="Y">
-  <value column="Name" original="Buyer">Pembeli</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Aution Buyer Information">Informasi Pembeli Lelang</value>
-  <value column="Help" original="Information about a participant in an Auction as a Buyer">Informasi tentang peserta dalam Lelang sebagai Pembeli</value>
- </row>
- <row id="606" trl="Y">
-  <value column="Name" original="Funds">Uang</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Buyer Funds available for Bids on Topics">Dana Pembeli tersedia untuk Tawaran pada Topik</value>
-  <value column="Help" original="Available Funds (Payments) and Committed or Uncommitted funds for Bids">Dana (Pembayaran) yang tersedia dan dana Komitmen atau Tidak Berkomitmen untuk Penawaran</value>
- </row>
- <row id="607" trl="Y">
-  <value column="Name" original="Bid">Tawaran</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Bid for a Topic">Tawaran untuk Topik</value>
-  <value column="Help" original="You can create a bid for a topic.  Depending on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">Anda dapat membuat tawaran untuk suatu topik. Bergantung pada jenisnya, penawar tertinggi memenangkan Topik - atau Anda berpartisipasi dalam pendanaan untuk suatu Topik.</value>
- </row>
- <row id="608" trl="Y">
-  <value column="Name" original="Accounting Processor">Pemroses Akunting</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Accounting Processor/Server Parameters">Maintain Parameter Prosesor Akuntansi / Server</value>
-  <value column="Help" original="Accounting Processor/Server Parameters. If no account schema is selected, all accounting schema are processed. If no transaction table is selected, accounting for all transaction is created.">Parameter Prosesor Akuntansi / Server. Jika tidak ada skema akun yang dipilih, semua skema akuntansi diproses. Jika tidak ada tabel transaksi yang dipilih, akuntansi untuk semua transaksi dibuat.</value>
- </row>
- <row id="609" trl="Y">
-  <value column="Name" original="Log">Log</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Result of the execution of the Accounting Processor">Hasil pelaksanaan Prosesor Akuntansi</value>
-  <value column="Help" original="Result of the execution of the Accounting Processor">Hasil pelaksanaan Prosesor Akuntansi</value>
- </row>
- <row id="612" trl="Y">
-  <value column="Name" original="Relation">Relasi</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Relation">Hubungan Mitra Bisnis</value>
-  <value column="Help" original="Business Partner Relation allow to maintain Third Party Relationship rules: who receives invoices for shipments or pays for invoices.  If the Location of the Business partner is not defined, the rule applies to all location of that Business Partner">Relasi Mitra Bisnis memungkinkan untuk mempertahankan aturan Hubungan Pihak Ketiga: siapa yang menerima faktur untuk pengiriman atau membayar faktur. Jika Lokasi Mitra Bisnis tidak ditentukan, aturan berlaku untuk semua lokasi Mitra Bisnis tersebut</value>
- </row>
- <row id="613" trl="Y">
-  <value column="Name" original="RfQ">RFQ</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Request for Quotation">Permintaan Kutipan</value>
-  <value column="Help" original="Request for Quotation to be sent out to vendors of a RfQ Topic. After Vendor selection, optionally create Sales Order or Quote for Customer as well as Purchase Order  for Vendor(s)">Permintaan Penawaran dikirim ke vendor Topik RfQ. Setelah pemilihan Vendor, secara opsional buat Pesanan Penjualan atau Penawaran untuk Pelanggan serta Pesanan Pembelian untuk Vendor</value>
- </row>
- <row id="614" trl="Y">
-  <value column="Name" original="Response">Tanggapan</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="RfQ Response">Tanggapan RfQ</value>
-  <value column="Help" original="Request for Quotation Response from a potential Vendor">Permintaan Tanggapan Kutipan dari Vendor potensial</value>
- </row>
- <row id="615" trl="Y">
-  <value column="Name" original="Line">Baris RFQ</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="RfQ Line">Jalur RfQ</value>
-  <value column="Help" original="Request for Quotation Line">Permintaan untuk Jalur Kutipan</value>
- </row>
- <row id="616" trl="Y">
-  <value column="Name" original="Response Line">Baris Respon</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="RfQ Response Line">Baris Respons RfQ</value>
-  <value column="Help" original="Request for Quotation Response Line from a potential Vendor">Minta Jalur Kutipan Kutipan dari Vendor potensial</value>
- </row>
- <row id="617" trl="Y">
-  <value column="Name" original="Quantity">Jumlah</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="RfQ Line Quantity">Kuantitas Baris RfQ</value>
-  <value column="Help" original="Request for Quotation Line Quantity - You may request a quotation for different quantities">Permintaan Kuotasi Baris Kuantitas - Anda dapat meminta penawaran untuk jumlah yang berbeda</value>
- </row>
- <row id="618" trl="Y">
-  <value column="Name" original="Response Quantity">Tanggapan Jumlah</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="RfQ Line Quantity Response">Respons Kuantitas Baris RfQ</value>
-  <value column="Help" original="Request for Quotation Response Line Quantity from a potential Vendor">Permintaan Kuantitas Baris Tanggapan Kutipan dari Vendor potensial</value>
- </row>
- <row id="619" trl="Y">
-  <value column="Name" original="Topic">Tema</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Request for Quotation Topic">Permintaan untuk Kutipan Topik</value>
-  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">Permintaan untuk Kutipan Topik memungkinkan Anda untuk mempertahankan daftar pelanggan Vendor potensial untuk menanggapi RfQ</value>
- </row>
- <row id="620" trl="Y">
-  <value column="Name" original="Subscriber">Peserta</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Request for Quotation Topic Subscriber">Permintaan untuk Pelanggan Topik Kutipan</value>
-  <value column="Help" original="Subcriber to invite to respond to RfQs">Pelanggan yang diundang untuk menanggapi RfQ</value>
  </row>
  <row id="621" trl="Y">
   <value column="Name" original="Subscription">Berlangganan</value>
@@ -3385,7 +3706,7 @@ Tidak Langsung: Pengguna dengan Peran, Pelanggan pembaruan untuk Kategori Permin
  <row id="731" trl="Y">
   <value column="Name" original="BOM">BOM</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Bill of Materials">Bill of material</value>
+  <value column="Description" original="Bill of Materials">Daftar Komponen Bahan</value>
   <value column="Help" original=""/>
  </row>
  <row id="732" trl="Y">
@@ -3524,7 +3845,7 @@ Organisasi diatur ke organisasi faktur</value>
   <value column="Name" original="BP Access">Akses BP</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Akses Pengguna / Kontak ke informasi dan sumber daya Mitra Bisnis</value>
-  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Jika pada level Pengguna, "Akses BP Penuh" TIDAK dipilih, Anda perlu memberikan akses secara eksplisit di sini.</value>
+  <value column="Help" original="If on User level, "Full BP Access" is NOT selected, you need to give access explicitly here. ">Jika pada level Pengguna, "Akses BP Penuh" TIDAK dipilih, Anda perlu memberikan akses secara eksplisit di sini.</value>
  </row>
  <row id="757" trl="Y">
   <value column="Name" original="Queries">Query</value>
@@ -3645,7 +3966,7 @@ Segmen Akuntansi seperti Organisasi, Akun, Produk dapat memiliki beberapa hierar
   <value column="Name" original="Tenant Share">Sharing Klien</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Force (not) sharing of tenant/org entities">Memaksa (bukan) berbagi entitas klien / org</value>
-  <value column="Help" original="Business Partner can be either defined on Tenant level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;).&lt;br&gt;&#10;The creation of  &quot;Tenant and Org&quot; shared records is the default and is ignored.">Mitra Bisnis dapat didefinisikan pada tingkat Klien (dibagi) atau pada tingkat Organisasi (tidak dibagi). Anda dapat mendefinisikan di sini bahwa Produk selalu dibagikan (yaitu selalu dibuat di bawah Organisasi "*") atau jika mereka tidak dibagikan (yaitu Anda tidak dapat memasukkannya dengan Organisasi "*").
+  <value column="Help" original="Business Partner can be either defined on Tenant level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization "*") or if they are not shared (i.e. you cannot enter them with Organization "*").&lt;br&gt;&#10;The creation of  "Tenant and Org" shared records is the default and is ignored.">Mitra Bisnis dapat didefinisikan pada tingkat Klien (dibagi) atau pada tingkat Organisasi (tidak dibagi). Anda dapat mendefinisikan di sini bahwa Produk selalu dibagikan (yaitu selalu dibuat di bawah Organisasi "*") atau jika mereka tidak dibagikan (yaitu Anda tidak dapat memasukkannya dengan Organisasi "*").
 Penciptaan catatan bersama "Klien dan Organisasi" adalah default dan diabaikan.</value>
  </row>
  <row id="777" trl="Y">
@@ -3948,7 +4269,7 @@ Ukuran harus mendukung data, jika tidak diabaikan.</value>
   <value column="Name" original="Entity Type">Jenis Entitas</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="System Entity Type">Jenis Entitas Sistem</value>
-  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">Jenis entitas menentukan kepemilikan entri Kamus Aplikasi. Jenis "Kamus" dan "iDempiere" tidak boleh digunakan dan dipelihara oleh iDempiere (mis. Semua perubahan dibalik selama migrasi ke definisi saat ini).</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types "Dictionary" and "iDempiere" should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">Jenis entitas menentukan kepemilikan entri Kamus Aplikasi. Jenis "Kamus" dan "iDempiere" tidak boleh digunakan dan dipelihara oleh iDempiere (mis. Semua perubahan dibalik selama migrasi ke definisi saat ini).</value>
  </row>
  <row id="832" trl="Y">
   <value column="Name" original="System Modifin">Sistem Modif/Ext</value>
@@ -4057,7 +4378,7 @@ Jika profil dikecualikan (default), orang yang ditunjuk dapat melihat semua kecu
   <value column="Name" original="LDAP Server">Server LDAP</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">LDAP Server untuk mengotentikasi dan mengotorisasi sistem eksternal berdasarkan iDempiere</value>
-  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Tenant key and the optional &quot;ou&quot; is the Interest Area key.">Server LDAP memungkinkan perangkat lunak pihak ketiga (mis. Apache) menggunakan pengguna yang ditentukan dalam sistem untuk mengesahkan dan mengotorisasi mereka. Hanya ada satu server per sistem iDempiere. "O" adalah kunci Klien dan "ou" opsional adalah kunci Area Minat.</value>
+  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The "o" is the Tenant key and the optional "ou" is the Interest Area key.">Server LDAP memungkinkan perangkat lunak pihak ketiga (mis. Apache) menggunakan pengguna yang ditentukan dalam sistem untuk mengesahkan dan mengotorisasi mereka. Hanya ada satu server per sistem iDempiere. "O" adalah kunci Klien dan "ou" opsional adalah kunci Area Minat.</value>
  </row>
  <row id="850" trl="Y">
   <value column="Name" original="LDAP Server Log">Log Server LDAP</value>
@@ -4784,7 +5105,7 @@ Berlaku Dari / Ke ditentukan oleh pajak induk.</value>
   <value column="Help" original=""/>
  </row>
  <row id="53142" trl="Y">
-  <value column="Name" original="Step4 Process Asset Split">Step4 Proses Pemisahan Asset</value>
+  <value column="Name" original="Step4 Process Asset Split">Step4 Proses Pemisahan Aset</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Split Assets">Aset Terpisah</value>
   <value column="Help" original=""/>
@@ -5227,34 +5548,34 @@ Berlaku Dari / Ke ditentukan oleh pajak induk.</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53286" trl="N">
-  <value column="Name" original="BOM">BOM</value>
+ <row id="53286" trl="Y">
+  <value column="Name" original="BOM">Daftar Material</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Bill of Material product lines">Bill of Material product lines</value>
-  <value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated">The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.
+  <value column="Description" original="Bill of Material product lines">Baris produk Daftar Material</value>
+  <value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated">Tab Daftar Material mendefinisikan produk-produk yang dihasilkan dari produk lain. Daftar Material (BOM) adalah satu atau lebih Produk atau BOM.</value>
 
-Available Quantity:
-- Stored BOMs have to be created via "Production"
-- The available quantity of a non-stored BOMs is dynamically calculated
-- The attribute "Stored" is defined in the "Product" tab
+Kuantitas Tersedia:
+- BOM Tersimpan harus dibuat melalui "Produksi"
+- Kuantitas yang tersedia dari BOM yang tidak disimpan dihitung secara dinamis
+- Atribut "Tersimpan" didefinisikan dalam tab "Produk"
 
-Price:
-- BOMs must be listed in Pricelists
-- If the price is 0.00, the price is dynamically calculated
+Harga:
+- BOM harus terdaftar dalam Daftar Harga
+- Jika harga 0.00, harga dihitung secara dinamis
 
-Printing:
-- Usually, only the BOM information is printed
-- For invoices, delivery slips and pick lists, you have the option to print the details
-- In the details, the quantity is listed - and the price, if this is dynamically calculated</value>
+Pencetakan:
+- Biasanya, hanya informasi BOM yang dicetak
+- Untuk faktur, slip pengiriman dan daftar pengambilan, Anda memiliki opsi untuk mencetak rinciannya
+- Dalam rincian, kuantitas dicantumkan - dan harga, jika ini dihitung secara dinamis</value>
  </row>
- <row id="53287" trl="N">
-  <value column="Name" original="Components">Components</value>
+ <row id="53287" trl="Y">
+  <value column="Name" original="Components">Komponen</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Components">Components</value>
-  <value column="Help" original="Components of Bill of Materials">Components of Bill of Materials</value>
+  <value column="Description" original="Components">Komponen</value>
+  <value column="Help" original="Components of Bill of Materials">Komponen Daftar Material</value>
  </row>
  <row id="53289" trl="Y">
-  <value column="Name" original="Costs">Costing</value>
+  <value column="Name" original="Costs">Biaya</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6375,380 +6696,380 @@ Printing:
   <value column="Description" original="User defined Process Parameter">Parameter Proses yang ditentukan pengguna</value>
   <value column="Help" original="User defined Process Parameter">Parameter Proses yang ditentukan pengguna</value>
  </row>
- <row id="200249" trl="N">
-  <value column="Name" original="Print Header/Footer">Print Header/Footer</value>
+ <row id="200249" trl="Y">
+  <value column="Name" original="Print Header/Footer">Cetak Header/Footer</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200255" trl="N">
-  <value column="Name" original="Bank Transfer">Bank Transfer</value>
+ <row id="200255" trl="Y">
+  <value column="Name" original="Bank Transfer">Transfer Bank</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200256" trl="N">
-  <value column="Name" original="Payments">Payments</value>
+ <row id="200256" trl="Y">
+  <value column="Name" original="Payments">Pembayaran</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200262" trl="Y">
-  <value column="Name" original="User Roles">User Roles</value>
+  <value column="Name" original="User Roles">Peran Pengguna</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200263" trl="Y">
-  <value column="Name" original="User Roles">User Roles</value>
+  <value column="Name" original="User Roles">Peran Pengguna</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200264" trl="Y">
-  <value column="Name" original="Role">Role</value>
+  <value column="Name" original="Role">Peran</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200265" trl="Y">
-  <value column="Name" original="Role">Role</value>
+  <value column="Name" original="Role">Peran</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200266" trl="Y">
-  <value column="Name" original="User Roles">User Roles</value>
+  <value column="Name" original="User Roles">Peran Pengguna</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200269" trl="N">
-  <value column="Name" original="Used in Column (Lookup)">Used in Column (Lookup)</value>
+ <row id="200269" trl="Y">
+  <value column="Name" original="Used in Column (Lookup)">Digunakan di Kolom (Lookup)</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Used in Column (Lookup)">Used in Column (Lookup)</value>
+  <value column="Description" original="Used in Column (Lookup)">Digunakan di Kolom (Lookup)</value>
   <value column="Help" original=""/>
  </row>
  <row id="200271" trl="Y">
-  <value column="Name" original="Translation">Translation</value>
+  <value column="Name" original="Translation">Terjemahan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200272" trl="Y">
-  <value column="Name" original="Translation">Translation</value>
+  <value column="Name" original="Translation">Terjemahan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200275" trl="Y">
-  <value column="Name" original="User Queries">User Queries</value>
+  <value column="Name" original="User Queries">Kueri Pegawai</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="View and maintain saved queries">Lihat dan pertahankan kueri yang disimpan</value>
   <value column="Help" original=""/>
  </row>
- <row id="200279" trl="N">
-  <value column="Name" original="Column Customization">Column Customization</value>
+ <row id="200279" trl="Y">
+  <value column="Name" original="Column Customization">Customisasi Kolom</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200280" trl="N">
-  <value column="Name" original="Info Window Customization">Info Window Customization</value>
+ <row id="200280" trl="Y">
+  <value column="Name" original="Info Window Customization">Customisasi Info Window</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200281" trl="N">
-  <value column="Name" original="Related Customization">Related Customization</value>
+ <row id="200281" trl="Y">
+  <value column="Name" original="Related Customization">Customisasi Terkait</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200282" trl="N">
-  <value column="Name" original="User favourite tree">User favourite tree</value>
+ <row id="200282" trl="Y">
+  <value column="Name" original="User favourite tree">Pohon Favorit Pengguna</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="In this tab, you can see to manage user and role wise favourite tree references">In this tab, you can see to manage user and role wise favourite tree references</value>
+  <value column="Description" original="In this tab, you can see to manage user and role wise favourite tree references">Di tab ini, Anda dapat melihat dan mengelola pohon favorit pengguna dan peran</value>
   <value column="Help" original=""/>
  </row>
- <row id="200283" trl="N">
-  <value column="Name" original="Favorite tree node">Favorite tree node</value>
+ <row id="200283" trl="Y">
+  <value column="Name" original="Favorite tree node">Node Pohon Favorit</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200284" trl="N">
+ <row id="200284" trl="Y">
   <value column="Name" original="Authorization Provider">Authorization Provider</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200285" trl="N">
-  <value column="Name" original="Authorization Scope Provider">Authorization Scope Provider</value>
+ <row id="200285" trl="Y">
+  <value column="Name" original="Authorization Scope Provider">Penyedia Cakupan Otorisasi</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200286" trl="N">
-  <value column="Name" original="Authorization Credential">Authorization Credential</value>
+ <row id="200286" trl="Y">
+  <value column="Name" original="Authorization Credential">Kredensial Otorisasi</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200287" trl="N">
-  <value column="Name" original="Authorization Account">Authorization Account</value>
+ <row id="200287" trl="Y">
+  <value column="Name" original="Authorization Account">Akun Otorisasi</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
- </row>
- <row id="200288" trl="N">
+  </row>
+  <row id="200288" trl="Y">
   <value column="Name" original="MFA Method">MFA Method</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Multi-factor Authentication Method">Multi-factor Authentication Method</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200289" trl="N">
+   <value column="Help" original=""/>
+  </row>
+  <row id="200289" trl="Y">
   <value column="Name" original="MFA Registered Device">MFA Registered Device</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200290" trl="N">
-  <value column="Name" original="MFA Registration">MFA Registration</value>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="200290" trl="Y">
+   <value column="Name" original="MFA Registration">Pendaftaran MFA</value>
+  <value column="CommitWarning" original=""/>
+   <value column="Description" original=""/>
+   <value column="Help" original=""/>
+  </row>
+  <row id="200291" trl="Y">
+   <value column="Name" original="MFA Rule">Aturan MFA</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Aturan Otentikasi Multi-faktor">Aturan Otentikasi Multi-faktor</value>
+   <value column="Help" original=""/>
+  </row>
+ <row id="200295" trl="Y">
+  <value column="Name" original="Document Status Access">Akses Status Dokumen</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200291" trl="N">
-  <value column="Name" original="MFA Rule">MFA Rule</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Multi-factor Authentication Rule">Multi-factor Authentication Rule</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200295" trl="N">
-  <value column="Name" original="Document Status Access">Document Status Access</value>
+ <row id="200296" trl="Y">
+  <value column="Name" original="Document Status Access">Akses Status Dokumen</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200296" trl="N">
-  <value column="Name" original="Document Status Access">Document Status Access</value>
+ <row id="200297" trl="Y">
+  <value column="Name" original="Document Status Access">Akses Status Dokumen</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200297" trl="N">
-  <value column="Name" original="Document Status Access">Document Status Access</value>
+ <row id="200298" trl="Y">
+  <value column="Name" original="SMTP Server">Server SMTP</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200298" trl="N">
-  <value column="Name" original="SMTP Server">SMTP Server</value>
+ <row id="200299" trl="Y">
+  <value column="Name" original="Customization of the Wlistbox">Kustomisasi Wlistbox</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200299" trl="N">
-  <value column="Name" original="Customization of the Wlistbox">Customization of the Wlistbox</value>
+ <row id="200300" trl="Y">
+  <value column="Name" original="Reserved Quantity Log">Log Kuantitas yang Dipesan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200300" trl="N">
-  <value column="Name" original="Reserved Quantity Log">Reserved Quantity Log</value>
+ <row id="200301" trl="Y">
+  <value column="Name" original="Ordered Quantity Log">Log Kuantitas yang Dipesan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200301" trl="N">
-  <value column="Name" original="Ordered Quantity Log">Ordered Quantity Log</value>
+ <row id="200302" trl="Y">
+  <value column="Name" original="Tenant level messages">Pesan tingkat klien</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200302" trl="N">
-  <value column="Name" original="Tenant level messages">Tenant level messages</value>
+ <row id="200308" trl="Y">
+  <value column="Name" original="Drill Rule">Aturan Bor</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200308" trl="N">
-  <value column="Name" original="Drill Rule">Drill Rule</value>
+ <row id="200309" trl="Y">
+  <value column="Name" original="Drill Rule Parameter">Parameter Aturan Bor</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200309" trl="N">
-  <value column="Name" original="Drill Rule Parameter">Drill Rule Parameter</value>
+ <row id="200317" trl="Y">
+  <value column="Name" original="Label Category">Kategori Label</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200317" trl="N">
-  <value column="Name" original="Label Category">Label Category</value>
+ <row id="200318" trl="Y">
+  <value column="Name" original="Table Access">Akses Tabel</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200318" trl="N">
-  <value column="Name" original="Table Access">Table Access</value>
+ <row id="200319" trl="Y">
+  <value column="Name" original="Translation">Terjemahan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200319" trl="N">
-  <value column="Name" original="Translation">Translation</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200320" trl="N">
+ <row id="200320" trl="Y">
   <value column="Name" original="Label">Label</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200321" trl="N">
-  <value column="Name" original="Translation">Translation</value>
+ <row id="200321" trl="Y">
+  <value column="Name" original="Translation">Terjemahan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200322" trl="N">
-  <value column="Name" original="Drill Rule Translation">Drill Rule Translation</value>
+ <row id="200322" trl="Y">
+  <value column="Name" original="Drill Rule Translation">Terjemahan Aturan Bor</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200324" trl="N">
-  <value column="Name" original="Assignment">Assignment</value>
+ <row id="200324" trl="Y">
+  <value column="Name" original="Assignment">Penugasan</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200328" trl="N">
-  <value column="Name" original="SSO Configuration">SSO Configuration</value>
+ <row id="200328" trl="Y">
+  <value column="Name" original="SSO Configuration">Konfigurasi SSO</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200329" trl="N">
-  <value column="Name" original="Datasource Translation">Datasource Translation</value>
+ <row id="200329" trl="Y">
+  <value column="Name" original="Datasource Translation">Terjemahan Sumber Data</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200346" trl="N">
-  <value column="Name" original="Verify Migration">Verify Migration</value>
+ <row id="200346" trl="Y">
+  <value column="Name" original="Verify Migration">Verifikasi Migrasi</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200347" trl="N">
-  <value column="Name" original="Verify Migration Process">Verify Migration Process</value>
+ <row id="200347" trl="Y">
+  <value column="Name" original="Verify Migration Process">Proses Verifikasi Migrasi</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200348" trl="N">
-  <value column="Name" original="Test UU Based Table">Test UU Based Table</value>
+ <row id="200348" trl="Y">
+  <value column="Name" original="Test UU Based Table">Tabel Berbasis UU Uji</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200349" trl="N">
-  <value column="Name" original="Test UU Detail">Test UU Detail</value>
+ <row id="200349" trl="Y">
+  <value column="Name" original="Test UU Detail">Detail UU Uji</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200350" trl="N">
-  <value column="Name" original="Test UU Detail">Test UU Detail</value>
+ <row id="200350" trl="Y">
+  <value column="Name" original="Test UU Detail">Detail UU Uji</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200351" trl="N">
-  <value column="Name" original="Document Base Type Group">Document Base Type Group</value>
+ <row id="200351" trl="Y">
+  <value column="Name" original="Document Base Type Group">Grup Tipe Dasar Dokumen</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200352" trl="N">
-  <value column="Name" original="Document Base Type Group Line">Document Base Type Group Line</value>
+ <row id="200352" trl="Y">
+  <value column="Name" original="Document Base Type Group Line">Baris Grup Tipe Dasar Dokumen</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200353" trl="N">
-  <value column="Name" original="Model Generator Template">Model Generator Template</value>
+ <row id="200353" trl="Y">
+  <value column="Name" original="Model Generator Template">Template Generator Model</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200355" trl="N">
-  <value column="Name" original="Info Window Translation">Info Window Translation</value>
+ <row id="200355" trl="Y">
+  <value column="Name" original="Info Window Translation">Terjemahan Jendela Info</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200356" trl="N">
-  <value column="Name" original="Info Column Translation">Info Column Translation</value>
+ <row id="200356" trl="Y">
+  <value column="Name" original="Info Column Translation">Terjemahan Kolom Info</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200358" trl="N">
-  <value column="Name" original="Table Translation">Table Translation</value>
+ <row id="200358" trl="Y">
+  <value column="Name" original="Table Translation">Terjemahan Tabel</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200359" trl="N">
-  <value column="Name" original="Column Translation">Column Translation</value>
+ <row id="200359" trl="Y">
+  <value column="Name" original="Column Translation">Terjemahan Kolom</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200361" trl="N">
-  <value column="Name" original="Tax Rate">Tax Rate</value>
+ <row id="200361" trl="Y">
+  <value column="Name" original="Tax Rate">Tarif Pajak</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200371" trl="N">
-  <value column="Name" original="Test UU Based Table Trl">Test UU Based Table Trl</value>
+ <row id="200371" trl="Y">
+  <value column="Name" original="Test UU Based Table Trl">Terjemahan Tabel Berbasis UU Uji</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200381" trl="N">
-  <value column="Name" original="Table Partition">Table Partition</value>
+ <row id="200381" trl="Y">
+  <value column="Name" original="Table Partition">Partisi Tabel</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200382" trl="N">
-  <value column="Name" original="Private Access">Private Access</value>
+ <row id="200382" trl="Y">
+  <value column="Name" original="Private Access">Akses Pribadi</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200385" trl="N">
-  <value column="Name" original="Dynamic Validation per Table">Dynamic Validation per Table</value>
+ <row id="200385" trl="Y">
+  <value column="Name" original="Dynamic Validation per Table">Validasi Dinamis per Tabel</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200386" trl="N">
-  <value column="Name" original="Theme Customization">Theme Customization</value>
+ <row id="200386" trl="Y">
+  <value column="Name" original="Theme Customization">Kustomisasi Tema</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200387" trl="N">
-  <value column="Name" original="Theme Customization Detail">Theme Customization Detail</value>
+ <row id="200387" trl="Y">
+  <value column="Name" original="Theme Customization Detail">Detail Kustomisasi Tema</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
