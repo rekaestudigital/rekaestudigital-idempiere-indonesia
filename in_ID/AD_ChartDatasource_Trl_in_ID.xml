@@ -15,4 +15,8 @@
  <row id="50005" trl="N">
   <value column="Name" original="Number of Requests">Jumlah Permintaan</value>
  </row>
+ <row id="0" trl="N">
+  <value column="Name" original="Sales by Region">Penjualan berdasarkan Wilayah</value>
+  <value column="Description" original="Shows sales distribution across different regions">Menampilkan distribusi penjualan di berbagai wilayah</value>
+ </row>
 </idempiereTrl>

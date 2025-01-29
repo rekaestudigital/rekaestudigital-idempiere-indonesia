@@ -24,4 +24,8 @@
   <value column="DomainLabel" original=""/>
   <value column="RangeLabel" original=""/>
  </row>
+ <row id="0" trl="N">
+  <value column="Name" original="Monthly Revenue">Pendapatan Bulanan</value>
+  <value column="Description" original="Chart showing monthly revenue trends">Grafik yang menunjukkan tren pendapatan bulanan</value>
+ </row>
 </idempiereTrl>
