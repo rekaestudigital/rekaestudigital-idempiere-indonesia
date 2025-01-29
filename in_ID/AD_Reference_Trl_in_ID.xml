@@ -2530,8 +2530,8 @@
   <value column="Description" original="Type of preference WEditor lie on (process, info window, window)">Jenis preferensi yang terletak pada WEditor (proses, jendela info, jendela)</value>
   <value column="Help" original=""/>
  </row>
- <row id="200085" trl="N">
-  <value column="Name" original="DocSource Generate Shipments/Invoices (manual)">DocSource Generate Shipments/Invoices (manual)</value>
+ <row id="200085" trl="Y">
+  <value column="Name" original="DocSource Generate Shipments/Invoices (manual)">Sumber Dokumen Buat Pengiriman/Faktur (manual)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2550,14 +2550,14 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200115" trl="N">
-  <value column="Name" original="AttributeSet Type">AttributeSet Type</value>
+ <row id="200115" trl="Y">
+  <value column="Name" original="AttributeSet Type">Jenis Set Atribut</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200117" trl="N">
-  <value column="Name" original="TabTypeList">TabTypeList</value>
-  <value column="Description" original="List of tab type">List of tab type</value>
+ <row id="200117" trl="Y">
+  <value column="Name" original="TabTypeList">Daftar Jenis Tab</value>
+  <value column="Description" original="List of tab type">Daftar jenis tab</value>
   <value column="Help" original=""/>
  </row>
  <row id="200121" trl="Y">
@@ -2585,18 +2585,18 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200133" trl="N">
-  <value column="Name" original="Timestamp With Time Zone">Timestamp With Time Zone</value>
-  <value column="Description" original="Date and time with time zone">Date and time with time zone</value>
+ <row id="200133" trl="Y">
+  <value column="Name" original="Timestamp With Time Zone">Stempel Waktu Dengan Zona Waktu</value>
+  <value column="Description" original="Date and time with time zone">Tanggal dan waktu dengan zona waktu</value>
   <value column="Help" original=""/>
  </row>
- <row id="200135" trl="N">
-  <value column="Name" original="Time Zone">Time Zone</value>
-  <value column="Description" original="Time Zone">Time Zone</value>
+ <row id="200135" trl="Y">
+  <value column="Name" original="Time Zone">Zona Waktu</value>
+  <value column="Description" original="Time Zone">Zona Waktu</value>
   <value column="Help" original=""/>
  </row>
- <row id="200137" trl="N">
-  <value column="Name" original="AD_Tree_Favorite_Node list">AD_Tree_Favorite_Node list</value>
+ <row id="200137" trl="Y">
+  <value column="Name" original="AD_Tree_Favorite_Node list">Daftar Node Favorit AD_Tree</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2610,8 +2610,8 @@
   <value column="Description" original="Users from all tenants">Pengguna dari semua klien</value>
   <value column="Help" original=""/>
  </row>
- <row id="200152" trl="N">
-  <value column="Name" original="Radio Group List">Radio Group List</value>
+ <row id="200152" trl="Y">
+  <value column="Name" original="Radio Group List">Daftar Grup Radio</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2625,8 +2625,8 @@
   <value column="Description" original="Multiple execution rule list">Beberapa daftar aturan eksekusi</value>
   <value column="Help" original=""/>
  </row>
- <row id="200160" trl="N">
-  <value column="Name" original="C_Tax Posting Indicator">C_Tax Posting Indicator</value>
+ <row id="200160" trl="Y">
+  <value column="Name" original="C_Tax Posting Indicator">Indikator Posting Pajak</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2680,242 +2680,242 @@
   <value column="Description" original="View and change the state of a scheduler">Lihat dan ubah status penjadwal</value>
   <value column="Help" original=""/>
  </row>
- <row id="200174" trl="N">
-  <value column="Name" original="PA_ReportLine Line Stroke Type">PA_ReportLine Line Stroke Type</value>
+ <row id="200174" trl="Y">
+  <value column="Name" original="PA_ReportLine Line Stroke Type">Jenis Garis Laporan PA</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200175" trl="N">
-  <value column="Name" original="C_BPartner (all)">C_BPartner (all)</value>
+ <row id="200175" trl="Y">
+  <value column="Name" original="C_BPartner (all)">Mitra Bisnis (semua)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200176" trl="N">
-  <value column="Name" original="M_Product (all)">M_Product (all)</value>
+ <row id="200176" trl="Y">
+  <value column="Name" original="M_Product (all)">Produk (semua)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200178" trl="N">
-  <value column="Name" original="ImportOrExport">ImportOrExport</value>
+ <row id="200178" trl="Y">
+  <value column="Name" original="ImportOrExport">Impor atau Ekspor</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200179" trl="N">
-  <value column="Name" original="AD_Table Trl">AD_Table Trl</value>
-  <value column="Description" original="Translated Tables">Translated Tables</value>
+ <row id="200179" trl="Y">
+  <value column="Name" original="AD_Table Trl">Terjemahan Tabel</value>
+  <value column="Description" original="Translated Tables">Tabel yang Diterjemahkan</value>
   <value column="Help" original=""/>
  </row>
- <row id="200180" trl="N">
-  <value column="Name" original="M_AttributeSetInstance">M_AttributeSetInstance</value>
-  <value column="Description" original="Attribute Set Instance">Attribute Set Instance</value>
+ <row id="200180" trl="Y">
+  <value column="Name" original="M_AttributeSetInstance">Instansi Set Atribut</value>
+  <value column="Description" original="Attribute Set Instance">Instansi Set Atribut</value>
   <value column="Help" original=""/>
  </row>
- <row id="200181" trl="N">
-  <value column="Name" original="S_ResourceAssignment">S_ResourceAssignment</value>
-  <value column="Description" original="Resource Assignment">Resource Assignment</value>
+ <row id="200181" trl="Y">
+  <value column="Name" original="S_ResourceAssignment">Penugasan Sumber Daya</value>
+  <value column="Description" original="Resource Assignment">Penugasan Sumber Daya</value>
   <value column="Help" original=""/>
  </row>
- <row id="200182" trl="N">
-  <value column="Name" original="AD_Image">AD_Image</value>
-  <value column="Description" original="Image">Image</value>
+ <row id="200182" trl="Y">
+  <value column="Name" original="AD_Image">Gambar</value>
+  <value column="Description" original="Image">Gambar</value>
   <value column="Help" original=""/>
  </row>
- <row id="200183" trl="N">
-  <value column="Name" original="AD_Chart">AD_Chart</value>
-  <value column="Description" original="Chart">Chart</value>
+ <row id="200183" trl="Y">
+  <value column="Name" original="AD_Chart">Grafik</value>
+  <value column="Description" original="Chart">Grafik</value>
   <value column="Help" original=""/>
  </row>
- <row id="200184" trl="N">
-  <value column="Name" original="AD_AuthorizationType">AD_AuthorizationType</value>
+ <row id="200184" trl="Y">
+  <value column="Name" original="AD_AuthorizationType">Jenis Otorisasi</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200185" trl="N">
-  <value column="Name" original="AD_AuthorizationScope">AD_AuthorizationScope</value>
+ <row id="200185" trl="Y">
+  <value column="Name" original="AD_AuthorizationScope">Ruang Lingkup Otorisasi</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200186" trl="N">
-  <value column="Name" original="HTML Attachment Type List">HTML Attachment Type List</value>
+ <row id="200186" trl="Y">
+  <value column="Name" original="HTML Attachment Type List">Daftar Jenis Lampiran HTML</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200187" trl="N">
-  <value column="Name" original="MFA_Method">MFA_Method</value>
+ <row id="200187" trl="Y">
+  <value column="Name" original="MFA_Method">Metode MFA</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200188" trl="N">
-  <value column="Name" original="MFAType">MFAType</value>
+ <row id="200188" trl="Y">
+  <value column="Name" original="MFAType">Jenis MFA</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200189" trl="N">
-  <value column="Name" original="MFATimeProvider">MFATimeProvider</value>
+ <row id="200189" trl="Y">
+  <value column="Name" original="MFATimeProvider">Penyedia Waktu MFA</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200190" trl="N">
-  <value column="Name" original="AD_Element">AD_Element</value>
+ <row id="200190" trl="Y">
+  <value column="Name" original="AD_Element">Elemen</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200191" trl="N">
-  <value column="Name" original="MFA_Method - on tenant rule">MFA_Method - on tenant rule</value>
+ <row id="200191" trl="Y">
+  <value column="Name" original="MFA_Method - on tenant rule">Metode MFA - pada aturan penyewa</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200194" trl="N">
-  <value column="Name" original="M_WarehouseTo of Tenant">M_WarehouseTo of Tenant</value>
+ <row id="200194" trl="Y">
+  <value column="Name" original="M_WarehouseTo of Tenant">Gudang Tujuan dari Penyewa</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200198" trl="N">
-  <value column="Name" original="FinReport ExcludeAdjustmentPeriods">FinReport ExcludeAdjustmentPeriods</value>
+ <row id="200198" trl="Y">
+  <value column="Name" original="FinReport ExcludeAdjustmentPeriods">Laporan Keuangan Kecualikan Periode Penyesuaian</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200202" trl="N">
-  <value column="Name" original="Record ID">Record ID</value>
+ <row id="200202" trl="Y">
+  <value column="Name" original="Record ID">ID Rekaman</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200208" trl="N">
-  <value column="Name" original="C_DocType S.Order + RMA">C_DocType S.Order + RMA</value>
+ <row id="200208" trl="Y">
+  <value column="Name" original="C_DocType S.Order + RMA">Jenis Dokumen Pesanan Penjualan + RMA</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200213" trl="N">
-  <value column="Name" original="SSO Provider List">SSO Provider List</value>
+ <row id="200213" trl="Y">
+  <value column="Name" original="SSO Provider List">Daftar Penyedia SSO</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200215" trl="N">
-  <value column="Name" original="AD_Role RoleType - WebService">AD_Role RoleType - WebService</value>
-  <value column="Description" original="Roles with RoleType NULL or WebService">Roles with RoleType NULL or WebService</value>
+ <row id="200215" trl="Y">
+  <value column="Name" original="AD_Role RoleType - WebService">Jenis Peran - Layanan Web</value>
+  <value column="Description" original="Roles with RoleType NULL or WebService">Peran dengan Jenis Peran KOSONG atau Layanan Web</value>
   <value column="Help" original=""/>
  </row>
- <row id="200217" trl="N">
-  <value column="Name" original="DateSelectionMode">DateSelectionMode</value>
-  <value column="Description" original="Date Selection Mode">Date Selection Mode</value>
+ <row id="200217" trl="Y">
+  <value column="Name" original="DateSelectionMode">Mode Pemilihan Tanggal</value>
+  <value column="Description" original="Date Selection Mode">Mode Pemilihan Tanggal</value>
   <value column="Help" original=""/>
  </row>
- <row id="200221" trl="N">
-  <value column="Name" original="Months">Months</value>
+ <row id="200221" trl="Y">
+  <value column="Name" original="Months">Bulan</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200222" trl="N">
-  <value column="Name" original="Quarters">Quarters</value>
+ <row id="200222" trl="Y">
+  <value column="Name" original="Quarters">Kuartal</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200224" trl="N">
-  <value column="Name" original="S_ResourceType">S_ResourceType</value>
-  <value column="Description" original="Resource Type">Resource Type</value>
+ <row id="200224" trl="Y">
+  <value column="Name" original="S_ResourceType">Jenis Sumber Daya</value>
+  <value column="Description" original="Resource Type">Jenis Sumber Daya</value>
   <value column="Help" original=""/>
  </row>
- <row id="200227" trl="N">
-  <value column="Name" original="PrintFormatItemSync Source">PrintFormatItemSync Source</value>
+ <row id="200227" trl="Y">
+  <value column="Name" original="PrintFormatItemSync Source">Sumber Sinkronisasi Item Format Cetak</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200228" trl="N">
-  <value column="Name" original="Date Range Option">Date Range Option</value>
-  <value column="Description" original="Options, how the date editor will be displayed.">Options, how the date editor will be displayed.</value>
+ <row id="200228" trl="Y">
+  <value column="Name" original="Date Range Option">Opsi Rentang Tanggal</value>
+  <value column="Description" original="Options, how the date editor will be displayed.">Opsi, bagaimana editor tanggal akan ditampilkan.</value>
   <value column="Help" original=""/>
  </row>
- <row id="200230" trl="N">
-  <value column="Name" original="AD_Reference Show Inactive">AD_Reference Show Inactive</value>
+ <row id="200230" trl="Y">
+  <value column="Name" original="AD_Reference Show Inactive">Tampilkan Referensi Tidak Aktif</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200231" trl="N">
+ <row id="200231" trl="Y">
   <value column="Name" original="UUID">UUID</value>
-  <value column="Description" original="Universally unique identifier">Universally unique identifier</value>
+  <value column="Description" original="Universally unique identifier">Pengenal unik universal</value>
   <value column="Help" original=""/>
  </row>
- <row id="200232" trl="N">
+ <row id="200232" trl="Y">
   <value column="Name" original="AD_Table Name">AD_Table Name</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200233" trl="N">
+ <row id="200233" trl="Y">
   <value column="Name" original="Table (UU)">Table (UU)</value>
   <value column="Description" original="Table List based on UUID">Table List based on UUID</value>
   <value column="Help" original=""/>
  </row>
- <row id="200234" trl="N">
+ <row id="200234" trl="Y">
   <value column="Name" original="Table Direct (UU)">Table Direct (UU)</value>
   <value column="Description" original="Direct Table Access based on UUID">Direct Table Access based on UUID</value>
   <value column="Help" original=""/>
  </row>
- <row id="200235" trl="N">
+ <row id="200235" trl="Y">
   <value column="Name" original="Search (UU)">Search (UU)</value>
   <value column="Description" original="Search Field based on UUID">Search Field based on UUID</value>
   <value column="Help" original=""/>
  </row>
- <row id="200236" trl="N">
+ <row id="200236" trl="Y">
   <value column="Name" original="Test UU">Test UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200237" trl="N">
+ <row id="200237" trl="Y">
   <value column="Name" original="AD_Table with ID or UU Column">AD_Table with ID or UU Column</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200239" trl="N">
+ <row id="200239" trl="Y">
   <value column="Name" original="Authentication Type List">Authentication Type List</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200240" trl="N">
+ <row id="200240" trl="Y">
   <value column="Name" original="Record UUID">Record UUID</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200241" trl="N">
+ <row id="200241" trl="Y">
   <value column="Name" original="GL_Category (all)">GL_Category (all)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200242" trl="N">
+ <row id="200242" trl="Y">
   <value column="Name" original="AD_PInstance_Log PInstanceLogType">AD_PInstance_Log PInstanceLogType</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200247" trl="N">
+ <row id="200247" trl="Y">
   <value column="Name" original="C_UOM Weight Type">C_UOM Weight Type</value>
   <value column="Description" original="Unit of Measure selection for Weight UOM Type">Unit of Measure selection for Weight UOM Type</value>
   <value column="Help" original=""/>
  </row>
- <row id="200248" trl="N">
+ <row id="200248" trl="Y">
   <value column="Name" original="C_UOM Length Type">C_UOM Length Type</value>
   <value column="Description" original="Unit of Measure selection for Length UOM Type">Unit of Measure selection for Length UOM Type</value>
   <value column="Help" original=""/>
  </row>
- <row id="200261" trl="N">
+ <row id="200261" trl="Y">
   <value column="Name" original="AD_Column PartitioningMethod">AD_Column PartitioningMethod</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200262" trl="N">
+ <row id="200262" trl="Y">
   <value column="Name" original="AD_TablePartition">AD_TablePartition</value>
   <value column="Description" original="Table Partition">Table Partition</value>
   <value column="Help" original=""/>
  </row>
- <row id="200267" trl="N">
+ <row id="200267" trl="Y">
   <value column="Name" original="JSON">JSON</value>
   <value column="Description" original="JSON format values">JSON format values</value>
   <value column="Help" original=""/>
  </row>
- <row id="200268" trl="N">
+ <row id="200268" trl="Y">
   <value column="Name" original="ImportTemplateType">ImportTemplateType</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200271" trl="N">
+ <row id="200271" trl="Y">
   <value column="Name" original="Image URL">Image URL</value>
   <value column="Description" original="Web URL of an image">Web URL of an image</value>
   <value column="Help" original=""/>
