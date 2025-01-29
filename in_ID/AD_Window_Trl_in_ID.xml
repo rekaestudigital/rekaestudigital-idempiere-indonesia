@@ -1728,14 +1728,14 @@ MRP - 110 Tidak ada Dem</value>
   <value column="Description" original="Define Process Customization for Role/User">Tetapkan Kustomisasi Proses untuk Peran / Pengguna</value>
   <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">Nilai-nilai penyesuaian yang ditentukan di sini menimpa / mengganti definisi sistem default jika didefinisikan.</value>
  </row>
- <row id="200100" trl="N">
-  <value column="Name" original="Print Header/Footer">Print Header/Footer</value>
-  <value column="Description" original="Maintain Print Header/Footer">Maintain Print Header/Footer</value>
+ <row id="200100" trl="Y">
+  <value column="Name" original="Print Header/Footer">Cetak Header/Footer</value>
+  <value column="Description" original="Maintain Print Header/Footer">Kelola Cetak Header/Footer</value>
   <value column="Help" original=""/>
  </row>
- <row id="200105" trl="N">
-  <value column="Name" original="Bank/Cash Transfer">Bank/Cash Transfer</value>
-  <value column="Description" original="Manage Bank Transfer">Manage Bank Transfer</value>
+ <row id="200105" trl="Y">
+  <value column="Name" original="Bank/Cash Transfer">Transfer Bank/Kas</value>
+  <value column="Description" original="Manage Bank Transfer">Kelola Transfer Bank</value>
   <value column="Help" original=""/>
  </row>
  <row id="200107" trl="Y">
@@ -1749,126 +1749,126 @@ MRP - 110 Tidak ada Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200109" trl="Y">
-  <value column="Name" original="User Queries">Kueri User</value>
-  <value column="Description" original="View and maintain saved queries">Lihat dan pertahankan kueri yang disimpan</value>
+  <value column="Name" original="User Queries">Kueri Pengguna</value>
+  <value column="Description" original="View and maintain saved queries">Lihat dan kelola kueri tersimpan</value>
   <value column="Help" original=""/>
  </row>
- <row id="200110" trl="N">
+ <row id="200110" trl="Y">
   <value column="Name" original="Info Window Customization">Kustomisasi Jendela Info</value>
   <value column="Description" original="Define Info Window Customization for Role/User">Tentukan Kustomisasi Jendela Info untuk Peran/Pengguna</value>
-  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">Nilai-nilai penyesuaian yang ditentukan di sini menimpa/mengganti definisi sistem default jika didefinisikan.</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">Nilai kustomisasi yang ditentukan di sini akan menimpa/mengganti definisi sistem default jika didefinisikan.</value>
  </row>
- <row id="200111" trl="N">
+ <row id="200111" trl="Y">
   <value column="Name" original="Menu user favourites">Menu Favorit Pengguna</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200112" trl="N">
+ <row id="200112" trl="Y">
   <value column="Name" original="Authorization Provider">Penyedia Otorisasi</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200113" trl="N">
+ <row id="200113" trl="Y">
   <value column="Name" original="Authorization Credential">Kredensial Otorisasi</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200114" trl="N">
+ <row id="200114" trl="Y">
   <value column="Name" original="MFA Method">Metode MFA</value>
   <value column="Description" original="Multi-factor Authentication Method">Metode Otentikasi Multi-faktor</value>
   <value column="Help" original=""/>
  </row>
- <row id="200115" trl="N">
+ <row id="200115" trl="Y">
   <value column="Name" original="MFA Registered Device">Perangkat Terdaftar MFA</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200116" trl="N">
+ <row id="200116" trl="Y">
   <value column="Name" original="MFA Registration">Registrasi MFA</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200117" trl="N">
+ <row id="200117" trl="Y">
   <value column="Name" original="MFA Rule">Aturan MFA</value>
   <value column="Description" original="Multi-factor Authentication Rule">Aturan Otentikasi Multi-faktor</value>
   <value column="Help" original=""/>
  </row>
- <row id="200118" trl="N">
+ <row id="200118" trl="Y">
   <value column="Name" original="SMTP Server">Server SMTP</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200119" trl="N">
+ <row id="200119" trl="Y">
   <value column="Name" original="Customization of the Wlistbox">Kustomisasi Wlistbox</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200120" trl="N">
-  <value column="Name" original="Tenant level messages">Pesan tingkat Tenant</value>
+ <row id="200120" trl="Y">
+  <value column="Name" original="Tenant level messages">Pesan Tingkat Tenant</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200123" trl="N">
+ <row id="200123" trl="Y">
   <value column="Name" original="Drill Rule">Aturan Drill</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200128" trl="N">
+ <row id="200128" trl="Y">
   <value column="Name" original="Label Category">Kategori Label</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200129" trl="N">
+ <row id="200129" trl="Y">
   <value column="Name" original="Label">Label</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200130" trl="N">
+ <row id="200130" trl="Y">
   <value column="Name" original="Label Assignment">Penugasan Label</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200132" trl="N">
+ <row id="200132" trl="Y">
   <value column="Name" original="SSO Configuration">Konfigurasi SSO</value>
-  <value column="Description" original="Konfigurasi Single sign-on">Konfigurasi Single sign-on</value>
-  <value column="Help" original="Single sign-on adalah skema otentikasi yang memungkinkan pengguna untuk masuk dengan satu ID ke beberapa sistem perangkat lunak yang terkait, namun independen.">Single sign-on adalah skema otentikasi yang memungkinkan pengguna untuk masuk dengan satu ID ke beberapa sistem perangkat lunak yang terkait, namun independen.</value>
+  <value column="Description" original="Single sign-on configuration">Konfigurasi Single sign-on</value>
+  <value column="Help" original="Single sign-on is an authentication scheme that allows users to log in with a single ID to multiple related, but independent, software systems.">Single sign-on adalah skema otentikasi yang memungkinkan pengguna untuk masuk dengan satu ID ke beberapa sistem perangkat lunak yang terkait, namun independen.</value>
  </row>
- <row id="200137" trl="N">
+ <row id="200137" trl="Y">
   <value column="Name" original="Verify Migration">Verifikasi Migrasi</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200138" trl="N">
+ <row id="200138" trl="Y">
   <value column="Name" original="Test UU Based Table">Uji Tabel Berbasis UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200139" trl="N">
+ <row id="200139" trl="Y">
   <value column="Name" original="Test UU Detail">Uji Detail UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200140" trl="N">
+ <row id="200140" trl="Y">
   <value column="Name" original="Document Base Type Group">Grup Jenis Dasar Dokumen</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200141" trl="N">
+ <row id="200141" trl="Y">
   <value column="Name" original="Model Generator Template">Template Generator Model</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200147" trl="N">
+ <row id="200147" trl="Y">
   <value column="Name" original="Private Access">Akses Pribadi</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200150" trl="N">
+ <row id="200150" trl="Y">
   <value column="Name" original="Dynamic Validation per Table">Validasi Dinamis per Tabel</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200151" trl="N">
+ <row id="200151" trl="Y">
   <value column="Name" original="Theme Customization">Kustomisasi Tema</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
