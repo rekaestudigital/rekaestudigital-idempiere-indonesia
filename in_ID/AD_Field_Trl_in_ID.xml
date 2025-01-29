@@ -75,33 +75,33 @@ If the document type of your document has no automatic document sequence defined
   <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="10089" trl="N">
-  <value column="Name" original="Wait Time">Wait Time</value>
-  <value column="Description" original="Time in minutes to wait (sleep)">Time in minutes to wait (sleep)</value>
-  <value column="Help" original="Time in minutes to be suspended (sleep).  A value of -1 means to wait and execute after the commit of the workflow transaction.">Time in minutes to be suspended (sleep).  A value of -1 means to wait and execute after the commit of the workflow transaction.</value>
+ <row id="10089" trl="Y">
+  <value column="Name" original="Wait Time">Waktu Tunggu</value>
+  <value column="Description" original="Time in minutes to wait (sleep)">Waktu dalam menit untuk menunggu (istirahat)</value>
+  <value column="Help" original="Time in minutes to be suspended (sleep).  A value of -1 means to wait and execute after the commit of the workflow transaction.">Waktu dalam menit untuk ditangguhkan (istirahat). Nilai -1 berarti menunggu dan mengeksekusi setelah commit transaksi alur kerja.</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="10097" trl="Y">
   <value column="Name" original="Value">Nilai</value>
-  <value column="Description" original="Condition Value">Condition Value</value>
+  <value column="Description" original="Condition Value">Nilai Kondisi</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
  </row>
  <row id="10769" trl="Y">
   <value column="Name" original="Schema Type">Jenis Skema</value>
-  <value column="Description" original="Type of trade schema calculation">Type of trade schema calculation</value>
-  <value column="Help" original="Type of procedure used to calculate the trade schema percentage">Type of procedure used to calculate the trade schema percentage</value>
+  <value column="Description" original="Type of trade schema calculation">Jenis skema perhitungan transaksi</value>
+  <value column="Help" original="Type of procedure used to calculate the trade schema percentage">Jenis prosedur yang digunakan untuk menghitung persentase skema transaksi</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="10886" trl="Y">
   <value column="Name" original="Overwrite Project">Timpa Proyek</value>
-  <value column="Description" original="Overwrite the account segment Project with the value specified">Overwrite the account segment Project with the value specified</value>
-  <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.</value>
+  <value column="Description" original="Overwrite the account segment Project with the value specified">Timpa segment akun Proyek dengan nilai yang ditentukan</value>
+  <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">Jika tidak ditimpa, nilai kombinasi akun asli digunakan. Jika dipilih tetapi tidak ditentukan, segment diatur ke null.</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="11264" trl="N">
-  <value column="Name" original="Column SQL">Column SQL</value>
-  <value column="Description" original="Virtual Column (r/o)">Virtual Column (r/o)</value>
+ <row id="11264" trl="Y">
+  <value column="Name" original="Column SQL">Kolom SQL</value>
+  <value column="Description" original="Virtual Column (r/o)">Kolom Virtual (r/o)</value>
   <value column="Help" original="You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.&lt;br&gt;&#10;Example: &quot;Updated-Created&quot; would list the age of the entry in days.&lt;br&gt;&#10;It is not recommended to add complex queries in virtual columns as the impact on the database performance can be too expensive.&lt;br&gt;&#10;However, you can use the prefix @SQLFIND= for virtual columns that can be used for queries and reports, they have less impact on the database, but as a field they don't show values.&lt;br&gt;&#10;Additionally, the prefix @SQL= allows to define a virtual UI column, this is calculated on the fly and can use context variables in the query, virtual UI columns are shown in grid just on the current row, they are not searchable, and not shown in reports." xml:space="preserve"><![CDATA[You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.<br>
 Example: "Updated-Created" would list the age of the entry in days.<br>
 It is not recommended to add complex queries in virtual columns as the impact on the database performance can be too expensive.<br>
@@ -115,17 +115,17 @@ Additionally, the prefix @SQL= allows to define a virtual UI column, this is cal
   <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="12249" trl="N">
-  <value column="Name" original="Validation code">Validation code</value>
-  <value column="Description" original="Validation Code">Validation Code</value>
-  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">The Validation Code displays the date, time and message of the error.
+ <row id="12249" trl="Y">
+  <value column="Name" original="Validation code">Kode Validasi</value>
+  <value column="Description" original="Validation Code">Kode Validasi</value>
+  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">Kode Validasi menampilkan tanggal, waktu dan pesan kesalahan.
 
-You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].
-Do not include the WHERE statement and use Fully qualified SQL statements. F.e:
+Anda dapat menambahkan kueri SQL lanjutan ke pencarian Anda dengan mengisi bidang ini dengan @SQL=[WHERE CLAUSE].
+Jangan sertakan pernyataan WHERE dan gunakan pernyataan SQL yang lengkap. Contoh:
 
 @SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ 
 
-will filter orders by active and where the sales representative is the current user.</value>
+akan memfilter pesanan yang aktif dan di mana perwakilan penjualan adalah pengguna saat ini.</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="12732" trl="Y">
@@ -949,14 +949,14 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
  </row>
- <row id="205154" trl="N">
-  <value column="Name" original="Tenant">Client</value>
+ <row id="205154" trl="Y">
+  <value column="Name" original="Tenant">Klien</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
  </row>
- <row id="205174" trl="N">
-  <value column="Name" original="Tenant">Client</value>
+ <row id="205174" trl="Y">
+  <value column="Name" original="Tenant">Klien</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>

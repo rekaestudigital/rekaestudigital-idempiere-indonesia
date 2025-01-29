@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 13_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="PA_ReportColumn">
- <row id="100" trl="N">
+ <row id="100" trl="Y">
   <value column="Name" original="Begin Year Balance">Saldo Awal Tahun</value>
   <value column="Description" original=""/>
  </row>
- <row id="101" trl="N">
+ <row id="101" trl="Y">
   <value column="Name" original="Period Activity">Aktivitas Periode</value>
   <value column="Description" original=""/>
  </row>
- <row id="102" trl="N">
+ <row id="102" trl="Y">
   <value column="Name" original="End Year Balance">Saldo Akhir Tahun</value>
   <value column="Description" original=""/>
  </row>
- <row id="103" trl="N">
+ <row id="103" trl="Y">
   <value column="Name" original="End Total Balance">Saldo Total Akhir</value>
   <value column="Description" original=""/>
  </row>
- <row id="104" trl="N">
+ <row id="104" trl="Y">
   <value column="Name" original="Begin Total Balance">Saldo Total Awal</value>
   <value column="Description" original=""/>
  </row>
- <row id="105" trl="N">
+ <row id="105" trl="Y">
   <value column="Name" original="Period Quantity">Kuantitas Periode</value>
   <value column="Description" original=""/>
  </row>
- <row id="106" trl="N">
+ <row id="106" trl="Y">
   <value column="Name" original="Budget YTD">Anggaran Tahun Berjalan</value>
   <value column="Description" original="Budget Year to Date">Anggaran Tahun Berjalan</value>

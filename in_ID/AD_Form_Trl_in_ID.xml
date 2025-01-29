@@ -240,25 +240,25 @@ Memilih kotak centang "Di mana Digunakan" akan menampilkan BOM tempat produk ini
   <value column="Description" original="Form to configure access to /osgi/system/console - do not add to menu">Formulir untuk mengonfigurasi akses ke / osgi / sistem / konsol - jangan tambahkan ke menu</value>
   <value column="Help" original=""/>
  </row>
- <row id="200015" trl="N">
-  <value column="Name" original="Plugin Manager">Plugin Manager</value>
-  <value column="Description" original="Plugin Manager">Plugin Manager</value>
-  <value column="Help" original="Plugin Manager">Plugin Manager</value>
+ <row id="200015" trl="Y">
+  <value column="Name" original="Plugin Manager">Manajer Plugin</value>
+  <value column="Description" original="Plugin Manager">Manajer Plugin</value>
+  <value column="Help" original="Plugin Manager">Manajer Plugin</value>
  </row>
- <row id="200016" trl="N">
-  <value column="Name" original="Add Authorization Mail Account">Add Authorization Mail Account</value>
+ <row id="200016" trl="Y">
+  <value column="Name" original="Add Authorization Mail Account">Tambah Akun Email Otorisasi</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200017" trl="N">
-  <value column="Name" original="Register MFA">Register MFA</value>
-  <value column="Description" original="Register a multi-factor authentication mechanism">Register a multi-factor authentication mechanism</value>
+ <row id="200017" trl="Y">
+  <value column="Name" original="Register MFA">Daftar MFA</value>
+  <value column="Description" original="Register a multi-factor authentication mechanism">Daftar mekanisme autentikasi multi-faktor</value>
   <value column="Help" original=""/>
  </row>
- <row id="200018" trl="N">
+ <row id="200018" trl="Y">
   <value column="Name" original="SQL Query">SQL Query</value>
-  <value column="Description" original="Process SQL Queries">Process SQL Queries</value>
-  <value column="Help" original="Process SQL Queries">Process SQL Queries</value>
+  <value column="Description" original="Process SQL Queries">Proses SQL Queries</value>
+  <value column="Help" original="Process SQL Queries">Proses SQL Queries</value>
  </row>
  <row id="200019" trl="N">
   <value column="Name" original="Customize Grid View">Customize Grid View</value>

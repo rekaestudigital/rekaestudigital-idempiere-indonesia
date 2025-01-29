@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 13_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_ChartDatasource">
- <row id="50000" trl="N">
+ <row id="50000" trl="Y">
   <value column="Name" original="Total">Total</value>
  </row>
- <row id="50001" trl="N">
+ <row id="50001" trl="Y">
   <value column="Name" original="Opportunity">Peluang</value>
  </row>
- <row id="50002" trl="N">
+ <row id="50002" trl="Y">
   <value column="Name" original="Expected">Diharapkan</value>
  </row>
- <row id="50003" trl="N">
+ <row id="50003" trl="Y">
   <value column="Name" original="Current">Saat Ini</value>
  </row>
- <row id="50005" trl="N">
+ <row id="50005" trl="Y">
   <value column="Name" original="Number of Requests">Jumlah Permintaan</value>
  </row>
- <row id="0" trl="N">
+ <row id="0" trl="Y">
   <value column="Name" original="Sales by Region">Penjualan berdasarkan Wilayah</value>
   <value column="Description" original="Shows sales distribution across different regions">Menampilkan distribusi penjualan di berbagai wilayah</value>
  </row>

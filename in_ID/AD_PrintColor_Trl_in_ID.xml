@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 13_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_PrintColor">
- <row id="100" trl="N">
+ <row id="100" trl="Y">
   <value column="Name" original="Black">Hitam</value>
  </row>
- <row id="102" trl="N">
+ <row id="102" trl="Y">
   <value column="Name" original="Red">Merah</value>
  </row>
- <row id="103" trl="N">
+ <row id="103" trl="Y">
   <value column="Name" original="Green">Hijau</value>
  </row>
- <row id="104" trl="N">
+ <row id="104" trl="Y">
   <value column="Name" original="Blue">Biru</value>
  </row>
- <row id="105" trl="N">
+ <row id="105" trl="Y">
   <value column="Name" original="Gray dark">Abu-abu Gelap</value>
  </row>
- <row id="106" trl="N">
+ <row id="106" trl="Y">
   <value column="Name" original="Gray">Abu-abu</value>
  </row>
- <row id="107" trl="N">
+ <row id="107" trl="Y">
   <value column="Name" original="Gray light">Abu-abu Terang</value>
  </row>
- <row id="108" trl="N">
+ <row id="108" trl="Y">
   <value column="Name" original="White">Putih</value>
  </row>
- <row id="109" trl="N">
+ <row id="109" trl="Y">
   <value column="Name" original="Cyan">Cyan</value>
  </row>
- <row id="110" trl="N">
+ <row id="110" trl="Y">
   <value column="Name" original="Magenta">Magenta</value>
  </row>
- <row id="111" trl="N">
+ <row id="111" trl="Y">
   <value column="Name" original="Orange">Jingga</value>
  </row>
- <row id="112" trl="N">
+ <row id="112" trl="Y">
   <value column="Name" original="Pink">Merah Muda</value>
  </row>
- <row id="113" trl="N">
+ <row id="113" trl="Y">
   <value column="Name" original="Yellow">Kuning</value>
  </row>
- <row id="114" trl="N">
+ <row id="114" trl="Y">
   <value column="Name" original="Blue dark">Biru Gelap</value>
  </row>
- <row id="115" trl="N">
+ <row id="115" trl="Y">
   <value column="Name" original="Gray white">Abu-abu Putih</value>
  </row>
- <row id="116" trl="N">
+ <row id="116" trl="Y">
   <value column="Name" original="Green dark">Hijau Gelap</value>
  </row>
- <row id="117" trl="N">
+ <row id="117" trl="Y">
   <value column="Name" original="Green black">Hijau Hitam</value>
  </row>
- <row id="119" trl="N">
+ <row id="119" trl="Y">
   <value column="Name" original="Blue black">Biru Hitam</value>
  </row>
- <row id="120" trl="N">
+ <row id="120" trl="Y">
   <value column="Name" original="Brown">Coklat</value>
  </row>
- <row id="121" trl="N">
+ <row id="121" trl="Y">
   <value column="Name" original="Brown dark">Coklat Gelap</value>
  </row>
- <row id="200000" trl="N">
+ <row id="200000" trl="Y">
   <value column="Name" original="Metabase Red">Merah Metabase</value>
  </row>
- <row id="200001" trl="N">
+ <row id="200001" trl="Y">
   <value column="Name" original="Metabase Yellow">Kuning Metabase</value>
  </row>
- <row id="200002" trl="N">
+ <row id="200002" trl="Y">
   <value column="Name" original="Metabase Green">Hijau Metabase</value>
  </row>
 </idempiereTrl>

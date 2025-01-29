@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 13_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_InfoWindow">
- <row id="200000" trl="N">
-  <value column="Name" original="Product Info">Product Info</value>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Product Info">Info Produk</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200001" trl="N">
-  <value column="Name" original="Business Partner Info">Business Partner Info</value>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Business Partner Info">Info Rekanan Bisnis</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200002" trl="N">
-  <value column="Name" original="Order Info">Order Info</value>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Order Info">Info Pesanan</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200003" trl="N">
-  <value column="Name" original="Invoice Info">Invoice Info</value>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Invoice Info">Info Faktur</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200004" trl="N">
-  <value column="Name" original="Shipment Info">Shipment Info</value>
+ <row id="200004" trl="Y">
+  <value column="Name" original="Shipment Info">Info Pengiriman</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200005" trl="N">
-  <value column="Name" original="Payment Info">Payment Info</value>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Payment Info">Info Pembayaran</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200006" trl="N">
-  <value column="Name" original="Resource Info">Resource Info</value>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Resource Info">Info Sumber Daya</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200007" trl="N">
-  <value column="Name" original="Asset Info">Asset Info</value>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Asset Info">Info Aset</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200008" trl="N">
-  <value column="Name" original="Generate Shipments (manual)">Generate Shipments (manual)</value>
-  <value column="Description" original="Select and generate shipments">Select and generate shipments</value>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Generate Shipments (manual)">Buat Pengiriman (manual)</value>
+  <value column="Description" original="Select and generate shipments">Pilih dan buat pengiriman</value>
   <value column="Help" original=""/>
  </row>
- <row id="200011" trl="N">
-  <value column="Name" original="Generate Invoices (manual)">Generate Invoices (manual)</value>
-  <value column="Description" original="Select and generate invoices">Select and generate invoices</value>
+ <row id="200011" trl="Y">
+  <value column="Name" original="Generate Invoices (manual)">Buat Faktur (manual)</value>
+  <value column="Description" original="Select and generate invoices">Pilih dan buat faktur</value>
   <value column="Help" original=""/>
  </row>
- <row id="200013" trl="N">
-  <value column="Name" original="Role (All)">Role (All)</value>
+ <row id="200013" trl="Y">
+  <value column="Name" original="Role (All)">Peran (Semua)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200014" trl="N">
-  <value column="Name" original="Support Users vs Roles">Support Users vs Roles</value>
+ <row id="200014" trl="Y">
+  <value column="Name" original="Support Users vs Roles">Pengguna Pendukung vs Peran</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200019" trl="N">
-  <value column="Name" original="Period Control Management">Period Control Management</value>
-  <value column="Description" original="Management of Calendars, Years and Periods">Management of Calendars, Years and Periods</value>
+ <row id="200019" trl="Y">
+  <value column="Name" original="Period Control Management">Manajemen Kontrol Periode</value>
+  <value column="Description" original="Management of Calendars, Years and Periods">Manajemen Kalender, Tahun dan Periode</value>
   <value column="Help" original=""/>
  </row>
- <row id="200020" trl="N">
-  <value column="Name" original="Payment Into Batch Info">Payment Into Batch Info</value>
+ <row id="200020" trl="Y">
+  <value column="Name" original="Payment Into Batch Info">Info Batch Pembayaran</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200022" trl="N">
-  <value column="Name" original="Create lines from Shipment/Receipt">Create lines from Shipment/Receipt</value>
+ <row id="200022" trl="Y">
+  <value column="Name" original="Create lines from Shipment/Receipt">Buat baris dari Pengiriman/Penerimaan</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200023" trl="N">
-  <value column="Name" original="Create lines from RMA">Create lines from RMA</value>
+ <row id="200023" trl="Y">
+  <value column="Name" original="Create lines from RMA">Buat baris dari RMA</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200024" trl="N">
-  <value column="Name" original="Create lines from Invoice">Create lines from Invoice</value>
+ <row id="200024" trl="Y">
+  <value column="Name" original="Create lines from Invoice">Buat baris dari Faktur</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

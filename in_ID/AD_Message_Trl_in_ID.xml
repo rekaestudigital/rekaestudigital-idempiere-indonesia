@@ -6217,8 +6217,8 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="Delete All">Hapus Semua</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200185" trl="N">
-  <value column="MsgText" original="Error calculating tax">Error calculating tax</value>
+ <row id="200185" trl="Y">
+  <value column="MsgText" original="Error calculating tax">Kesalahan menghitung pajak</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200186" trl="Y">
@@ -6449,8 +6449,8 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="Delete ALL from Tree">Hapus SEMUA dari Pohon</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200259" trl="N">
-  <value column="MsgText" original="Please enter read-only SQL expression or statement">Please enter read-only SQL expression or statement</value>
+ <row id="200259" trl="Y">
+  <value column="MsgText" original="Please enter read-only SQL expression or statement">Silakan masukkan ekspresi SQL baca-saja atau pernyataan</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200260" trl="Y">
@@ -6589,92 +6589,92 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="Click to copy a permanent link to this record">Klik kanan dan salin tautan untuk tautan permanen ke catatan ini.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200371" trl="N">
-  <value column="MsgText" original="Password matches one of %1$s previous passwords.">Password matches one of %1$s previous passwords.</value>
+ <row id="200371" trl="Y">
+  <value column="MsgText" original="Password matches one of %1$s previous passwords.">Kata sandi cocok dengan salah satu dari %1$s kata sandi sebelumnya.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200372" trl="N">
-  <value column="MsgText" original="Password contains the dictionary word '%1$s'.">Password contains the dictionary word '%1$s'.</value>
+ <row id="200372" trl="Y">
+  <value column="MsgText" original="Password contains the dictionary word '%1$s'.">Kata sandi mengandung kata kamus '%1$s'.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200373" trl="N">
-  <value column="MsgText" original="Password contains the reversed dictionary word '%1$s'.">Password contains the reversed dictionary word '%1$s'.</value>
+ <row id="200373" trl="Y">
+  <value column="MsgText" original="Password contains the reversed dictionary word '%1$s'.">Kata sandi mengandung kata kamus terbalik '%1$s'.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200374" trl="N">
-  <value column="MsgText" original="Password matches the illegal pattern '%1$s'.">Password matches the illegal pattern '%1$s'.</value>
+ <row id="200374" trl="Y">
+  <value column="MsgText" original="Password matches the illegal pattern '%1$s'.">Kata sandi cocok dengan pola ilegal '%1$s'.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200375" trl="N">
-  <value column="MsgText" original="Password must match pattern '%1$s'.">Password must match pattern '%1$s'.</value>
+ <row id="200375" trl="Y">
+  <value column="MsgText" original="Password must match pattern '%1$s'.">Kata sandi harus cocok dengan pola '%1$s'.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200376" trl="N">
-  <value column="MsgText" original="Password contains the illegal character '%1$s'.">Password contains the illegal character '%1$s'.</value>
+ <row id="200376" trl="Y">
+  <value column="MsgText" original="Password contains the illegal character '%1$s'.">Kata sandi mengandung karakter ilegal '%1$s'.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200377" trl="N">
-  <value column="MsgText" original="Password contains the illegal character '%1$s'.">Password contains the illegal character '%1$s'.</value>
+ <row id="200377" trl="Y">
+  <value column="MsgText" original="Password contains the illegal character '%1$s'.">Kata sandi mengandung karakter ilegal '%1$s'.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200378" trl="N">
-  <value column="MsgText" original="Password contains the illegal QWERTY sequence '%1$s'.">Password contains the illegal QWERTY sequence '%1$s'.</value>
+ <row id="200378" trl="Y">
+  <value column="MsgText" original="Password contains the illegal QWERTY sequence '%1$s'.">Kata sandi mengandung urutan QWERTY ilegal '%1$s'.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200379" trl="N">
-  <value column="MsgText" original="Password contains the illegal alphabetical sequence '%1$s'.">Password contains the illegal alphabetical sequence '%1$s'.</value>
+ <row id="200379" trl="Y">
+  <value column="MsgText" original="Password contains the illegal alphabetical sequence '%1$s'.">Kata sandi mengandung urutan alfabet ilegal '%1$s'.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200380" trl="N">
-  <value column="MsgText" original="Password contains the illegal numerical sequence '%1$s'.">Password contains the illegal numerical sequence '%1$s'.</value>
+ <row id="200380" trl="Y">
+  <value column="MsgText" original="Password contains the illegal numerical sequence '%1$s'.">Kata sandi mengandung urutan angka ilegal '%1$s'.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200381" trl="N">
-  <value column="MsgText" original="Password contains the user id '%1$s'.">Password contains the user id '%1$s'.</value>
+ <row id="200381" trl="Y">
+  <value column="MsgText" original="Password contains the user id '%1$s'.">Kata sandi mengandung ID pengguna '%1$s'.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200382" trl="N">
-  <value column="MsgText" original="Password contains the user id '%1$s' in reverse.">Password contains the user id '%1$s' in reverse.</value>
+ <row id="200382" trl="Y">
+  <value column="MsgText" original="Password contains the user id '%1$s' in reverse.">Kata sandi mengandung ID pengguna '%1$s' secara terbalik.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200383" trl="N">
-  <value column="MsgText" original="Password cannot contain whitespace characters.">Password cannot contain whitespace characters.</value>
+ <row id="200383" trl="Y">
+  <value column="MsgText" original="Password cannot contain whitespace characters.">Kata sandi tidak boleh mengandung karakter spasi.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200384" trl="N">
-  <value column="MsgText" original="Password must contain at least %1$s uppercase characters.">Password must contain at least %1$s uppercase characters.</value>
+ <row id="200384" trl="Y">
+  <value column="MsgText" original="Password must contain at least %1$s uppercase characters.">Kata sandi harus mengandung setidaknya %1$s karakter huruf besar.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200385" trl="N">
-  <value column="MsgText" original="Password must contain at least %1$s lowercase characters.">Password must contain at least %1$s lowercase characters.</value>
+ <row id="200385" trl="Y">
+  <value column="MsgText" original="Password must contain at least %1$s lowercase characters.">Kata sandi harus mengandung setidaknya %1$s karakter huruf kecil.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200386" trl="N">
-  <value column="MsgText" original="Password must contain at least %1$s alphabetical characters.">Password must contain at least %1$s alphabetical characters.</value>
+ <row id="200386" trl="Y">
+  <value column="MsgText" original="Password must contain at least %1$s alphabetical characters.">Kata sandi harus mengandung setidaknya %1$s karakter alfabet.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200387" trl="N">
-  <value column="MsgText" original="Password must contain at least %1$s digit characters.">Password must contain at least %1$s digit characters.</value>
+ <row id="200387" trl="Y">
+  <value column="MsgText" original="Password must contain at least %1$s digit characters.">Kata sandi harus mengandung setidaknya %1$s karakter angka.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200388" trl="N">
-  <value column="MsgText" original="Password must contain at least %1$s special characters.">Password must contain at least %1$s special characters.</value>
+ <row id="200388" trl="Y">
+  <value column="MsgText" original="Password must contain at least %1$s special characters.">Kata sandi harus mengandung setidaknya %1$s karakter khusus.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200389" trl="N">
-  <value column="MsgText" original="Password matches %1$s of %3$s character rules, but %2$s are required.">Password matches %1$s of %3$s character rules, but %2$s are required.</value>
+ <row id="200389" trl="Y">
+  <value column="MsgText" original="Password matches %1$s of %3$s character rules, but %2$s are required.">Kata sandi memenuhi %1$s dari %3$s aturan karakter, tetapi dibutuhkan %2$s.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200390" trl="N">
-  <value column="MsgText" original="Password cannot be the same as your %1$s password.">Password cannot be the same as your %1$s password.</value>
+ <row id="200390" trl="Y">
+  <value column="MsgText" original="Password cannot be the same as your %1$s password.">Kata sandi tidak boleh sama dengan kata sandi %1$s Anda.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200391" trl="N">
-  <value column="MsgText" original="Password must be no more than %2$s characters in length.">Password must be no more than %2$s characters in length.</value>
+ <row id="200391" trl="Y">
+  <value column="MsgText" original="Password must be no more than %2$s characters in length.">Kata sandi tidak boleh lebih dari %2$s karakter.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200392" trl="N">
-  <value column="MsgText" original="Password must be at least %1$s characters in length.">Password must be at least %1$s characters in length.</value>
+ <row id="200392" trl="Y">
+  <value column="MsgText" original="Password must be at least %1$s characters in length.">Kata sandi harus minimal %1$s karakter.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200393" trl="Y">
@@ -6701,8 +6701,8 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="Target table must not have columns">Tabel target tidak boleh memiliki kolom</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200402" trl="N">
-  <value column="MsgText" original="You can only set one default BOM ( BOM Type is Current Active and BOM Use is Master ) for a product.">You can only set one default BOM ( BOM Type is Current Active and BOM Use is Master ) for a product.</value>
+ <row id="200402" trl="Y">
+  <value column="MsgText" original="You can only set one default BOM ( BOM Type is Current Active and BOM Use is Master ) for a product.">Anda hanya dapat mengatur satu BOM default ( Tipe BOM adalah Aktif Saat Ini dan Penggunaan BOM adalah Master ) untuk satu produk.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200404" trl="Y">
@@ -6729,39 +6729,39 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="@#System_Name@ Trace Information">@#System_Name@ Lacak Informasi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200415" trl="N">
-  <value column="MsgText" original="You can't reverse a payment that have been reconciled">You can't reverse a payment that have been reconciled</value>
+ <row id="200415" trl="Y">
+  <value column="MsgText" original="You can't reverse a payment that have been reconciled">Anda tidak dapat membalikkan pembayaran yang telah direkonsiliasi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200417" trl="N">
-  <value column="MsgText" original="Default Expanded">Default Expanded</value>
+ <row id="200417" trl="Y">
+  <value column="MsgText" original="Default Expanded">Diperluas Default</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200418" trl="N">
-  <value column="MsgText" original="Default Collapsed">Default Collapsed</value>
+ <row id="200418" trl="Y">
+  <value column="MsgText" original="Default Collapsed">Diciutkan Default</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200419" trl="N">
-  <value column="MsgText" original="Add Root">Add Root</value>
+ <row id="200419" trl="Y">
+  <value column="MsgText" original="Add Root">Tambah Root</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200420" trl="N">
-  <value column="MsgText" original="Add a folder to Favorite Tree">Add a folder to Favorite Tree</value>
+ <row id="200420" trl="Y">
+  <value column="MsgText" original="Add a folder to Favorite Tree">Tambahkan folder ke Pohon Favorit</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200421" trl="N">
-  <value column="MsgText" original="Could not create Node.">Could not create Node.</value>
+ <row id="200421" trl="Y">
+  <value column="MsgText" original="Could not create Node.">Tidak dapat membuat Node.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200423" trl="N">
-  <value column="MsgText" original="Could not create Favorite Tree.">Could not create Favorite Tree.</value>
+ <row id="200423" trl="Y">
+  <value column="MsgText" original="Could not create Favorite Tree.">Tidak dapat membuat Pohon Favorit.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200424" trl="N">
-  <value column="MsgText" original="Please drag an item from a menu.">Please drag an item from a menu.</value>
+ <row id="200424" trl="Y">
+  <value column="MsgText" original="Please drag an item from a menu.">Silakan seret item dari menu.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200425" trl="N">
+ <row id="200425" trl="Y">
   <value column="MsgText" original="Edit Folder">Edit Folder</value>
   <value column="MsgTip" original=""/>
  </row>
@@ -6793,8 +6793,8 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="To">Sampai</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200440" trl="N">
-  <value column="MsgText" original="Quick Form">Quick Form</value>
+ <row id="200440" trl="Y">
+  <value column="MsgText" original="Quick Form">Form Cepat</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200442" trl="Y">
@@ -6833,8 +6833,8 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="Request a Read Receipt">Minta Tanda Terima Baca</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200451" trl="N">
-  <value column="MsgText" original="xlsx - Excel file">xlsx - Excel file</value>
+ <row id="200451" trl="Y">
+  <value column="MsgText" original="xlsx - Excel file">xlsx - File Excel</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200452" trl="Y">
@@ -6857,8 +6857,8 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="Credit Memo already exists">Memo Kredit sudah ada</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200478" trl="N">
-  <value column="MsgText" original="Costing level can't be changed if there are product cost details created with current costing level">Costing level can't be changed if there are product cost details created with current costing level</value>
+ <row id="200478" trl="Y">
+  <value column="MsgText" original="Costing level can't be changed if there are product cost details created with current costing level">Level biaya tidak dapat diubah jika ada detail biaya produk yang dibuat dengan level biaya saat ini</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200480" trl="Y">
@@ -7161,1058 +7161,1058 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="Share search filter with all users">Bagikan filter pencarian dengan semua pengguna</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200592" trl="N">
-  <value column="MsgText" original="Allocation date updated">Allocation date updated</value>
+ <row id="200592" trl="Y">
+  <value column="MsgText" original="Allocation date updated">Tanggal alokasi diperbarui</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200593" trl="N">
-  <value column="MsgText" original="More">More</value>
+ <row id="200593" trl="Y">
+  <value column="MsgText" original="More">Lebih banyak</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200594" trl="N">
-  <value column="MsgText" original="UnSort">UnSort</value>
+ <row id="200594" trl="Y">
+  <value column="MsgText" original="UnSort">Batalkan Pengurutan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200595" trl="N">
-  <value column="MsgText" original="Save and Close ( Alt+K )">Save and Close ( Alt+K )</value>
+ <row id="200595" trl="Y">
+  <value column="MsgText" original="Save and Close ( Alt+K )">Simpan dan Tutup ( Alt+K )</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200596" trl="N">
-  <value column="MsgText" original="Save changes ( Alt+S )">Save changes ( Alt+S )</value>
+ <row id="200596" trl="Y">
+  <value column="MsgText" original="Save changes ( Alt+S )">Simpan perubahan ( Alt+S )</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200597" trl="N">
-  <value column="MsgText" original="Close quick form ( Alt+X )">Close quick form ( Alt+X )</value>
+ <row id="200597" trl="Y">
+  <value column="MsgText" original="Close quick form ( Alt+X )">Tutup formulir cepat ( Alt+X )</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200598" trl="N">
-  <value column="MsgText" original="Ignore changes ( Alt+Z )">Ignore changes ( Alt+Z )</value>
+ <row id="200598" trl="Y">
+  <value column="MsgText" original="Ignore changes ( Alt+Z )">Abaikan perubahan ( Alt+Z )</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200599" trl="N">
-  <value column="MsgText" original="Delete selected or current record ( Alt+D )">Delete selected or current record ( Alt+D )</value>
+ <row id="200599" trl="Y">
+  <value column="MsgText" original="Delete selected or current record ( Alt+D )">Hapus catatan yang dipilih atau saat ini ( Alt+D )</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200600" trl="N">
-  <value column="MsgText" original="Restore sorting to natural order ( Alt+R )">Restore sorting to natural order ( Alt+R )</value>
+ <row id="200600" trl="Y">
+  <value column="MsgText" original="Restore sorting to natural order ( Alt+R )">Kembalikan pengurutan ke urutan alami ( Alt+R )</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200601" trl="N">
-  <value column="MsgText" original="ReQuery all record ( Alt+E )">ReQuery all record ( Alt+E )</value>
+ <row id="200601" trl="Y">
+  <value column="MsgText" original="ReQuery all record ( Alt+E )">Kueri ulang semua catatan ( Alt+E )</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200602" trl="N">
-  <value column="MsgText" original="Customize grid ( Alt+L )">Customize grid ( Alt+L )</value>
+ <row id="200602" trl="Y">
+  <value column="MsgText" original="Customize grid ( Alt+L )">Sesuaikan grid ( Alt+L )</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200613" trl="N">
-  <value column="MsgText" original="No Business Partner/Group selected">No Business Partner/Group selected</value>
+ <row id="200613" trl="Y">
+  <value column="MsgText" original="No Business Partner/Group selected">Tidak ada Rekan Bisnis/Grup yang dipilih</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200615" trl="N">
-  <value column="MsgText" original="The table is not valid to create a new window, please verify that it has these columns: AD_Client_ID, AD_Org_ID, Created, CreatedBy, IsActive, Updated, UpdatedBy.">The table is not valid to create a new window, please verify that it has these columns: AD_Client_ID, AD_Org_ID, Created, CreatedBy, IsActive, Updated, UpdatedBy.</value>
+ <row id="200615" trl="Y">
+  <value column="MsgText" original="The table is not valid to create a new window, please verify that it has these columns: AD_Client_ID, AD_Org_ID, Created, CreatedBy, IsActive, Updated, UpdatedBy.">Tabel tidak valid untuk membuat jendela baru, harap verifikasi bahwa tabel memiliki kolom berikut: AD_Client_ID, AD_Org_ID, Created, CreatedBy, IsActive, Updated, UpdatedBy.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200616" trl="N">
-  <value column="MsgText" original="Transaction windows require to have a Processed column. Please create the column and try again.">Transaction windows require to have a Processed column. Please create the column and try again.</value>
+ <row id="200616" trl="Y">
+  <value column="MsgText" original="Transaction windows require to have a Processed column. Please create the column and try again.">Jendela transaksi memerlukan kolom Diproses. Silakan buat kolom dan coba lagi.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200617" trl="N">
-  <value column="MsgText" original="There is already a window with the name {0}">There is already a window with the name {0}</value>
+ <row id="200617" trl="Y">
+  <value column="MsgText" original="There is already a window with the name {0}">Sudah ada jendela dengan nama {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200618" trl="N">
-  <value column="MsgText" original="No column is defined as Parent Link, therefore, the table cannot be a detail tab.">No column is defined as Parent Link, therefore, the table cannot be a detail tab.</value>
+ <row id="200618" trl="Y">
+  <value column="MsgText" original="No column is defined as Parent Link, therefore, the table cannot be a detail tab.">Tidak ada kolom yang didefinisikan sebagai Tautan Induk, oleh karena itu, tabel tidak dapat menjadi tab detail.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200619" trl="N">
-  <value column="MsgText" original="The maximum tab level for this window can be {0}.">The maximum tab level for this window can be {0}.</value>
+ <row id="200619" trl="Y">
+  <value column="MsgText" original="The maximum tab level for this window can be {0}.">Level tab maksimum untuk jendela ini bisa {0}.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200620" trl="N">
-  <value column="MsgText" original="&lt;html&gt;The file is too large for automatic viewing, click the Preview button to load it&lt;/html&gt;" xml:space="preserve"><![CDATA[<html>The file is too large for automatic viewing, click the Preview button to load it</html>]]></value>
+ <row id="200620" trl="Y">
+  <value column="MsgText" original="&lt;html&gt;The file is too large for automatic viewing, click the Preview button to load it&lt;/html&gt;" xml:space="preserve"><![CDATA[<html>File terlalu besar untuk dilihat secara otomatis, klik tombol Pratinjau untuk memuatnya</html>]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200621" trl="N">
-  <value column="MsgText" original="AND NOT">AND NOT</value>
+ <row id="200621" trl="Y">
+  <value column="MsgText" original="AND NOT">DAN TIDAK</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200622" trl="N">
-  <value column="MsgText" original="OR NOT">OR NOT</value>
+ <row id="200622" trl="Y">
+  <value column="MsgText" original="OR NOT">ATAU TIDAK</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200624" trl="N">
+ <row id="200624" trl="Y">
   <value column="MsgText" original=" ="> =</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200625" trl="N">
-  <value column="MsgText" original=" Not Equal"> Not Equal</value>
+ <row id="200625" trl="Y">
+  <value column="MsgText" original=" Not Equal"> Tidak Sama</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200626" trl="N">
-  <value column="MsgText" original=" Like"> Like</value>
+ <row id="200626" trl="Y">
+  <value column="MsgText" original=" Like"> Seperti</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200627" trl="N">
-  <value column="MsgText" original=" Not Like"> Not Like</value>
+ <row id="200627" trl="Y">
+  <value column="MsgText" original=" Not Like"> Tidak Seperti</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200628" trl="N">
+ <row id="200628" trl="Y">
   <value column="MsgText" original=" &gt;" xml:space="preserve"><![CDATA[ >]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200629" trl="N">
+ <row id="200629" trl="Y">
   <value column="MsgText" original=" &gt;=" xml:space="preserve"><![CDATA[ >=]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200630" trl="N">
+ <row id="200630" trl="Y">
   <value column="MsgText" original=" &lt;" xml:space="preserve"><![CDATA[ <]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200631" trl="N">
+ <row id="200631" trl="Y">
   <value column="MsgText" original=" &lt;=" xml:space="preserve"><![CDATA[ <=]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200632" trl="N">
-  <value column="MsgText" original=" Between"> Between</value>
+ <row id="200632" trl="Y">
+  <value column="MsgText" original=" Between"> Antara</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200633" trl="N">
-  <value column="MsgText" original=" Not Null"> Not Null</value>
+ <row id="200633" trl="Y">
+  <value column="MsgText" original=" Not Null"> Tidak Kosong</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200634" trl="N">
-  <value column="MsgText" original=" Is Null"> Is Null</value>
+ <row id="200634" trl="Y">
+  <value column="MsgText" original=" Is Null"> Kosong</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200639" trl="N">
-  <value column="MsgText" original="COULD NOT FIND FREIGHT DEFINED FOR: Shipper {0} - Freight Category {1} - Date {2,date,short} - Weight {3,number,#,##0.00} - Dimension {4,number,#,##0.00} - Origin Country {5} - Destination Country {6} - Origin Region {7} - Destination Region {8}">COULD NOT FIND FREIGHT DEFINED FOR: Shipper {0} - Freight Category {1} - Date {2,date,short} - Weight {3,number,#,##0.00} - Dimension {4,number,#,##0.00} - Origin Country {5} - Destination Country {6} - Origin Region {7} - Destination Region {8}</value>
+ <row id="200639" trl="Y">
+  <value column="MsgText" original="COULD NOT FIND FREIGHT DEFINED FOR: Shipper {0} - Freight Category {1} - Date {2,date,short} - Weight {3,number,#,##0.00} - Dimension {4,number,#,##0.00} - Origin Country {5} - Destination Country {6} - Origin Region {7} - Destination Region {8}">TIDAK DAPAT MENEMUKAN PENGIRIMAN YANG DITENTUKAN UNTUK: Pengirim {0} - Kategori Pengiriman {1} - Tanggal {2,date,short} - Berat {3,number,#,##0.00} - Dimensi {4,number,#,##0.00} - Negara Asal {5} - Negara Tujuan {6} - Wilayah Asal {7} - Wilayah Tujuan {8}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200640" trl="N">
-  <value column="MsgText" original="Found freight record [{9}] with price {10,number,#,##0.00} for: Shipper {0} - Freight Category {1} - Date {2,date,short} - Weight {3,number,#,##0.00} - Dimension {4,number,#,##0.00} - Origin Country {5} - Destination Country {6} - Origin Region {7} - Destination Region {8}">Found freight record [{9}] with price {10,number,#,##0.00} for: Shipper {0} - Freight Category {1} - Date {2,date,short} - Weight {3,number,#,##0.00} - Dimension {4,number,#,##0.00} - Origin Country {5} - Destination Country {6} - Origin Region {7} - Destination Region {8}</value>
+ <row id="200640" trl="Y">
+  <value column="MsgText" original="Found freight record [{9}] with price {10,number,#,##0.00} for: Shipper {0} - Freight Category {1} - Date {2,date,short} - Weight {3,number,#,##0.00} - Dimension {4,number,#,##0.00} - Origin Country {5} - Destination Country {6} - Origin Region {7} - Destination Region {8}">Menemukan catatan pengiriman [{9}] dengan harga {10,number,#,##0.00} untuk: Pengirim {0} - Kategori Pengiriman {1} - Tanggal {2,date,short} - Berat {3,number,#,##0.00} - Dimensi {4,number,#,##0.00} - Negara Asal {5} - Negara Tujuan {6} - Wilayah Asal {7} - Wilayah Tujuan {8}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200641" trl="N">
-  <value column="MsgText" original="Window customization Language != Session Language">Window customization Language != Session Language</value>
+ <row id="200641" trl="Y">
+  <value column="MsgText" original="Window customization Language != Session Language">Bahasa kustomisasi jendela != Bahasa Sesi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200643" trl="N">
-  <value column="MsgText" original="Select Query">Select Query</value>
+ <row id="200643" trl="Y">
+  <value column="MsgText" original="Select Query">Pilih Kueri</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200644" trl="N">
-  <value column="MsgText" original="Grid Toggle">Grid Toggle</value>
+ <row id="200644" trl="Y">
+  <value column="MsgText" original="Grid Toggle">Beralih Grid</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200645" trl="N">
-  <value column="MsgText" original="Parent Record">Parent Record</value>
+ <row id="200645" trl="Y">
+  <value column="MsgText" original="Parent Record">Catatan Induk</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200646" trl="N">
-  <value column="MsgText" original="Detail record">Detail record</value>
+ <row id="200646" trl="Y">
+  <value column="MsgText" original="Detail record">Catatan Detail</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200647" trl="N">
-  <value column="MsgText" original="Active Workflows">Active Workflows</value>
+ <row id="200647" trl="Y">
+  <value column="MsgText" original="Active Workflows">Alur Kerja Aktif</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200648" trl="N">
-  <value column="MsgText" original="Check Requests">Check Requests</value>
+ <row id="200648" trl="Y">
+  <value column="MsgText" original="Check Requests">Periksa Permintaan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200649" trl="N">
-  <value column="MsgText" original="Product Info">Product Info</value>
+ <row id="200649" trl="Y">
+  <value column="MsgText" original="Product Info">Info Produk</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200650" trl="N">
-  <value column="MsgText" original="Add Folder">Add Folder</value>
+ <row id="200650" trl="Y">
+  <value column="MsgText" original="Add Folder">Tambah Folder</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200651" trl="N">
-  <value column="MsgText" original="Preview">Preview</value>
+ <row id="200651" trl="Y">
+  <value column="MsgText" original="Preview">Pratinjau</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200652" trl="N">
-  <value column="MsgText" original="Current folder selected">Current folder selected</value>
+ <row id="200652" trl="Y">
+  <value column="MsgText" original="Current folder selected">Folder saat ini dipilih</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200653" trl="N">
-  <value column="MsgText" original="Automatic Launch">Automatic Launch</value>
-  <value column="MsgTip" original="Automatic launch menu item immediate after login.">Automatic launch menu item immediate after login.</value>
+ <row id="200653" trl="Y">
+  <value column="MsgText" original="Automatic Launch">Peluncuran Otomatis</value>
+  <value column="MsgTip" original="Automatic launch menu item immediate after login.">Item menu peluncuran otomatis segera setelah login.</value>
  </row>
- <row id="200654" trl="N">
-  <value column="MsgText" original="Invalid File Format: only ZIP files are supported">Invalid File Format: only ZIP files are supported</value>
+ <row id="200654" trl="Y">
+  <value column="MsgText" original="Invalid File Format: only ZIP files are supported">Format File Tidak Valid: hanya file ZIP yang didukung</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200655" trl="N">
-  <value column="MsgText" original="The search took too long to return results. Please refine your search criteria.">The search took too long to return results. Please refine your search criteria.</value>
+ <row id="200655" trl="Y">
+  <value column="MsgText" original="The search took too long to return results. Please refine your search criteria.">Pencarian terlalu lama untuk mengembalikan hasil. Harap perhalus kriteria pencarian Anda.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200656" trl="N">
-  <value column="MsgText" original="New folder added as in root level.">New folder added as in root level.</value>
+ <row id="200656" trl="Y">
+  <value column="MsgText" original="New folder added as in root level.">Folder baru ditambahkan di tingkat akar.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200657" trl="N">
-  <value column="MsgText" original="This flag is marked then folder default open with expanded view.">This flag is marked then folder default open with expanded view.</value>
+ <row id="200657" trl="Y">
+  <value column="MsgText" original="This flag is marked then folder default open with expanded view.">Tanda ini ditandai kemudian folder default terbuka dengan tampilan diperluas.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200658" trl="N">
-  <value column="MsgText" original="Expand/Collapse Tree">Expand/Collapse Tree</value>
+ <row id="200658" trl="Y">
+  <value column="MsgText" original="Expand/Collapse Tree">Perluas/Ciutkan Pohon</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200659" trl="N">
-  <value column="MsgText" original="The window tab took too long to return results.">The window tab took too long to return results.</value>
+ <row id="200659" trl="Y">
+  <value column="MsgText" original="The window tab took too long to return results.">Tab jendela terlalu lama untuk mengembalikan hasil.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200660" trl="N">
-  <value column="MsgText" original="Grant access to this application from your account">Grant access to this application from your account</value>
+ <row id="200660" trl="Y">
+  <value column="MsgText" original="Grant access to this application from your account">Berikan akses ke aplikasi ini dari akun Anda</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200661" trl="N">
-  <value column="MsgText" original="Authorization request failed or it was aborted by user">Authorization request failed or it was aborted by user</value>
+ <row id="200661" trl="Y">
+  <value column="MsgText" original="Authorization request failed or it was aborted by user">Permintaan otorisasi gagal atau dibatalkan oleh pengguna</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200662" trl="N">
-  <value column="MsgText" original="Application now has access to your account {0}">Application now has access to your account {0}</value>
+ <row id="200662" trl="Y">
+  <value column="MsgText" original="Application now has access to your account {0}">Aplikasi sekarang memiliki akses ke akun Anda {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200663" trl="N">
-  <value column="MsgText" original="Access to your account {0} have been previously granted to this application">Access to your account {0} have been previously granted to this application</value>
+ <row id="200663" trl="Y">
+  <value column="MsgText" original="Access to your account {0} have been previously granted to this application">Akses ke akun Anda {0} telah diberikan sebelumnya ke aplikasi ini</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200664" trl="N">
-  <value column="MsgText" original="Please copy this URL and open it into your browser to authorize your account">Please copy this URL and open it into your browser to authorize your account</value>
+ <row id="200664" trl="Y">
+  <value column="MsgText" original="Please copy this URL and open it into your browser to authorize your account">Harap salin URL ini dan buka di browser Anda untuk mengotorisasi akun Anda</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200665" trl="N">
-  <value column="MsgText" original="Please proceed to authorize your account in the popup window.">Please proceed to authorize your account in the popup window.</value>
+ <row id="200665" trl="Y">
+  <value column="MsgText" original="Please proceed to authorize your account in the popup window.">Silakan lanjutkan untuk mengotorisasi akun Anda di jendela popup.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200666" trl="N">
-  <value column="MsgText" original="The &quot;{0}&quot; URL parameter is missing">The "{0}" URL parameter is missing</value>
+ <row id="200666" trl="Y">
+  <value column="MsgText" original="The &quot;{0}&quot; URL parameter is missing">Parameter URL "{0}" tidak ada</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200667" trl="N">
-  <value column="MsgText" original="The &quot;state&quot; URL parameter is not valid">The "state" URL parameter is not valid</value>
+ <row id="200667" trl="Y">
+  <value column="MsgText" original="The &quot;state&quot; URL parameter is not valid">Parameter URL "state" tidak valid</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200668" trl="N">
-  <value column="MsgText" original="The &quot;state&quot; URL parameter is not valid, parameter not found">The "state" URL parameter is not valid, parameter not found</value>
+ <row id="200668" trl="Y">
+  <value column="MsgText" original="The &quot;state&quot; URL parameter is not valid, parameter not found">Parameter URL "state" tidak valid, parameter tidak ditemukan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200669" trl="N">
-  <value column="MsgText" original="Could not get the email from the response">Could not get the email from the response</value>
+ <row id="200669" trl="Y">
+  <value column="MsgText" original="Could not get the email from the response">Tidak dapat mendapatkan email dari respons</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200670" trl="N">
-  <value column="MsgText" original="No refresh token.  Request Failed. Please try again">No refresh token.  Request Failed. Please try again</value>
+ <row id="200670" trl="Y">
+  <value column="MsgText" original="No refresh token.  Request Failed. Please try again">Tidak ada token penyegaran. Permintaan Gagal. Silakan coba lagi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200671" trl="N">
-  <value column="MsgText" original="Request failed or it was aborted by user.">Request failed or it was aborted by user.</value>
+ <row id="200671" trl="Y">
+  <value column="MsgText" original="Request failed or it was aborted by user.">Permintaan gagal atau dibatalkan oleh pengguna.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200672" trl="N">
-  <value column="MsgText" original="This window can be closed now.">This window can be closed now.</value>
+ <row id="200672" trl="Y">
+  <value column="MsgText" original="This window can be closed now.">Jendela ini dapat ditutup sekarang.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200673" trl="N">
-  <value column="MsgText" original="Click the OK button to open the authorization popup window.">Click the OK button to open the authorization popup window.</value>
+ <row id="200673" trl="Y">
+  <value column="MsgText" original="Click the OK button to open the authorization popup window.">Klik tombol OK untuk membuka jendela popup otorisasi.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200674" trl="N">
-  <value column="MsgText" original="The authorization link was already used">The authorization link was already used</value>
+ <row id="200674" trl="Y">
+  <value column="MsgText" original="The authorization link was already used">Tautan otorisasi sudah digunakan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200675" trl="N">
-  <value column="MsgText" original="Open run dialog">Open run dialog</value>
+ <row id="200675" trl="Y">
+  <value column="MsgText" original="Open run dialog">Buka dialog jalankan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200676" trl="N">
-  <value column="MsgText" original="View report in new tab">View report in new tab</value>
+ <row id="200676" trl="Y">
+  <value column="MsgText" original="View report in new tab">Lihat laporan di tab baru</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200677" trl="N">
-  <value column="MsgText" original="Cloud Upload">Cloud Upload</value>
+ <row id="200677" trl="Y">
+  <value column="MsgText" original="Cloud Upload">Unggah ke Cloud</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200678" trl="N">
-  <value column="MsgText" original="Upload Failed">Upload Failed</value>
+ <row id="200678" trl="Y">
+  <value column="MsgText" original="Upload Failed">Unggah Gagal</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200679" trl="N">
-  <value column="MsgText" original="Upload Successful">Upload Successful</value>
+ <row id="200679" trl="Y">
+  <value column="MsgText" original="Upload Successful">Unggah Berhasil</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200680" trl="N">
-  <value column="MsgText" original="Failed to send scheduler attachment">Failed to send scheduler attachment</value>
+ <row id="200680" trl="Y">
+  <value column="MsgText" original="Failed to send scheduler attachment">Gagal mengirim lampiran penjadwal</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200681" trl="N">
-  <value column="MsgText" original="Failed to send scheduler notification">Failed to send scheduler notification</value>
+ <row id="200681" trl="Y">
+  <value column="MsgText" original="Failed to send scheduler notification">Gagal mengirim notifikasi penjadwal</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200682" trl="N">
-  <value column="MsgText" original="Upload Action:">Upload Action:</value>
+ <row id="200682" trl="Y">
+  <value column="MsgText" original="Upload Action:">Tindakan Unggah:</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200686" trl="N">
-  <value column="MsgText" original="The provided code doesn't match with the expected secret">The provided code doesn't match with the expected secret</value>
+ <row id="200686" trl="Y">
+  <value column="MsgText" original="The provided code doesn't match with the expected secret">Kode yang diberikan tidak cocok dengan rahasia yang diharapkan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200687" trl="N">
-  <value column="MsgText" original="Code required to complete MFA registration">Code required to complete MFA registration</value>
+ <row id="200687" trl="Y">
+  <value column="MsgText" original="Code required to complete MFA registration">Kode diperlukan untuk menyelesaikan pendaftaran MFA</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200688" trl="N">
-  <value column="MsgText" original="A validation code was sent to the provided address, please check the EMail, remember to check spam folder in case you don't receive it soon.">A validation code was sent to the provided address, please check the EMail, remember to check spam folder in case you don't receive it soon.</value>
+ <row id="200688" trl="Y">
+  <value column="MsgText" original="A validation code was sent to the provided address, please check the EMail, remember to check spam folder in case you don't receive it soon.">Kode validasi telah dikirim ke alamat yang diberikan, silakan periksa EMail, ingat untuk memeriksa folder spam jika Anda tidak segera menerimanya.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200689" trl="N">
-  <value column="MsgText" original="For EMail authentication method the EMail is required">For EMail authentication method the EMail is required</value>
+ <row id="200689" trl="Y">
+  <value column="MsgText" original="For EMail authentication method the EMail is required">Untuk metode otentikasi EMail, EMail diperlukan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200690" trl="N">
-  <value column="MsgText" original="A validation code was sent to the email {0}">A validation code was sent to the email {0}</value>
+ <row id="200690" trl="Y">
+  <value column="MsgText" original="A validation code was sent to the email {0}">Kode validasi telah dikirim ke email {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200691" trl="N">
-  <value column="MsgText" original="The EMail address provided is not valid">The EMail address provided is not valid</value>
+ <row id="200691" trl="Y">
+  <value column="MsgText" original="The EMail address provided is not valid">Alamat EMail yang diberikan tidak valid</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200692" trl="N">
-  <value column="MsgText" original="MFA Mechanism">MFA Mechanism</value>
+ <row id="200692" trl="Y">
+  <value column="MsgText" original="MFA Mechanism">Mekanisme MFA</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200693" trl="N">
-  <value column="MsgText" original="Select a mechanism and click OK to start">Select a mechanism and click OK to start</value>
+ <row id="200693" trl="Y">
+  <value column="MsgText" original="Select a mechanism and click OK to start">Pilih mekanisme dan klik OK untuk memulai</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200694" trl="N">
-  <value column="MsgText" original="Set as Preferred">Set as Preferred</value>
+ <row id="200694" trl="Y">
+  <value column="MsgText" original="Set as Preferred">Atur sebagai Pilihan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200695" trl="N">
-  <value column="MsgText" original="Validation Code">Validation Code</value>
+ <row id="200695" trl="Y">
+  <value column="MsgText" original="Validation Code">Kode Validasi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200696" trl="N">
-  <value column="MsgText" original="Multi-Factor Authentication">Multi-Factor Authentication</value>
+ <row id="200696" trl="Y">
+  <value column="MsgText" original="Multi-Factor Authentication">Otentikasi Multi-Faktor</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200697" trl="N">
-  <value column="MsgText" original="The user has a valid mechanism already registered for this method">The user has a valid mechanism already registered for this method</value>
+ <row id="200697" trl="Y">
+  <value column="MsgText" original="The user has a valid mechanism already registered for this method">Pengguna sudah memiliki mekanisme valid yang terdaftar untuk metode ini</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200698" trl="N">
-  <value column="MsgText" original="There was an error contacting the NTP server">There was an error contacting the NTP server</value>
+ <row id="200698" trl="Y">
+  <value column="MsgText" original="There was an error contacting the NTP server">Terjadi kesalahan saat menghubungi server NTP</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200699" trl="N">
-  <value column="MsgText" original="There was a problem trying to send the EMail, please contact support.">There was a problem trying to send the EMail, please contact support.</value>
+ <row id="200699" trl="Y">
+  <value column="MsgText" original="There was a problem trying to send the EMail, please contact support.">Terjadi masalah saat mencoba mengirim EMail, silakan hubungi dukungan.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200700" trl="N">
-  <value column="MsgText" original="The MFA registration was already completed">The MFA registration was already completed</value>
+ <row id="200700" trl="Y">
+  <value column="MsgText" original="The MFA registration was already completed">Pendaftaran MFA sudah selesai</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200701" trl="N">
-  <value column="MsgText" original="The MFA registration was completed successfully">The MFA registration was completed successfully</value>
+ <row id="200701" trl="Y">
+  <value column="MsgText" original="The MFA registration was completed successfully">Pendaftaran MFA berhasil diselesaikan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200702" trl="N">
-  <value column="MsgText" original="The registration expired, please register again">The registration expired, please register again</value>
+ <row id="200702" trl="Y">
+  <value column="MsgText" original="The registration expired, please register again">Pendaftaran kedaluwarsa, silakan daftar lagi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200703" trl="N">
-  <value column="MsgText" original="Enter the validation code generated by your TOTP application">Enter the validation code generated by your TOTP application</value>
+ <row id="200703" trl="Y">
+  <value column="MsgText" original="Enter the validation code generated by your TOTP application">Masukkan kode validasi yang dihasilkan oleh aplikasi TOTP Anda</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200704" trl="N">
-  <value column="MsgText" original="There was an error generating the QR Code">There was an error generating the QR Code</value>
+ <row id="200704" trl="Y">
+  <value column="MsgText" original="There was an error generating the QR Code">Terjadi kesalahan saat menghasilkan Kode QR</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200705" trl="N">
+ <row id="200705" trl="Y">
   <value column="MsgText" original="&lt;b&gt;Barcode:&lt;/b&gt;" xml:space="preserve"><![CDATA[<b>Barcode:</b>]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200706" trl="N">
-  <value column="MsgText" original="Wrong TOTP configuration, issuer required">Wrong TOTP configuration, issuer required</value>
+ <row id="200706" trl="Y">
+  <value column="MsgText" original="Wrong TOTP configuration, issuer required">Konfigurasi TOTP salah, penerbit diperlukan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200707" trl="N">
-  <value column="MsgText" original="&lt;ul&gt;&lt;li&gt;&lt;b&gt;Step 1:&lt;/b&gt; Visit the App Store to get an authenticator app like Google Authenticator or Authy, then follow the instructions in the application to set up an account with them&lt;/li&gt;&lt;li&gt;&lt;b&gt;Step 2:&lt;/b&gt; Use your authenticator app to scan the barcode below or enter manually the Secret instead&lt;/li&gt;&lt;/ul&gt;&#10;" xml:space="preserve"><![CDATA[<ul><li><b>Step 1:</b> Visit the App Store to get an authenticator app like Google Authenticator or Authy, then follow the instructions in the application to set up an account with them</li><li><b>Step 2:</b> Use your authenticator app to scan the barcode below or enter manually the Secret instead</li></ul>
+ <row id="200707" trl="Y">
+  <value column="MsgText" original="&lt;ul&gt;&lt;li&gt;&lt;b&gt;Step 1:&lt;/b&gt; Visit the App Store to get an authenticator app like Google Authenticator or Authy, then follow the instructions in the application to set up an account with them&lt;/li&gt;&lt;li&gt;&lt;b&gt;Step 2:&lt;/b&gt; Use your authenticator app to scan the barcode below or enter manually the Secret instead&lt;/li&gt;&lt;/ul&gt;&#10;" xml:space="preserve"><![CDATA[<ul><li><b>Langkah 1:</b> Kunjungi App Store untuk mendapatkan aplikasi autentikator seperti Google Authenticator atau Authy, kemudian ikuti petunjuk dalam aplikasi untuk membuat akun dengan mereka</li><li><b>Langkah 2:</b> Gunakan aplikasi autentikator Anda untuk memindai barcode di bawah atau masukkan Rahasia secara manual sebagai gantinya</li></ul>
 ]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200708" trl="N">
-  <value column="MsgText" original="&lt;b&gt;Secret:&lt;/b&gt;" xml:space="preserve"><![CDATA[<b>Secret:</b>]]></value>
+ <row id="200708" trl="Y">
+  <value column="MsgText" original="&lt;b&gt;Secret:&lt;/b&gt;" xml:space="preserve"><![CDATA[<b>Rahasia:</b>]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200709" trl="N">
-  <value column="MsgText" original="Register this device for {0,choice,1#1 day|1&lt;{0} days}" xml:space="preserve"><![CDATA[Register this device for {0,choice,1#1 day|1<{0} days}]]></value>
+ <row id="200709" trl="Y">
+  <value column="MsgText" original="Register this device for {0,choice,1#1 day|1&lt;{0} days}" xml:space="preserve"><![CDATA[Daftarkan perangkat ini untuk {0,choice,1#1 hari|1<{0} hari}]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200710" trl="N">
-  <value column="MsgText" original="The one-time validation code has been used, please try again with a different code">The one-time validation code has been used, please try again with a different code</value>
+ <row id="200710" trl="Y">
+  <value column="MsgText" original="The one-time validation code has been used, please try again with a different code">Kode validasi sekali pakai telah digunakan, silakan coba lagi dengan kode yang berbeda</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200711" trl="N">
-  <value column="MsgText" original="File not allowed for uploading, just image types jpg/png/gif/tiff/bmp/ico">File not allowed for uploading, just image types jpg/png/gif/tiff/bmp/ico</value>
+ <row id="200711" trl="Y">
+  <value column="MsgText" original="File not allowed for uploading, just image types jpg/png/gif/tiff/bmp/ico">File tidak diizinkan untuk diunggah, hanya tipe gambar jpg/png/gif/tiff/bmp/ico</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200713" trl="N">
-  <value column="MsgText" original="Print Format Editor">Print Format Editor</value>
-  <value column="MsgTip" original="Visual editor for print format">Visual editor for print format</value>
+ <row id="200713" trl="Y">
+  <value column="MsgText" original="Print Format Editor">Editor Format Cetak</value>
+  <value column="MsgTip" original="Visual editor for print format">Editor visual untuk format cetak</value>
  </row>
- <row id="200714" trl="N">
-  <value column="MsgText" original="Error synchronizing translation, string too long">Error synchronizing translation, string too long</value>
-  <value column="MsgTip" original="There is a mismatch in the size of a translated column.  Please contact the system administrator to correct the problem.">There is a mismatch in the size of a translated column.  Please contact the system administrator to correct the problem.</value>
+ <row id="200714" trl="Y">
+  <value column="MsgText" original="Error synchronizing translation, string too long">Kesalahan menyinkronkan terjemahan, string terlalu panjang</value>
+  <value column="MsgTip" original="There is a mismatch in the size of a translated column.  Please contact the system administrator to correct the problem.">Ada ketidakcocokan dalam ukuran kolom yang diterjemahkan. Silakan hubungi administrator sistem untuk memperbaiki masalah.</value>
  </row>
- <row id="200715" trl="N">
-  <value column="MsgText" original="Do not forget to create the corresponding translation table {0} with column {1}">Do not forget to create the corresponding translation table {0} with column {1}</value>
+ <row id="200715" trl="Y">
+  <value column="MsgText" original="Do not forget to create the corresponding translation table {0} with column {1}">Jangan lupa untuk membuat tabel terjemahan yang sesuai {0} dengan kolom {1}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200716" trl="N">
-  <value column="MsgText" original="Do not forget to create the translation column {0}.{1}">Do not forget to create the translation column {0}.{1}</value>
+ <row id="200716" trl="Y">
+  <value column="MsgText" original="Do not forget to create the translation column {0}.{1}">Jangan lupa untuk membuat kolom terjemahan {0}.{1}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200717" trl="N">
-  <value column="MsgText" original="Do not forget to increase the size on translation column {0}.{1} to {2}">Do not forget to increase the size on translation column {0}.{1} to {2}</value>
+ <row id="200717" trl="Y">
+  <value column="MsgText" original="Do not forget to increase the size on translation column {0}.{1} to {2}">Jangan lupa untuk meningkatkan ukuran pada kolom terjemahan {0}.{1} menjadi {2}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200720" trl="N">
-  <value column="MsgText" original="Shipment/Receipt Line Product is different from Order Line Product">Shipment/Receipt Line Product is different from Order Line Product</value>
+ <row id="200720" trl="Y">
+  <value column="MsgText" original="Shipment/Receipt Line Product is different from Order Line Product">Produk Baris Pengiriman/Penerimaan berbeda dari Produk Baris Pesanan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200721" trl="N">
-  <value column="MsgText" original="Table Index records have been added on the Translation table - do not forget to execute 'Index Validate' process after you run 'Sync Column'">Table Index records have been added on the Translation table - do not forget to execute 'Index Validate' process after you run 'Sync Column'</value>
+ <row id="200721" trl="Y">
+  <value column="MsgText" original="Table Index records have been added on the Translation table - do not forget to execute 'Index Validate' process after you run 'Sync Column'">Catatan Indeks Tabel telah ditambahkan pada tabel Terjemahan - jangan lupa untuk menjalankan proses 'Validasi Indeks' setelah Anda menjalankan 'Sinkronisasi Kolom'</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200722" trl="N">
-  <value column="MsgText" original="Shipment/Material Receipt is in progress.">Shipment/Material Receipt is in progress.</value>
+ <row id="200722" trl="Y">
+  <value column="MsgText" original="Shipment/Material Receipt is in progress.">Pengiriman/Penerimaan Material sedang berlangsung.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200723" trl="N">
-  <value column="MsgText" original="Order has been closed.">Order has been closed.</value>
+ <row id="200723" trl="Y">
+  <value column="MsgText" original="Order has been closed.">Pesanan telah ditutup.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200724" trl="N">
-  <value column="MsgText" original="This product is being used as a component in an active BOM. Please remove from BOM or inactivate BOM before marking this product as inactive.">This product is being used as a component in an active BOM. Please remove from BOM or inactivate BOM before marking this product as inactive.</value>
+ <row id="200724" trl="Y">
+  <value column="MsgText" original="This product is being used as a component in an active BOM. Please remove from BOM or inactivate BOM before marking this product as inactive.">Produk ini sedang digunakan sebagai komponen dalam BOM aktif. Harap hapus dari BOM atau nonaktifkan BOM sebelum menandai produk ini sebagai tidak aktif.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200725" trl="N">
-  <value column="MsgText" original="The date on line {0} is not in the same period as header''s date">The date on line {0} is not in the same period as header''s date</value>
+ <row id="200725" trl="Y">
+  <value column="MsgText" original="The date on line {0} is not in the same period as header''s date">Tanggal pada baris {0} tidak dalam periode yang sama dengan tanggal header</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200726" trl="N">
-  <value column="MsgText" original="Select a color">Select a color</value>
+ <row id="200726" trl="Y">
+  <value column="MsgText" original="Select a color">Pilih warna</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200727" trl="N">
-  <value column="MsgText" original="Erase">Erase</value>
+ <row id="200727" trl="Y">
+  <value column="MsgText" original="Erase">Hapus</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200728" trl="N">
-  <value column="MsgText" original="Color Picker">Color Picker</value>
+ <row id="200728" trl="Y">
+  <value column="MsgText" original="Color Picker">Pemilih Warna</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200731" trl="N">
-  <value column="MsgText" original="Only one completed RfQ Response found">Only one completed RfQ Response found</value>
+ <row id="200731" trl="Y">
+  <value column="MsgText" original="Only one completed RfQ Response found">Hanya satu Respons RfQ yang selesai ditemukan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200732" trl="N">
-  <value column="MsgText" original="Production has already been created: {0}">Production has already been created: {0}</value>
+ <row id="200732" trl="Y">
+  <value column="MsgText" original="Production has already been created: {0}">Produksi sudah dibuat: {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200733" trl="N">
-  <value column="MsgText" original="Copy SELECT">Copy SELECT</value>
+ <row id="200733" trl="Y">
+  <value column="MsgText" original="Copy SELECT">Salin SELECT</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200734" trl="N">
-  <value column="MsgText" original="Click to copy a SELECT SQL query pointing to this record">Click to copy a SELECT SQL query pointing to this record</value>
+ <row id="200734" trl="Y">
+  <value column="MsgText" original="Click to copy a SELECT SQL query pointing to this record">Klik untuk menyalin kueri SQL SELECT yang menunjuk ke catatan ini</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200735" trl="N">
-  <value column="MsgText" original="No posting if not matched to Shipment">No posting if not matched to Shipment</value>
+ <row id="200735" trl="Y">
+  <value column="MsgText" original="No posting if not matched to Shipment">Tidak ada posting jika tidak cocok dengan Pengiriman</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200736" trl="N">
-  <value column="MsgText" original="Purchase Order not convertible - {0}">Purchase Order not convertible - {0}</value>
+ <row id="200736" trl="Y">
+  <value column="MsgText" original="Purchase Order not convertible - {0}">Pesanan Pembelian tidak dapat dikonversi - {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200737" trl="N">
-  <value column="MsgText" original="Failed to create reversal entry for ACCTTYPE_PPVOffset">Failed to create reversal entry for ACCTTYPE_PPVOffset</value>
+ <row id="200737" trl="Y">
+  <value column="MsgText" original="Failed to create reversal entry for ACCTTYPE_PPVOffset">Gagal membuat entri pembalikan untuk ACCTTYPE_PPVOffset</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200738" trl="N">
-  <value column="MsgText" original="Document Attached">Document Attached</value>
+ <row id="200738" trl="Y">
+  <value column="MsgText" original="Document Attached">Dokumen Dilampirkan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200739" trl="N">
-  <value column="MsgText" original="Attach Error">Attach Error</value>
+ <row id="200739" trl="Y">
+  <value column="MsgText" original="Attach Error">Kesalahan Melampirkan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200740" trl="N">
-  <value column="MsgText" original="Assistant">Assistant</value>
+ <row id="200740" trl="Y">
+  <value column="MsgText" original="Assistant">Asisten</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200741" trl="N">
-  <value column="MsgText" original="Selected Items">Selected Items</value>
+ <row id="200741" trl="Y">
+  <value column="MsgText" original="Selected Items">Item Terpilih</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200744" trl="N">
-  <value column="MsgText" original="Drill Assistant">Drill Assistant</value>
+ <row id="200744" trl="Y">
+  <value column="MsgText" original="Drill Assistant">Asisten Drill</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200745" trl="N">
-  <value column="MsgText" original="Drill Column">Drill Column</value>
+ <row id="200745" trl="Y">
+  <value column="MsgText" original="Drill Column">Kolom Drill</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200749" trl="N">
-  <value column="MsgText" original="&lt;html&gt;There was an error previewing this file.&lt;/html&gt;" xml:space="preserve"><![CDATA[<html>There was an error previewing this file.</html>]]></value>
+ <row id="200749" trl="Y">
+  <value column="MsgText" original="&lt;html&gt;There was an error previewing this file.&lt;/html&gt;" xml:space="preserve"><![CDATA[<html>Terjadi kesalahan saat mempratinjau file ini.</html>]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200750" trl="N">
-  <value column="MsgText" original="Run it again with new parameters">Run it again with new parameters</value>
+ <row id="200750" trl="Y">
+  <value column="MsgText" original="Run it again with new parameters">Jalankan lagi dengan parameter baru</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200752" trl="N">
-  <value column="MsgText" original="Copy Report">Copy Report</value>
+ <row id="200752" trl="Y">
+  <value column="MsgText" original="Copy Report">Salin Laporan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200753" trl="N">
-  <value column="MsgText" original="You selected the Copy Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views&lt;br /&gt;&#10;Print Format Name:" xml:space="preserve"><![CDATA[You selected the Copy Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views<br />
-Print Format Name:]]></value>
+ <row id="200753" trl="Y">
+  <value column="MsgText" original="You selected the Copy Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views&lt;br /&gt;&#10;Print Format Name:" xml:space="preserve"><![CDATA[Anda memilih fungsi Salin Laporan. Ini membuat Format Cetak baru yang dapat Anda modifikasi, perbarui, ubah. Ini biasanya digunakan untuk meningkatkan pelaporan untuk mendapatkan tampilan informasi tambahan<br />
+Nama Format Cetak:]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200754" trl="N">
-  <value column="MsgText" original="You selected the New Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views&lt;br /&gt;&#10;Print Format Name:" xml:space="preserve"><![CDATA[You selected the New Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views<br />
-Print Format Name:]]></value>
+ <row id="200754" trl="Y">
+  <value column="MsgText" original="You selected the New Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views&lt;br /&gt;&#10;Print Format Name:" xml:space="preserve"><![CDATA[Anda memilih fungsi Laporan Baru. Ini membuat Format Cetak baru yang dapat Anda modifikasi, perbarui, ubah. Ini biasanya digunakan untuk meningkatkan pelaporan untuk mendapatkan tampilan informasi tambahan<br />
+Nama Format Cetak:]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200755" trl="N">
-  <value column="MsgText" original="Create Print Format Copy">Create Print Format Copy</value>
+ <row id="200755" trl="Y">
+  <value column="MsgText" original="Create Print Format Copy">Buat Salinan Format Cetak</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200756" trl="N">
-  <value column="MsgText" original="Create New Print Format">Create New Print Format</value>
+ <row id="200756" trl="Y">
+  <value column="MsgText" original="Create New Print Format">Buat Format Cetak Baru</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200757" trl="N">
-  <value column="MsgText" original="Business Partner is different from Invoice - Business Partner">Business Partner is different from Invoice - Business Partner</value>
+ <row id="200757" trl="Y">
+  <value column="MsgText" original="Business Partner is different from Invoice - Business Partner">Mitra Bisnis berbeda dari Faktur - Mitra Bisnis</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200758" trl="N">
-  <value column="MsgText" original="Business Partner is different from Order - Business Partner">Business Partner is different from Order - Business Partner</value>
+ <row id="200758" trl="Y">
+  <value column="MsgText" original="Business Partner is different from Order - Business Partner">Mitra Bisnis berbeda dari Pesanan - Mitra Bisnis</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200759" trl="N">
-  <value column="MsgText" original="Type to Search or Create">Type to Search or Create</value>
+ <row id="200759" trl="Y">
+  <value column="MsgText" original="Type to Search or Create">Ketik untuk Mencari atau Membuat</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200761" trl="N">
-  <value column="MsgText" original="Cannot find Drill Across for Column in Tables.">Cannot find Drill Across for Column in Tables.</value>
-  <value column="MsgTip" original="You can enable Drill Across in Application Dictionary as System User in the Table window.">You can enable Drill Across in Application Dictionary as System User in the Table window.</value>
+ <row id="200761" trl="Y">
+  <value column="MsgText" original="Cannot find Drill Across for Column in Tables.">Tidak dapat menemukan Drill Across untuk Kolom dalam Tabel.</value>
+  <value column="MsgTip" original="You can enable Drill Across in Application Dictionary as System User in the Table window.">Anda dapat mengaktifkan Drill Across di Kamus Aplikasi sebagai Pengguna Sistem di jendela Tabel.</value>
  </row>
- <row id="200762" trl="N">
-  <value column="MsgText" original="Cannot find any valid Drill Rules for the selected Column.">Cannot find any valid Drill Rules for the selected Column.</value>
-  <value column="MsgTip" original="You can define new definitions in Drill Rule window, then run the 'Validate' process.">You can define new definitions in Drill Rule window, then run the 'Validate' process.</value>
+ <row id="200762" trl="Y">
+  <value column="MsgText" original="Cannot find any valid Drill Rules for the selected Column.">Tidak dapat menemukan Aturan Drill yang valid untuk Kolom yang dipilih.</value>
+  <value column="MsgTip" original="You can define new definitions in Drill Rule window, then run the 'Validate' process.">Anda dapat mendefinisikan definisi baru di jendela Aturan Drill, lalu jalankan proses 'Validasi'.</value>
  </row>
- <row id="200763" trl="N">
-  <value column="MsgText" original="Do you want to delete the record?&lt;br /&gt;&#10;Please confirm by typing: &lt;b&gt;{0}&lt;b/&gt;" xml:space="preserve"><![CDATA[Do you want to delete the record?<br />
-Please confirm by typing: <b>{0}<b/>]]></value>
+ <row id="200763" trl="Y">
+  <value column="MsgText" original="Do you want to delete the record?&lt;br /&gt;&#10;Please confirm by typing: &lt;b&gt;{0}&lt;b/&gt;" xml:space="preserve"><![CDATA[Apakah Anda ingin menghapus catatan?<br />
+Harap konfirmasi dengan mengetik: <b>{0}<b/>]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200764" trl="N">
-  <value column="MsgText" original="Do you want to delete {0} (selected) items?&lt;br /&gt;&#10;Please confirm by typing: &lt;b&gt;{1}&lt;b/&gt;" xml:space="preserve"><![CDATA[Do you want to delete {0} (selected) items?<br />
-Please confirm by typing: <b>{1}<b/>]]></value>
+ <row id="200764" trl="Y">
+  <value column="MsgText" original="Do you want to delete {0} (selected) items?&lt;br /&gt;&#10;Please confirm by typing: &lt;b&gt;{1}&lt;b/&gt;" xml:space="preserve"><![CDATA[Apakah Anda ingin menghapus {0} item (yang dipilih)?<br />
+Harap konfirmasi dengan mengetik: <b>{1}<b/>]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200766" trl="N">
+ <row id="200766" trl="Y">
   <value column="MsgText" original="Drill Key Parameter is Not Set">Parameter Kunci Drill belum diatur</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200767" trl="N">
+ <row id="200767" trl="Y">
   <value column="MsgText" original="Fill Mandatory Drill Rule Parameters">Isi Parameter Aturan Drill yang Wajib</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200769" trl="N">
+ <row id="200769" trl="Y">
   <value column="MsgText" original="Payment and Deposit Batch both should not be entered">Pembayaran dan Batch Deposit tidak boleh dimasukkan keduanya</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200770" trl="N">
+ <row id="200770" trl="Y">
   <value column="MsgText" original="Deposit Batch is not Processed">Batch Deposit belum diproses</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200772" trl="N">
+ <row id="200772" trl="Y">
   <value column="MsgText" original="Fail to get Payments Into Batch amount">Gagal mendapatkan Jumlah Pembayaran ke Batch</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200773" trl="N">
+ <row id="200773" trl="Y">
   <value column="MsgText" original="Payment is already Reconciled ">Pembayaran sudah direkonsiliasi </value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200781" trl="N">
+ <row id="200781" trl="Y">
   <value column="MsgText" original="No Data Available">Tidak ada Data Tersedia</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200784" trl="N">
+ <row id="200784" trl="Y">
   <value column="MsgText" original="The user has no access">Pengguna tidak memiliki akses</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200785" trl="N">
+ <row id="200785" trl="Y">
   <value column="MsgText" original="User not found">Pengguna tidak ditemukan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200786" trl="N">
+ <row id="200786" trl="Y">
   <value column="MsgText" original="Tenant not specified at login">Penyewa tidak ditentukan saat masuk</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200787" trl="N">
+ <row id="200787" trl="Y">
   <value column="MsgText" original="User not specified at login">Pengguna tidak ditentukan saat masuk</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200788" trl="N">
+ <row id="200788" trl="Y">
   <value column="MsgText" original="Tenant {0} not found">Penyewa {0} tidak ditemukan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200789" trl="N">
+ <row id="200789" trl="Y">
   <value column="MsgText" original="Label / Tag">Label / Tag</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200790" trl="N">
+ <row id="200790" trl="Y">
   <value column="MsgText" original="After {0}">Setelah {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200791" trl="N">
+ <row id="200791" trl="Y">
   <value column="MsgText" original="Before {0}">Sebelum {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200792" trl="N">
+ <row id="200792" trl="Y">
   <value column="MsgText" original="On {0}">Pada {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200793" trl="N">
+ <row id="200793" trl="Y">
   <value column="MsgText" original="Apply">Terapkan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200794" trl="N">
+ <row id="200794" trl="Y">
   <value column="MsgText" original="Current Year Months">Bulan Tahun Ini</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200795" trl="N">
+ <row id="200795" trl="Y">
   <value column="MsgText" original="Current Year Quarters">Kuartal Tahun Ini</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200796" trl="N">
+ <row id="200796" trl="Y">
   <value column="MsgText" original="Range">Rentang</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200797" trl="N">
+ <row id="200797" trl="Y">
   <value column="MsgText" original="End Date must be after Start Date">Tanggal Akhir harus setelah Tanggal Mulai</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200798" trl="N">
-  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Year|1&lt; Years}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Year|1< Years}]]></value>
+ <row id="200798" trl="Y">
+  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Year|1&lt; Years}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Tahun|1< Tahun}]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200799" trl="N">
-  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Quarter|1&lt; Quarters}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Quarter|1< Quarters}]]></value>
+ <row id="200799" trl="Y">
+  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Quarter|1&lt; Quarters}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Kuartal|1< Kuartal}]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200800" trl="N">
-  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Month|1&lt; Months}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Month|1< Months}]]></value>
+ <row id="200800" trl="Y">
+  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Month|1&lt; Months}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Bulan|1< Bulan}]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200801" trl="N">
-  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Week|1&lt; Weeks}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Week|1< Weeks}]]></value>
+ <row id="200801" trl="Y">
+  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Week|1&lt; Weeks}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Minggu|1< Minggu}]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200802" trl="N">
-  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Day|1&lt; Days}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Day|1< Days}]]></value>
+ <row id="200802" trl="Y">
+  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Day|1&lt; Days}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Hari|1< Hari}]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200804" trl="N">
+ <row id="200804" trl="Y">
   <value column="MsgText" original="Exclude selected values">Kecualikan nilai yang dipilih</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200805" trl="N">
+ <row id="200805" trl="Y">
   <value column="MsgText" original="Include selected values">Sertakan nilai yang dipilih</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200806" trl="N">
+ <row id="200806" trl="Y">
   <value column="MsgText" original="Your text is too long and exceed maximum size ({0} / {1}) ; please reduce it before proceeding">Teks Anda terlalu panjang dan melebihi ukuran maksimum ({0} / {1}) ; harap perkecil sebelum melanjutkan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200807" trl="N">
+ <row id="200807" trl="Y">
   <value column="MsgText" original="You'll lose all your unsaved changes ; proceed?">Anda akan kehilangan semua perubahan yang belum disimpan ; lanjutkan?</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200808" trl="N">
+ <row id="200808" trl="Y">
   <value column="MsgText" original="Text">Teks</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200809" trl="N">
+ <row id="200809" trl="Y">
   <value column="MsgText" original="Table">Tabel</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200810" trl="N">
+ <row id="200810" trl="Y">
   <value column="MsgText" original="Choose Related Record">Pilih Catatan Terkait</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200811" trl="N">
+ <row id="200811" trl="Y">
   <value column="MsgText" original="{0} recursively contains {1}">{0} secara rekursif berisi {1}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200812" trl="N">
+ <row id="200812" trl="Y">
   <value column="MsgText" original="No default BOM for product {0}">Tidak ada BOM default untuk produk {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200813" trl="N">
+ <row id="200813" trl="Y">
   <value column="MsgText" original="BOM missing for product {0}">BOM hilang untuk produk {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200814" trl="N">
-  <value column="MsgText" original="BOM {0} for product {1} does not have lines">BOM {0} untuk produk {1} tidak memiliki garis</value>
+ <row id="200814" trl="Y">
+  <value column="MsgText" original="BOM {0} for product {1} does not have lines">BOM {0} untuk produk {1} tidak memiliki baris</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200815" trl="N">
+ <row id="200815" trl="Y">
   <value column="MsgText" original="Can not reactivate reconciled Payment.">Tidak dapat mengaktifkan ulang Pembayaran yang direkonsiliasi.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200816" trl="N">
+ <row id="200816" trl="Y">
   <value column="MsgText" original="Expected Value differs from Current Value.&#10;The column {0} in record {1} was customized on {2,date,long} by {3}">Nilai yang Diharapkan berbeda dari Nilai Saat Ini.
 Kolom {0} dalam catatan {1} disesuaikan pada {2,date,long} oleh {3}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200817" trl="N">
+ <row id="200817" trl="Y">
   <value column="MsgText" original="The verify migration process cannot be discarded because it has ignored records.">Proses verifikasi migrasi tidak dapat dibatalkan karena telah mengabaikan catatan.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200818" trl="N">
+ <row id="200818" trl="Y">
   <value column="MsgText" original="Column View does not exist in database.&#10;The view column {0} was created on {1,date,long} by {2}">Tampilan Kolom tidak ada di database.
 Kolom tampilan {0} dibuat pada {1,date,long} oleh {2}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200819" trl="N">
+ <row id="200819" trl="Y">
   <value column="MsgText" original="A customized record does not exist in the database.&#10;The column {0} was customized on {1,date,long} by {2} in record {3} that no longer exists">Catatan yang disesuaikan tidak ada di database.
 Kolom {0} disesuaikan pada {1,date,long} oleh {2} dalam catatan {3} yang sudah tidak ada</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200820" trl="N">
+ <row id="200820" trl="Y">
   <value column="MsgText" original="Field {0} not found in tab {1}">Bidang {0} tidak ditemukan di tab {1}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200821" trl="N">
+ <row id="200821" trl="Y">
   <value column="MsgText" original="Post all Unposted Documents before closing the Period.">Posting semua Dokumen yang Belum Diposting sebelum menutup Periode.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200822" trl="N">
+ <row id="200822" trl="Y">
   <value column="MsgText" original="Could not close Period Control because of un-processed Documents:">Tidak dapat menutup Kontrol Periode karena Dokumen yang belum diproses:</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200823" trl="N">
+ <row id="200823" trl="Y">
   <value column="MsgText" original="All Drill Rules in System which have at least one Drill Rule Parameter with a mandatory Process Parameter must have the Show Help field set to value 'Show Help'">Semua Aturan Drill di Sistem yang memiliki setidaknya satu Parameter Aturan Drill dengan Parameter Proses yang wajib harus memiliki bidang Tampilkan Bantuan yang diatur ke nilai 'Tampilkan Bantuan'</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200824" trl="N">
+ <row id="200824" trl="Y">
   <value column="MsgText" original="Fill mandatory parameters: {0}; Mandatory parameters should be filled in the Process Parameter field of the Dashboard Content.">Isi parameter wajib: {0}; Parameter wajib harus diisi di bidang Parameter Proses konten Dashboard.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200825" trl="N">
+ <row id="200825" trl="Y">
   <value column="MsgText" original="zip - SQL Insert scripts zip archive">zip - arsip zip skrip SQL Insert</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200826" trl="N">
+ <row id="200826" trl="Y">
   <value column="MsgText" original="This Table has no Key Column">Tabel ini tidak memiliki Kolom Kunci</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200827" trl="N">
+ <row id="200827" trl="Y">
   <value column="MsgText" original="UUID Columns must end with suffix _UU">Kolom UUID harus diakhiri dengan akhiran _UU</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200828" trl="N">
+ <row id="200828" trl="Y">
   <value column="MsgText" original="Document Base Type must be unique for the Document Base Type Group.">Tipe Dasar Dokumen harus unik untuk Grup Tipe Dasar Dokumen.</value>
   <value column="MsgTip" original="Baris Grup Tipe Dasar Dokumen dengan Tipe Dasar Dokumen ini sudah ada.">Baris Grup Tipe Dasar Dokumen dengan Tipe Dasar Dokumen ini sudah ada.</value>
  </row>
- <row id="200829" trl="N">
+ <row id="200829" trl="Y">
   <value column="MsgText" original="Please review the definition of Process Parameters">Harap tinjau kembali definisi Parameter Proses</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200830" trl="N">
+ <row id="200830" trl="Y">
   <value column="MsgText" original="UUID based table is not compatible with Record_ID">Tabel berbasis UUID tidak kompatibel dengan Record_ID</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200831" trl="N">
+ <row id="200831" trl="Y">
   <value column="MsgText" original="Roles must be different">Peran harus berbeda</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200832" trl="N">
+ <row id="200832" trl="Y">
   <value column="MsgText" original="Role Copied">Peran Disalin</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200833" trl="N">
+ <row id="200833" trl="Y">
   <value column="MsgText" original="Row count: {0}">Jumlah baris: {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200834" trl="N">
-  <value column="MsgText" original="{0} {1}{0,choice,1#|1&lt;s} Ago" xml:space="preserve"><![CDATA[{0} {1}{0,choice,1#|1<s} Ago]]></value>
+ <row id="200834" trl="Y">
+  <value column="MsgText" original="{0} {1}{0,choice,1#|1&lt;s} Ago" xml:space="preserve"><![CDATA[{0} {1}{0,choice,1#|1<s} yang lalu]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200836" trl="N">
+ <row id="200836" trl="Y">
   <value column="MsgText" original="View does not exist in database.&#10;The view {0} was created on {1,date,long} by {2}">Tampilan tidak ada di database.
 Tampilan {0} dibuat pada {1,date,long} oleh {2}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200837" trl="N">
+ <row id="200837" trl="Y">
   <value column="MsgText" original="Column View does not exist in dictionary.&#10;The view column {0} exists in database but is not defined in dictionary">Tampilan Kolom tidak ada di kamus.
 Kolom tampilan {0} ada di database tetapi tidak ditentukan di kamus</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200838" trl="N">
+ <row id="200838" trl="Y">
   <value column="MsgText" original="Record not deleted - there are dependent records in the table {0} for the column {1}">Catatan tidak dihapus - ada catatan terkait di tabel {0} untuk kolom {1}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200845" trl="N">
+ <row id="200845" trl="Y">
   <value column="MsgText" original="Failed to rename the original table">Gagal mengganti nama tabel asli</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200846" trl="N">
+ <row id="200846" trl="Y">
   <value column="MsgText" original="Partitioning Method not supported: {0}">Metode Partisi tidak didukung: {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200847" trl="N">
+ <row id="200847" trl="Y">
   <value column="MsgText" original="Failed to migrate database constraints">Gagal memigrasikan kendala database</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200848" trl="N">
+ <row id="200848" trl="Y">
   <value column="MsgText" original="Failed to attach default partition">Gagal melampirkan partisi default</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200849" trl="N">
+ <row id="200849" trl="Y">
   <value column="MsgText" original="Failed to create the partitioned table">Gagal membuat tabel yang dipartisi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200850" trl="N">
+ <row id="200850" trl="Y">
   <value column="MsgText" original="Failed to migrate data">Gagal memigrasikan data</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200851" trl="N">
+ <row id="200851" trl="Y">
   <value column="MsgText" original="Failed to run post migration data">Gagal menjalankan data post migrasi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200852" trl="N">
+ <row id="200852" trl="Y">
   <value column="MsgText" original="At least one partition key column is required">Diperlukan setidaknya satu kolom kunci partisi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200853" trl="N">
+ <row id="200853" trl="Y">
   <value column="MsgText" original="Your changes to the current table partition configuration are not supported">Perubahan Anda pada konfigurasi partisi tabel saat ini tidak didukung</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200854" trl="N">
+ <row id="200854" trl="Y">
   <value column="MsgText" original="Table partition is not empty">Partisi tabel tidak kosong</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200855" trl="N">
+ <row id="200855" trl="Y">
   <value column="MsgText" original="Invalid Range Partition Interval">Interval Partisi Rentang tidak valid</value>
   <value column="MsgTip" original="Interval Partisi Rentang harus cocok dengan pola tanggal/angka: ^([1-9]{1}[0-9]?)\s+year(?:s)?\s+([1-9]{1}[0-9]?)\s+month(?:s)?$; ^([1-9]{1}[0-9]?)\s+(year)(?:s)?$; ^([1-9]{1}[0-9]?)\s+(month)(?:s)?$; ^[1-9]\d*$">Interval Partisi Rentang harus cocok dengan pola tanggal/angka: ^([1-9]{1}[0-9]?)\s+year(?:s)?\s+([1-9]{1}[0-9]?)\s+month(?:s)?$; ^([1-9]{1}[0-9]?)\s+(year)(?:s)?$; ^([1-9]{1}[0-9]?)\s+(month)(?:s)?$; ^[1-9]\d*$</value>
  </row>
- <row id="200856" trl="N">
+ <row id="200856" trl="Y">
   <value column="MsgText" original="Range partition key type not supported">Tipe kunci partisi rentang tidak didukung</value>
   <value column="MsgTip" original="Hanya dukung tipe tanggal dan numerik">Hanya dukung tipe tanggal dan numerik</value>
  </row>
- <row id="200857" trl="N">
+ <row id="200857" trl="Y">
   <value column="MsgText" original="Database adapter doesn't have table partition support">Adapter database tidak memiliki dukungan partisi tabel</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200858" trl="N">
+ <row id="200858" trl="Y">
   <value column="MsgText" original="Only one partition key column is allowed">Hanya satu kolom kunci partisi yang diizinkan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200859" trl="N">
+ <row id="200859" trl="Y">
   <value column="MsgText" original="Can't detach or re-attach default partition">Tidak dapat melepas atau melampirkan kembali partisi default</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200860" trl="N">
+ <row id="200860" trl="Y">
   <value column="MsgText" original="The partition {0} has been successfully detached from table {1}">Partisi {0} telah berhasil dilepas dari tabel {1}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200861" trl="N">
+ <row id="200861" trl="Y">
   <value column="MsgText" original="The partition {0} has been successfully re-attached to table {1}">Partisi {0} telah berhasil dilampirkan kembali ke tabel {1}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200862" trl="N">
+ <row id="200862" trl="Y">
   <value column="MsgText" original="A maximum of two columns can be specified as partition keys. The first column defines the primary partition, and the second (optional) column defines the subpartition">Maksimum dua kolom yang dapat ditentukan sebagai kunci partisi. Kolom pertama mendefinisikan partisi utama, dan kolom kedua (opsional) mendefinisikan subpartisi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200863" trl="N">
+ <row id="200863" trl="Y">
   <value column="MsgText" original="Business Partner has no Location">Mitra Bisnis tidak memiliki Lokasi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200864" trl="N">
+ <row id="200864" trl="Y">
   <value column="MsgText" original="Business Partner Location has no Address">Lokasi Mitra Bisnis tidak memiliki Alamat</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200865" trl="N">
+ <row id="200865" trl="Y">
   <value column="MsgText" original="Organization not saved">Organisasi tidak disimpan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200866" trl="N">
+ <row id="200866" trl="Y">
   <value column="MsgText" original="Warehouse not saved">Gudang tidak disimpan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200867" trl="N">
+ <row id="200867" trl="Y">
   <value column="MsgText" original="Organization Info not saved">Info Organisasi tidak disimpan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200868" trl="N">
+ <row id="200868" trl="Y">
   <value column="MsgText" original="Business Partner not updated">Mitra Bisnis tidak diperbarui</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200869" trl="N">
+ <row id="200869" trl="Y">
   <value column="MsgText" original="Business Partner - Organization Link created">Tautan Mitra Bisnis - Organisasi dibuat</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200870" trl="N">
+ <row id="200870" trl="Y">
   <value column="MsgText" original="Organization {0} already linked Business Partner {1}">Organisasi {0} sudah terhubung dengan Mitra Bisnis {1}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200871" trl="N">
+ <row id="200871" trl="Y">
   <value column="MsgText" original="Could not reactivate payment: payment is allocated">Tidak dapat mengaktifkan ulang pembayaran: pembayaran dialokasikan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200872" trl="N">
+ <row id="200872" trl="Y">
   <value column="MsgText" original="Could not reactivate payment: payment is used on a bank statement line">Tidak dapat mengaktifkan ulang pembayaran: pembayaran digunakan pada baris pernyataan bank</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200873" trl="N">
+ <row id="200873" trl="Y">
   <value column="MsgText" original="Could not reactivate payment: payment is used in a bank transfer">Tidak dapat mengaktifkan ulang pembayaran: pembayaran digunakan dalam transfer bank</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200874" trl="N">
+ <row id="200874" trl="Y">
   <value column="MsgText" original="Could not reactivate payment: payment is used on a dunning run line">Tidak dapat mengaktifkan ulang pembayaran: pembayaran digunakan pada baris jalan penagihan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200875" trl="N">
+ <row id="200875" trl="Y">
   <value column="MsgText" original="Could not reactivate payment: payment is used on a request">Tidak dapat mengaktifkan ulang pembayaran: pembayaran digunakan pada permintaan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200876" trl="N">
+ <row id="200876" trl="Y">
   <value column="MsgText" original="Invalid JSON">JSON tidak valid</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200878" trl="N">
+ <row id="200878" trl="Y">
   <value column="MsgText" original="There was an error converting the Excel file to CSV">Terjadi kesalahan saat mengonversi file Excel ke CSV</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200879" trl="N">
+ <row id="200879" trl="Y">
   <value column="MsgText" original="CSV Header Column not found -&gt; {0}" xml:space="preserve"><![CDATA[Kolom Header CSV tidak ditemukan -> {0}]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200880" trl="N">
+ <row id="200880" trl="Y">
   <value column="MsgText" original="The query returns more than one record">Kueri mengembalikan lebih dari satu catatan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200883" trl="N">
+ <row id="200883" trl="Y">
   <value column="MsgText" original="Could not modify the currency once batch line has been added">Tidak dapat memodifikasi mata uang setelah baris batch ditambahkan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200884" trl="N">
+ <row id="200884" trl="Y">
   <value column="MsgText" original="Multiple currency payments are not allowed in a single batch. All batch line payments must be in the {0} currency">Pembayaran mata uang ganda tidak diizinkan dalam satu batch. Semua pembayaran baris batch harus dalam mata uang {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200885" trl="N">
+ <row id="200885" trl="Y">
   <value column="MsgText" original="CSV Alias Header is not valid, it must have the same number of columns as the CSV Header">Alias Header CSV tidak valid, harus memiliki jumlah kolom yang sama dengan Header CSV</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200886" trl="N">
+ <row id="200886" trl="Y">
   <value column="MsgText" original="The entered value does not match the required regular expression: {0}">Nilai yang dimasukkan tidak cocok dengan ekspresi reguler yang diperlukan: {0}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200887" trl="N">
+ <row id="200887" trl="Y">
   <value column="MsgText" original="The initial count query timed out, loading records ...">Kueri hitung awal melewati batas waktu, memuat catatan ...</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200893" trl="N">
+ <row id="200893" trl="Y">
   <value column="MsgText" original="The data query for the report took too much time to execute (over {0} seconds) exceeding the allowed limit">Kueri data untuk laporan memakan terlalu banyak waktu untuk dieksekusi (lebih dari {0} detik) melebihi batas yang diizinkan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200894" trl="N">
+ <row id="200894" trl="Y">
   <value column="MsgText" original="The report data exceeds the maximum limit of {0} rows">Data laporan melebihi batas maksimum {0} baris</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200895" trl="N">
+ <row id="200895" trl="Y">
   <value column="MsgText" original="Freeze Column">Bekukan Kolom</value>
   <value column="MsgTip" original="Bekukan kolom ini agar tetap terlihat saat menggulir secara horizontal">Bekukan kolom ini agar tetap terlihat saat menggulir secara horizontal</value>
  </row>
- <row id="200896" trl="N">
+ <row id="200896" trl="Y">
   <value column="MsgText" original="Reset Freeze Column">Reset Bekukan Kolom</value>
   <value column="MsgTip" original="Atur ulang bekukan ke kolom indikator (default)">Atur ulang bekukan ke kolom indikator (default)</value>
  </row>
- <row id="200897" trl="N">
+ <row id="200897" trl="Y">
   <value column="MsgText" original="Products or charges configured as 'Freight Product' or 'Freight Charge' cannot be added to this order due to the combination of delivery via rule and freight cost rule">Produk atau biaya yang dikonfigurasi sebagai 'Produk Freight' atau 'Biaya Freight' tidak dapat ditambahkan ke pesanan ini karena kombinasi aturan pengiriman via dan aturan biaya freight</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200899" trl="N">
+ <row id="200899" trl="Y">
   <value column="MsgText" original="Payment Not Allocated">Pembayaran Tidak Dialokasikan</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200900" trl="N">
+ <row id="200900" trl="Y">
   <value column="MsgText" original="Read-only session">Sesi hanya baca</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200901" trl="N">
+ <row id="200901" trl="Y">
   <value column="MsgText" original="&lt;h2 style=&quot;text-align: center;&quot;&gt;&#10;   &lt;div style=&quot;{2,choice,-1#color:red;|0#color:gray;|0&lt;color:green;}&quot;&gt;{2,number,#.#}&lt;/div&gt;&#10;&lt;/h2&gt;&#10;&lt;div style=&quot;font-size: small; text-align: center;&quot;&gt;Order Count&lt;/div&gt;&#10;&lt;div style=&quot;font-size: small; color: gray; margin-top: 5px;&quot;&gt;&#10;   Top Year (2002): {1}&#10;&lt;/div&gt;&#10;&lt;div style=&quot;font-size: small; color: gray; margin-top: 5px;&quot;&gt;&#10;   Current Year: {0}&#10;&lt;/div&gt;" xml:space="preserve"><![CDATA[<h2 style="text-align: center;">
    <div style="{2,choice,-1#color:red;|0#color:gray;|0<color:green;}">{2,number,#.#}</div>
 </h2>
-<div style="font-size: small; text-align: center;">Order Count</div>
+<div style="font-size: small; text-align: center;">Jumlah Pesanan</div>
 <div style="font-size: small; color: gray; margin-top: 5px;">
-   Top Year (2002): {1}
+   Tahun Tertinggi (2002): {1}
 </div>
 <div style="font-size: small; color: gray; margin-top: 5px;">
-   Current Year: {0}
+   Tahun Berjalan: {0}
 </div>]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200902" trl="N">
+ <row id="200902" trl="Y">
   <value column="MsgText" original="Total Sales: {0,number,currency}">Total Penjualan: {0,number,currency}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200908" trl="N">
+ <row id="200908" trl="Y">
   <value column="MsgText" original="Login">Masuk</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200911" trl="N">
+ <row id="200911" trl="Y">
   <value column="MsgText" original="Drag and Drop here to delete recent item">Seret dan lepas di sini untuk menghapus item terbaru</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200913" trl="N">
+ <row id="200913" trl="Y">
   <value column="MsgText" original="Deposit Batch is Processed: ">Batch Deposit diproses: </value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200914" trl="N">
+ <row id="200914" trl="Y">
   <value column="MsgText" original="This is a system or tenant parameter, you can't save it as organization parameter">Ini adalah parameter sistem atau penyewa, Anda tidak dapat menyimpannya sebagai parameter organisasi</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200915" trl="N">
+ <row id="200915" trl="Y">
   <value column="MsgText" original="This is a system parameter, you can't save it as tenant parameter">Ini adalah parameter sistem, Anda tidak dapat menyimpannya sebagai parameter penyewa</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200917" trl="N">
-  <value column="MsgText" original="&lt;div style=&quot;background-color:yellow;&quot;&gt;{0,choice,0#Do not forget to set SysConfig MESSAGES_AT_TENANT_LEVEL=Y to enable this feature|1#}&lt;/div&gt;" xml:space="preserve"><![CDATA[<div style="background-color:yellow;">{0,choice,0#Do not forget to set SysConfig MESSAGES_AT_TENANT_LEVEL=Y to enable this feature|1#}</div>]]></value>
+ <row id="200917" trl="Y">
+  <value column="MsgText" original="&lt;div style=&quot;background-color:yellow;&quot;&gt;{0,choice,0#Do not forget to set SysConfig MESSAGES_AT_TENANT_LEVEL=Y to enable this feature|1#}&lt;/div&gt;" xml:space="preserve"><![CDATA[<div style="background-color:yellow;">{0,choice,0#Jangan lupa mengatur SysConfig MESSAGES_AT_TENANT_LEVEL=Y untuk mengaktifkan fitur ini|1#}</div>]]></value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200919" trl="N">
+ <row id="200919" trl="Y">
   <value column="MsgText" original="Create Line Per Payment">Buat Baris per Pembayaran</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200920" trl="N">
+ <row id="200920" trl="Y">
   <value column="MsgText" original="Could not reactivate deposit batch: deposit batch is used on a bank statement line">Tidak dapat mengaktifkan ulang batch deposit: batch deposit digunakan pada baris pernyataan bank</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200921" trl="N">
+ <row id="200921" trl="Y">
   <value column="MsgText" original="Could not void deposit batch: deposit batch is used on a bank statement line">Tidak dapat membatalkan batch deposit: batch deposit digunakan pada baris pernyataan bank</value>
   <value column="MsgTip" original=""/>
  </row>

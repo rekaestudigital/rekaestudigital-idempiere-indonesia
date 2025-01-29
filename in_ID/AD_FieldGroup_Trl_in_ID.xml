@@ -210,25 +210,25 @@
  <row id="200022" trl="Y">
   <value column="Name" original="Placeholders">Placeholder</value>
  </row>
- <row id="200024" trl="N">
-  <value column="Name" original="FROM BANK ACCOUNT">FROM BANK ACCOUNT</value>
+ <row id="200024" trl="Y">
+  <value column="Name" original="FROM BANK ACCOUNT">Dari Akun Bank</value>
  </row>
- <row id="200025" trl="N">
-  <value column="Name" original="TO BANK ACCOUNT">TO BANK ACCOUNT</value>
+ <row id="200025" trl="Y">
+  <value column="Name" original="TO BANK ACCOUNT">Ke Akun Bank</value>
  </row>
- <row id="200027" trl="N">
-  <value column="Name" original="EMail">EMail</value>
+ <row id="200027" trl="Y">
+  <value column="Name" original="EMail">Email</value>
  </row>
- <row id="200028" trl="N">
+ <row id="200028" trl="Y">
   <value column="Name" original="TOTP">TOTP</value>
  </row>
- <row id="200029" trl="N">
-  <value column="Name" original="Source">Source</value>
+ <row id="200029" trl="Y">
+  <value column="Name" original="Source">Sumber</value>
  </row>
- <row id="200030" trl="N">
-  <value column="Name" original="Printing">Printing</value>
+ <row id="200030" trl="Y">
+  <value column="Name" original="Printing">Cetak</value>
  </row>
- <row id="200031" trl="N">
-  <value column="Name" original="( None )">( None )</value>
+ <row id="200031" trl="Y">
+  <value column="Name" original="( None )">( Tidak Ada )</value>
  </row>
 </idempiereTrl>
