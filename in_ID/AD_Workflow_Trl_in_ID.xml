@@ -203,19 +203,19 @@ Sistem Jarak Jauh:
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200005" trl="N">
-  <value column="Name" original="Process_BankTransfer">Process_BankTransfer</value>
-  <value column="Description" original="(Standard Process_BankTransfer)">(Standard Process_BankTransfer)</value>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Process_BankTransfer">Proses Transfer Bank</value>
+  <value column="Description" original="(Standard Process_BankTransfer)">(Proses Transfer Bank Standar)</value>
   <value column="Help" original=""/>
  </row>
- <row id="200007" trl="N">
-  <value column="Name" original="Process_C_ProjectIssue">Process_C_ProjectIssue</value>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Process_C_ProjectIssue">Proses Masalah Proyek</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200012" trl="N">
-  <value column="Name" original="Process_DepositBatch">Process_DepositBatch</value>
-  <value column="Description" original="(Standard Process Deposit Batch)">(Standard Process Deposit Batch)</value>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Process_DepositBatch">Proses Batch Setoran</value>
+  <value column="Description" original="(Standard Process Deposit Batch)">(Proses Batch Setoran Standar)</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>
