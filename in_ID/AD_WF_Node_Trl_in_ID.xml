@@ -302,27 +302,27 @@ Tinjau dan ubah akun GL dan Default. Akun aktual yang digunakan dalam transaksi 
   <value column="Help" original=""/>
  </row>
  <row id="50059" trl="Y">
-  <value column="Name" original="Manufacturing Order">Order Produksi</value>
-  <value column="Description" original="Manufacturing Order">Pesanan manufaktur</value>
+  <value column="Name" original="Manufacturing Order">Pesanan Produksi</value>
+  <value column="Description" original="Manufacturing Order">Pesanan Produksi</value>
   <value column="Help" original=""/>
  </row>
  <row id="50060" trl="Y">
-  <value column="Name" original="Component Check">Periksa Komponen</value>
+  <value column="Name" original="Component Check">Pemeriksaan Komponen</value>
   <value column="Description" original="Component Check">Pemeriksaan Komponen</value>
   <value column="Help" original=""/>
  </row>
  <row id="50061" trl="Y">
-  <value column="Name" original="Generate Movement">Menghasilkan Pergerakan</value>
-  <value column="Description" original="Generate and print Movement from open Distribution Orders">Hasilkan dan cetak Gerakan dari Pesanan Distribusi terbuka</value>
+  <value column="Name" original="Generate Movement">Buat Perpindahan</value>
+  <value column="Description" original="Generate and print Movement from open Distribution Orders">Buat dan cetak Perpindahan dari Pesanan Distribusi terbuka</value>
   <value column="Help" original=""/>
  </row>
  <row id="50062" trl="Y">
-  <value column="Name" original="Generate Movement Manual">Menghasilkan Pergerakan Manual</value>
-  <value column="Description" original="Generate Movement to a Order Distribution">Hasilkan Gerakan ke Distribusi Pesanan</value>
+  <value column="Name" original="Generate Movement Manual">Buat Perpindahan Manual</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">Buat Perpindahan ke Distribusi Pesanan</value>
   <value column="Help" original=""/>
  </row>
  <row id="50063" trl="Y">
-  <value column="Name" original="Distribution Order">Order Distribusi</value>
+  <value column="Name" original="Distribution Order">Pesanan Distribusi</value>
   <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribusi Pesanan memungkinkan membuat Pesanan antar gudang untuk memasok permintaan</value>
   <value column="Help" original=""/>
  </row>
