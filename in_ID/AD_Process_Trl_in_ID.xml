@@ -2156,7 +2156,7 @@ Sebagai contoh:
   <value column="Description" original="Creates a credit memo based on the invoice.">Membuat memo kredit berdasarkan faktur.</value>
   <value column="Help" original="The invoice should be correct and completed.">Faktur harus benar dan lengkap.</value>
  </row>
- <row id="200101" trl="N">
+ <row id="200101" trl="Y">
   <value column="Name" original="Process Bank Transfer">Process Bank Transfer</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -2196,188 +2196,78 @@ Sebagai contoh:
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200117" trl="N">
+ <row id="200117" trl="Y">
   <value column="Name" original="Migrate Storage Provider">Migrate Storage Provider</value>
   <value column="Description" original="Migrate the storage provider for attachments, archives and/or images">Migrate the storage provider for attachments, archives and/or images</value>
-  <value column="Help" original="&lt;p&gt;&lt;span style=&quot;color:#ff0000&quot;&gt;&lt;b&gt;WARNING: This process can be destructive, so please be sure that you have a backup of the database, as well as a backup of your old storage provider.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;The process migrates files between storage providers.&lt;/p&gt;&#10;&#10;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Tenant:&lt;/b&gt; Optional, select a tenant to migrate, when empty it will migrate all tenants with the Actual Storage Provider&lt;/li&gt;&lt;li&gt;&lt;b&gt;Actual Storage Provider:&lt;/b&gt; Alternatively, you can define here the storage provider to migrate&lt;/li&gt;&lt;li&gt;&lt;b&gt;Storage Provider:&lt;/b&gt; The new storage provider to migrate the files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Attachment:&lt;/b&gt; Migrate the attachment files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Archive:&lt;/b&gt; Migate the archive files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Image:&lt;/b&gt; Migrate the image  files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Data:&lt;/b&gt; When unchecked, just the storage provider is changed in tenant, but the files are not migrated (they can be migrated in a future execution of this same process)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Record ID Range:&lt;/b&gt; Optionally you can define a range of IDs for the records to migrate, so you can run this process in parallel to migrate the data&lt;/li&gt;&lt;li&gt;&lt;b&gt;Delete old/existing files:&lt;/b&gt; If enabled, when a file is migrated the program tries to free space deleting the file from the previous storage provider.  &lt;span style=&quot;color:#ff0000&quot;&gt;Note that migrating from/to a DB storage provider is a destructive action that cannot be recovered, it implies deleting the old/existing files&lt;/span&gt;.&lt;/li&gt;&lt;/ul&gt;&#10;&#10;&lt;p&gt;In case of failure or timeout, the process can be launched again, it commits on every file migrated.&lt;/p&gt;" xml:space="preserve"><![CDATA[<p><span style="color:#ff0000"><b>WARNING: This process can be destructive, so please be sure that you have a backup of the database, as well as a backup of your old storage provider.</b></span></p>
+  <value column="Help" original="&lt;p&gt;&lt;span style=&quot;color:#ff0000&quot;&gt;&lt;b&gt;WARNING: This process can be destructive, so please be sure that you have a backup of the database, as well as a backup of your old storage provider.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;The process migrates files between storage providers.&lt;/p&gt;&#10;&#10;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Tenant:&lt;/b&gt; Optional, select a tenant to migrate, when empty it will migrate all tenants with the Actual Storage Provider&lt;/li&gt;&lt;li&gt;&lt;b&gt;Actual Storage Provider:&lt;/b&gt; Alternatively, you can define here the storage provider to migrate&lt;/li&gt;&lt;li&gt;&lt;b&gt;Storage Provider:&lt;/b&gt; The new storage provider to migrate the files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Attachment:&lt;/b&gt; Migrate the attachment files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Archive:&lt;/b&gt; Migate the archive files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Image:&lt;/b&gt; Migrate the image files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Data:&lt;/b&gt; When unchecked, just the storage provider is changed in tenant, but the files are not migrated (they can be migrated in a future execution of this same process)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Record ID Range:&lt;/b&gt; Optionally you can define a range of IDs for the records to migrate, so you can run this process in parallel to migrate the data&lt;/li&gt;&lt;li&gt;&lt;b&gt;Delete old/existing files:&lt;/b&gt; If enabled, when a file is migrated the program tries to free space deleting the file from the previous storage provider. &lt;span style=&quot;color:#ff0000&quot;&gt;Note that migrating from/to a DB storage provider is a destructive action that cannot be recovered, it implies deleting the old/existing files&lt;/span&gt;.&lt;/li&gt;&lt;/ul&gt;&#10;&#10;&lt;p&gt;In case of failure or timeout, the process can be launched again, it commits on every file migrated.&lt;/p&gt;" xml:space="preserve"><![CDATA[<p><span style="color:#ff0000"><b>WARNING: This process can be destructive, so please be sure that you have a backup of the database, as well as a backup of your old storage provider.</b></span></p>
 
 <p>The process migrates files between storage providers.</p>
 
-<ul><li><b>Tenant:</b> Optional, select a tenant to migrate, when empty it will migrate all tenants with the Actual Storage Provider</li><li><b>Actual Storage Provider:</b> Alternatively, you can define here the storage provider to migrate</li><li><b>Storage Provider:</b> The new storage provider to migrate the files</li><li><b>Migrate Attachment:</b> Migrate the attachment files</li><li><b>Migrate Archive:</b> Migate the archive files</li><li><b>Migrate Image:</b> Migrate the image  files</li><li><b>Migrate Data:</b> When unchecked, just the storage provider is changed in tenant, but the files are not migrated (they can be migrated in a future execution of this same process)</li><li><b>Record ID Range:</b> Optionally you can define a range of IDs for the records to migrate, so you can run this process in parallel to migrate the data</li><li><b>Delete old/existing files:</b> If enabled, when a file is migrated the program tries to free space deleting the file from the previous storage provider.  <span style="color:#ff0000">Note that migrating from/to a DB storage provider is a destructive action that cannot be recovered, it implies deleting the old/existing files</span>.</li></ul>
+<ul><li><b>Tenant:</b> Optional, select a tenant to migrate, when empty it will migrate all tenants with the Actual Storage Provider</li><li><b>Actual Storage Provider:</b> Alternatively, you can define here the storage provider to migrate</li><li><b>Storage Provider:</b> The new storage provider to migrate the files</li><li><b>Migrate Attachment:</b> Migrate the attachment files</li><li><b>Migrate Archive:</b> Migate the archive files</li><li><b>Migrate Image:</b> Migrate the image files</li><li><b>Migrate Data:</b> When unchecked, just the storage provider is changed in tenant, but the files are not migrated (they can be migrated in a future execution of this same process)</li><li><b>Record ID Range:</b> Optionally you can define a range of IDs for the records to migrate, so you can run this process in parallel to migrate the data</li><li><b>Delete old/existing files:</b> If enabled, when a file is migrated the program tries to free space deleting the file from the previous storage provider. <span style="color:#ff0000">Note that migrating from/to a DB storage provider is a destructive action that cannot be recovered, it implies deleting the old/existing files</span>.</li></ul>
 
 <p>In case of failure or timeout, the process can be launched again, it commits on every file migrated.</p>]]></value>
  </row>
- <row id="200118" trl="N">
-  <value column="Name" original="Create Window, Tab and Field from Table">Create Window, Tab and Field from Table</value>
-  <value column="Description" original="Create Window, Tab and Field record of the Table">Create Window, Tab and Field record of the Table</value>
+ <row id="200118" trl="Y">
+  <value column="Name" original="Create Window, Tab and Field from Table">Buat Window, Tab dan Field dari Tabel</value>
+  <value column="Description" original="Create Window, Tab and Field record of the Table">Buat catatan Window, Tab dan Field dari Tabel</value>
   <value column="Help" original="This process will take the table definition and create the Window/Tab and field record with these options:&lt;br&gt;&#10;&#10;New Window: if selected the process will create a new Window record. Otherwise, the process will create a new tab and add it to the selected window.&lt;br&gt;&#10;Create Menu: if selected the process creates the menu record for the new window." xml:space="preserve"><![CDATA[This process will take the table definition and create the Window/Tab and field record with these options:<br>
 
 New Window: if selected the process will create a new Window record. Otherwise, the process will create a new tab and add it to the selected window.<br>
 Create Menu: if selected the process creates the menu record for the new window.]]></value>
  </row>
- <row id="200119" trl="N">
-  <value column="Name" original="Create Default Parameters">Create Default Parameters</value>
-  <value column="Description" original="This process will add required parameters for current web service type">This process will add required parameters for current web service type</value>
+ <row id="200119" trl="Y">
+  <value column="Name" original="Create Default Parameters">Buat Parameter Default</value>
+  <value column="Description" original="This process will add required parameters for current web service type">Proses ini akan menambahkan parameter yang diperlukan untuk tipe layanan web saat ini</value>
   <value column="Help" original=""/>
  </row>
- <row id="200120" trl="N">
-  <value column="Name" original="Drop Database Table">Drop Database Table</value>
-  <value column="Description" original="Drop the table in the database">Drop the table in the database</value>
-  <value column="Help" original="WARNING!!!  This is a destructive action, please make a backup before proceeding.">WARNING!!!  This is a destructive action, please make a backup before proceeding.</value>
+ <row id="200120" trl="Y">
+  <value column="Name" original="Drop Database Table">Hapus Tabel Database</value>
+  <value column="Description" original="Drop the table in the database">Hapus tabel dalam database</value>
+  <value column="Help" original="WARNING!!!  This is a destructive action, please make a backup before proceeding.">PERINGATAN!!! Ini adalah tindakan destruktif, harap buat cadangan sebelum melanjutkan.</value>
  </row>
- <row id="200121" trl="N">
-  <value column="Name" original="Rename Database Table">Rename Database Table</value>
-  <value column="Description" original="Rename the table in the database and dictionary">Rename the table in the database and dictionary</value>
-  <value column="Help" original="This process renames the table in database, the dictionary and also the associated columns _ID and _UU">This process renames the table in database, the dictionary and also the associated columns _ID and _UU</value>
+ <row id="200121" trl="Y">
+  <value column="Name" original="Rename Database Table">Ubah Nama Tabel Database</value>
+  <value column="Description" original="Rename the table in the database and dictionary">Ubah nama tabel dalam database dan kamus</value>
+  <value column="Help" original="This process renames the table in database, the dictionary and also the associated columns _ID and _UU">Proses ini mengubah nama tabel dalam database, kamus dan juga kolom terkait _ID dan _UU</value>
  </row>
- <row id="200122" trl="N">
-  <value column="Name" original="Drop Database Column">Drop Database Column</value>
-  <value column="Description" original="Drop the column in the database">Drop the column in the database</value>
-  <value column="Help" original="WARNING!!!  This is a destructive action, please make a backup before proceeding.">WARNING!!!  This is a destructive action, please make a backup before proceeding.</value>
+ <row id="200122" trl="Y">
+  <value column="Name" original="Drop Database Column">Hapus Kolom Database</value>
+  <value column="Description" original="Drop the column in the database">Hapus kolom dalam database</value>
+  <value column="Help" original="WARNING!!!  This is a destructive action, please make a backup before proceeding.">PERINGATAN!!! Ini adalah tindakan destruktif, harap buat cadangan sebelum melanjutkan.</value>
  </row>
- <row id="200123" trl="N">
-  <value column="Name" original="Drop Database Constraint">Drop Database Constraint</value>
-  <value column="Description" original="Drop the constraint in the database">Drop the constraint in the database</value>
+ <row id="200123" trl="Y">
+  <value column="Name" original="Drop Database Constraint">Hapus Constraint Database</value>
+  <value column="Description" original="Drop the constraint in the database">Hapus constraint dalam database</value>
   <value column="Help" original=""/>
  </row>
- <row id="200124" trl="N">
-  <value column="Name" original="Rename Column(s) in Database">Rename Column(s) in Database</value>
-  <value column="Description" original="Rename Column(s) in Database">Rename Column(s) in Database</value>
-  <value column="Help" original="This process rename all the columns associated with the element">This process rename all the columns associated with the element</value>
+ <row id="200124" trl="Y">
+  <value column="Name" original="Rename Column(s) in Database">Ubah Nama Kolom dalam Database</value>
+  <value column="Description" original="Rename Column(s) in Database">Ubah nama kolom dalam database</value>
+  <value column="Help" original="This process rename all the columns associated with the element">Proses ini mengubah nama semua kolom yang terkait dengan elemen</value>
  </row>
- <row id="200126" trl="N">
-  <value column="Name" original="Translation Import/Export">Translation Import/Export</value>
-  <value column="Description" original="Import or Export Language Translation">Import or Export Language Translation</value>
-  <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool.  Please note that the Language MUST be an enabled and verified System Language.">Export/Import Translation info to/from xml for translation in external tool.  Please note that the Language MUST be an enabled and verified System Language.</value>
+ <row id="200126" trl="Y">
+  <value column="Name" original="Translation Import/Export">Impor/Ekspor Terjemahan</value>
+  <value column="Description" original="Import or Export Language Translation">Impor atau Ekspor Terjemahan Bahasa</value>
+  <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool.  Please note that the Language MUST be an enabled and verified System Language.">Ekspor/Impor info Terjemahan ke/dari xml untuk terjemahan di alat eksternal. Harap dicatat bahwa Bahasa HARUS merupakan Bahasa Sistem yang diaktifkan dan diverifikasi.</value>
  </row>
- <row id="200127" trl="N">
-  <value column="Name" original="Rename Column in Database">Rename Column in Database</value>
-  <value column="Description" original="Rename Column in Database">Rename Column in Database</value>
-  <value column="Help" original="This process rename the column on the database">This process rename the column on the database</value>
+ <row id="200127" trl="Y">
+  <value column="Name" original="Rename Column in Database">Ubah Nama Kolom dalam Database</value>
+  <value column="Description" original="Rename Column in Database">Ubah nama kolom dalam database</value>
+  <value column="Help" original="This process rename the column on the database">Proses ini mengubah nama kolom pada database</value>
  </row>
- <row id="200128" trl="N">
-  <value column="Name" original="Add Authorization Account">Add Authorization Account</value>
+ <row id="200128" trl="Y">
+  <value column="Name" original="Add Authorization Account">Tambah Akun Otorisasi</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200129" trl="N">
-  <value column="Name" original="Unregister MFA Mechanism">Unregister MFA Mechanism</value>
-  <value column="Description" original="Unregister a multi-factor authentication registration">Unregister a multi-factor authentication registration</value>
+ <row id="200129" trl="Y">
+  <value column="Name" original="Unregister MFA Mechanism">Batalkan Registrasi Mekanisme MFA</value>
+  <value column="Description" original="Unregister a multi-factor authentication registration">Batalkan pendaftaran autentikasi multi-faktor</value>
   <value column="Help" original=""/>
  </row>
- <row id="200130" trl="N">
-  <value column="Name" original="Complete MFA Registration">Complete MFA Registration</value>
-  <value column="Description" original="Complete a registration for a multi-factor authentication mechanism">Complete a registration for a multi-factor authentication mechanism</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200131" trl="N">
-  <value column="Name" original="Revoke MFA Trusted Device">Revoke MFA Trusted Device</value>
-  <value column="Description" original="Revoke one multi-factor authentication trusted device or all">Revoke one multi-factor authentication trusted device or all</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200132" trl="N">
-  <value column="Name" original="Register MFA">Register MFA</value>
-  <value column="Description" original="Register a multi-factor authentication mechanism">Register a multi-factor authentication mechanism</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200133" trl="N">
-  <value column="Name" original="Copy from Pack Out">Copy from Pack Out</value>
-  <value column="Description" original="Copy Package Details from another Pack Out">Copy Package Details from another Pack Out</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200134" trl="N">
-  <value column="Name" original="Create/Complete Table">Create/Complete Table</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200135" trl="N">
-  <value column="Name" original="Process Project Issue">Process Project Issue</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200136" trl="N">
-  <value column="Name" original="Reverse Prepare Payment">Reverse Prepare Payment</value>
-  <value column="Description" original="Reverse what Prepare Payment process did">Reverse what Prepare Payment process did</value>
-  <value column="Help" original="Delete prepared payments and allow to add/remove invoices">Delete prepared payments and allow to add/remove invoices</value>
- </row>
- <row id="200138" trl="N">
-  <value column="Name" original="Create Production from Order">Create Production from Order</value>
-  <value column="Description" original="Create Production for BOM ordered products">Create Production for BOM ordered products</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200141" trl="N">
-  <value column="Name" original="Create lines from Shipment/Receipt">Create lines from Shipment/Receipt</value>
-  <value column="Description" original="Create lines from Shipment/Receipt">Create lines from Shipment/Receipt</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200142" trl="N">
-  <value column="Name" original="Create lines from RMA">Create lines from RMA</value>
-  <value column="Description" original="Create lines from RMA">Create lines from RMA</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200143" trl="N">
-  <value column="Name" original="Create lines from Invoice">Create lines from Invoice</value>
-  <value column="Description" original="Create lines from Invoice">Create lines from Invoice</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200146" trl="N">
-  <value column="Name" original="Synchronize Print Format based on Report View">Synchronize Print Format based on Report View</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200147" trl="N">
-  <value column="Name" original="Validate">Validate</value>
-  <value column="Description" original="Validate Drill Rule Parameters">Validate Drill Rule Parameters</value>
-  <value column="Help" original="Validate the Drill Rule, if all mandatory parameters are set.">Validate the Drill Rule, if all mandatory parameters are set.</value>
- </row>
- <row id="200148" trl="N">
-  <value column="Name" original="Process Deposit Batch">Process Deposit Batch</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200149" trl="N">
-  <value column="Name" original="Verify Migration Process">Verify Migration Process</value>
-  <value column="Description" original="This process helps to verify if everything is OK after a migration and discover possible customizations lost">This process helps to verify if everything is OK after a migration and discover possible customizations lost</value>
-  <value column="Help" original="The Date To parameter serves to filter the change audit records, in case you want to detect changes just until some date, when empty it process all change audit records">The Date To parameter serves to filter the change audit records, in case you want to detect changes just until some date, when empty it process all change audit records</value>
- </row>
- <row id="200150" trl="N">
-  <value column="Name" original="Discard this Verify Migration">Discard this Verify Migration</value>
-  <value column="Description" original="Discard the current record of verify migration process">Discard the current record of verify migration process</value>
-  <value column="Help" original="This process discards the current record of verify migration process, deleting all the associated details.  It cannot be discarded when there are records marked as Ignore.">This process discards the current record of verify migration process, deleting all the associated details.  It cannot be discarded when there are records marked as Ignore.</value>
- </row>
- <row id="200153" trl="N">
-  <value column="Name" original="TestUU Form Report">TestUU Form Report</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200154" trl="N">
-  <value column="Name" original="Generate Model">Generate Model</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200155" trl="N">
-  <value column="Name" original="Switch Active Flag on this Test UU and its Details">Switch Active Flag on this Test UU and its Details</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200156" trl="N">
-  <value column="Name" original="Delete Trace Logs">Delete Trace Logs</value>
-  <value column="Description" original="delete log files with last modified older than n days of current time">delete log files with last modified older than n days of current time</value>
-  <value column="Help" original=""/>
- </row>
- <row id="200157" trl="N">
-  <value column="Name" original="Create/Update Table Partition">Create/Update Table Partition</value>
-  <value column="Description" original="Process which create or update table partitions based on the table and column records">Process which create or update table partitions based on the table and column records</value>
-  <value column="Help" original="The Create/update partition process will create or update table partitions based on the information in the table and column records">The Create/update partition process will create or update table partitions based on the information in the table and column records</value>
- </row>
- <row id="200158" trl="N">
-  <value column="Name" original="Detach/re-attach Table Partition">Detach/re-attach Table Partition</value>
-  <value column="Description" original="Detach or re-attach table partition">Detach or re-attach table partition</value>
-  <value column="Help" original="Detach an attached table partition or re-attach a detached table partition">Detach an attached table partition or re-attach a detached table partition</value>
- </row>
- <row id="200162" trl="N">
-  <value column="Name" original="Customize Grid View">Customize Grid View</value>
-  <value column="Description" original=""/>
+ <row id="200130" trl="Y">
+  <value column="Name" original="Complete MFA Registration">Selesaikan Registrasi MFA</value>
+  <value column="Description" original="Complete a registration for a multi-factor authentication mechanism">Selesaikan pendaftaran untuk mekanisme autentikasi multi-faktor</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>
