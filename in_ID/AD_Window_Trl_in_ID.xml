@@ -1830,8 +1830,8 @@ MRP - 110 Tidak ada Dem</value>
  </row>
  <row id="200132" trl="Y">
   <value column="Name" original="SSO Configuration">Konfigurasi SSO</value>
-  <value column="Description" original="Single sign-on configuration">Konfigurasi Single sign-on</value>
-  <value column="Help" original="Single sign-on is an authentication scheme that allows users to log in with a single ID to multiple related, but independent, software systems.">Single sign-on adalah skema otentikasi yang memungkinkan pengguna untuk masuk dengan satu ID ke beberapa sistem perangkat lunak yang terkait, namun independen.</value>
+  <value column="Description" original="Single sign-on Configuration">Konfigurasi Single sign-on</value>
+  <value column="Help" original="Single sign-on is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems.">Single sign-on adalah skema otentikasi yang memungkinkan pengguna untuk masuk dengan satu ID ke beberapa sistem perangkat lunak yang terkait, namun independen.</value>
  </row>
  <row id="200137" trl="Y">
   <value column="Name" original="Verify Migration">Verifikasi Migrasi</value>

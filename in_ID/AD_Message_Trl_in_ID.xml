@@ -5187,6 +5187,10 @@ Contoh: Untuk mengonversi Masing-masing Menjadi Pasangan, Tingkat Penggandaan ad
   <value column="MsgText" original="This is a system or tenant parameter, you can't save it as organization parameter">Ini adalah parameter sistem atau klien, Anda tidak dapat menyimpannya sebagai parameter organisasi</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="53010" trl="Y">
+  <value column="MsgText" original="This is a system parameter, you can't save it as tenant parameter">Ini adalah parameter sistem, Anda tidak dapat menyimpannya sebagai parameter penyewa</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="53011" trl="Y">
   <value column="MsgText" original="Create">Membuat</value>
   <value column="MsgTip" original="Indicates that a supply order should be created to satisfy a negative projected on hand. This message is created if the flag 'Create Plan' is No.">Menunjukkan bahwa pesanan persediaan harus dibuat untuk memenuhi proyeksi negatif yang ada. Pesan ini dibuat jika tanda 'Buat Paket' tidak.</value>
@@ -6481,6 +6485,10 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="The process has been scheduled as job. The status of the process will be sent as notification to owner of the process.">Proses tersebut telah dijadwalkan sebagai pekerjaan. </value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200267" trl="Y">
+  <value column="MsgText" original="Background Job">Pekerjaan Latar Belakang</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200268" trl="Y">
   <value column="MsgText" original="System is in maintenance mode, please wait until the access is restored.">Sistem berada dalam modus pemeliharaan, harap menunggu hingga akses dipulihkan.</value>
   <value column="MsgTip" original=""/>
@@ -7125,6 +7133,10 @@ Silakan hubungi administrator.</value>
   <value column="MsgText" original="Stop scheduler?">Hentikan penjadwal?</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200571" trl="Y">
+  <value column="MsgText" original="Start scheduler?">Mulai penjadwal?</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200572" trl="Y">
   <value column="MsgText" original="Scheduler added and started successfully">Penjadwal ditambahkan dan mulai dengan sukses</value>
   <value column="MsgTip" original=""/>
@@ -7730,6 +7742,10 @@ Harap konfirmasi dengan mengetik: <b>{0}<b/>]]></value>
 Harap konfirmasi dengan mengetik: <b>{1}<b/>]]></value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200765" trl="Y">
+  <value column="MsgText" original="Entered Value Is Not Correct">Nilai yang Dimasukkan Tidak Benar</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200766" trl="Y">
   <value column="MsgText" original="Drill Key Parameter is Not Set">Parameter Kunci Drill belum diatur</value>
   <value column="MsgTip" original=""/>
@@ -7935,7 +7951,7 @@ Kolom {0} disesuaikan pada {1,date,long} oleh {2} dalam catatan {3} yang sudah t
  </row>
  <row id="200828" trl="Y">
   <value column="MsgText" original="Document Base Type must be unique for the Document Base Type Group.">Tipe Dasar Dokumen harus unik untuk Grup Tipe Dasar Dokumen.</value>
-  <value column="MsgTip" original="Baris Grup Tipe Dasar Dokumen dengan Tipe Dasar Dokumen ini sudah ada.">Baris Grup Tipe Dasar Dokumen dengan Tipe Dasar Dokumen ini sudah ada.</value>
+  <value column="MsgTip" original="A Document Base Type Group Line with this Document Base Type already exists.">Baris Grup Tipe Dasar Dokumen dengan Tipe Dasar Dokumen ini sudah ada.</value>
  </row>
  <row id="200829" trl="Y">
   <value column="MsgText" original="Please review the definition of Process Parameters">Harap tinjau kembali definisi Parameter Proses</value>
@@ -8017,11 +8033,11 @@ Kolom tampilan {0} ada di database tetapi tidak ditentukan di kamus</value>
  </row>
  <row id="200855" trl="Y">
   <value column="MsgText" original="Invalid Range Partition Interval">Interval Partisi Rentang tidak valid</value>
-  <value column="MsgTip" original="Interval Partisi Rentang harus cocok dengan pola tanggal/angka: ^([1-9]{1}[0-9]?)\s+year(?:s)?\s+([1-9]{1}[0-9]?)\s+month(?:s)?$; ^([1-9]{1}[0-9]?)\s+(year)(?:s)?$; ^([1-9]{1}[0-9]?)\s+(month)(?:s)?$; ^[1-9]\d*$">Interval Partisi Rentang harus cocok dengan pola tanggal/angka: ^([1-9]{1}[0-9]?)\s+year(?:s)?\s+([1-9]{1}[0-9]?)\s+month(?:s)?$; ^([1-9]{1}[0-9]?)\s+(year)(?:s)?$; ^([1-9]{1}[0-9]?)\s+(month)(?:s)?$; ^[1-9]\d*$</value>
+  <value column="MsgTip" original="The Range Partition Interval has to match the date/number patterns: ^([1-9]{1}[0-9]?)\s+year(?:s)?\s+([1-9]{1}[0-9]?)\s+month(?:s)?$; ^([1-9]{1}[0-9]?)\s+(year)(?:s)?$; ^([1-9]{1}[0-9]?)\s+(month)(?:s)?$; ^[1-9]\d*$">Interval Partisi Rentang harus cocok dengan pola tanggal/angka: ^([1-9]{1}[0-9]?)\s+year(?:s)?\s+([1-9]{1}[0-9]?)\s+month(?:s)?$; ^([1-9]{1}[0-9]?)\s+(year)(?:s)?$; ^([1-9]{1}[0-9]?)\s+(month)(?:s)?$; ^[1-9]\d*$</value>
  </row>
  <row id="200856" trl="Y">
   <value column="MsgText" original="Range partition key type not supported">Tipe kunci partisi rentang tidak didukung</value>
-  <value column="MsgTip" original="Hanya dukung tipe tanggal dan numerik">Hanya dukung tipe tanggal dan numerik</value>
+  <value column="MsgTip" original="Support date and numeric types only">Hanya dukung tipe tanggal dan numerik</value>
  </row>
  <row id="200857" trl="Y">
   <value column="MsgText" original="Database adapter doesn't have table partition support">Adapter database tidak memiliki dukungan partisi tabel</value>
@@ -8145,11 +8161,11 @@ Kolom tampilan {0} ada di database tetapi tidak ditentukan di kamus</value>
  </row>
  <row id="200895" trl="Y">
   <value column="MsgText" original="Freeze Column">Bekukan Kolom</value>
-  <value column="MsgTip" original="Bekukan kolom ini agar tetap terlihat saat menggulir secara horizontal">Bekukan kolom ini agar tetap terlihat saat menggulir secara horizontal</value>
+  <value column="MsgTip" original="Freeze this column to keep it visible when scrolling horizontally">Bekukan kolom ini agar tetap terlihat saat menggulir secara horizontal</value>
  </row>
  <row id="200896" trl="Y">
   <value column="MsgText" original="Reset Freeze Column">Reset Bekukan Kolom</value>
-  <value column="MsgTip" original="Atur ulang bekukan ke kolom indikator (default)">Atur ulang bekukan ke kolom indikator (default)</value>
+  <value column="MsgTip" original="Reset freeze to indicator column (default)">Atur ulang bekukan ke kolom indikator (default)</value>
  </row>
  <row id="200897" trl="Y">
   <value column="MsgText" original="Products or charges configured as 'Freight Product' or 'Freight Charge' cannot be added to this order due to the combination of delivery via rule and freight cost rule">Produk atau biaya yang dikonfigurasi sebagai 'Produk Freight' atau 'Biaya Freight' tidak dapat ditambahkan ke pesanan ini karena kombinasi aturan pengiriman via dan aturan biaya freight</value>
@@ -8180,8 +8196,24 @@ Kolom tampilan {0} ada di database tetapi tidak ditentukan di kamus</value>
   <value column="MsgText" original="Total Sales: {0,number,currency}">Total Penjualan: {0,number,currency}</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200903" trl="Y">
+  <value column="MsgText" original="Back-Date transaction not allowed">Transaksi mundur tanggal tidak diizinkan</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200904" trl="Y">
+  <value column="MsgText" original="Insufficient Stock Coverage. A shipment should not be allowed if there is insufficient stock before the shipment's movement date.">Cakupan Stok Tidak Mencukupi. Pengiriman tidak boleh diizinkan jika stok tidak mencukupi sebelum tanggal pergerakan pengiriman.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200905" trl="Y">
+  <value column="MsgText" original="Account Date cannot be changed">Tanggal Akun tidak dapat diubah</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200908" trl="Y">
   <value column="MsgText" original="Login">Masuk</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200909" trl="Y">
+  <value column="MsgText" original="Insufficient Stock Coverage. A reversal of shipment/project issue is required to replenish stock before reversal.">Cakupan Stok Tidak Mencukupi. Pembalikan pengiriman/masalah proyek diperlukan untuk mengisi ulang stok sebelum pembalikan.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200911" trl="Y">
@@ -8214,6 +8246,22 @@ Kolom tampilan {0} ada di database tetapi tidak ditentukan di kamus</value>
  </row>
  <row id="200921" trl="Y">
   <value column="MsgText" original="Could not void deposit batch: deposit batch is used on a bank statement line">Tidak dapat membatalkan batch deposit: batch deposit digunakan pada baris pernyataan bank</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200926" trl="Y">
+  <value column="MsgText" original="Total of Base values is 0 - {0}">Total nilai dasar adalah 0 - {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200927" trl="Y">
+  <value column="MsgText" original="The background loading of the records has finished.">Pemuatan latar belakang catatan telah selesai.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200928" trl="Y">
+  <value column="MsgText" original="From Bank Account and To Bank Account must be different {0}">Dari Rekening Bank dan Ke Rekening Bank harus berbeda {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200929" trl="Y">
+  <value column="MsgText" original="From Organization does not match the organization of the From Bank Account {0}">Dari Organisasi tidak cocok dengan organisasi dari Rekening Bank Asal {0}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="520010" trl="Y">

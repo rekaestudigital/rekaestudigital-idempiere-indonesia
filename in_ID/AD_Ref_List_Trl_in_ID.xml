@@ -3240,6 +3240,10 @@
   <value column="Name" original="Client">Klien</value>
   <value column="Description" original="Allowed system and tenant configuration">Konfigurasi sistem dan klien yang diizinkan</value>
  </row>
+ <row id="53230" trl="Y">
+  <value column="Name" original="Organization">Organisasi</value>
+  <value column="Description" original="Allowed system, tenant and organization configuration">Konfigurasi sistem, klien dan organisasi yang diizinkan</value>
+ </row>
  <row id="53232" trl="Y">
   <value column="Name" original="Maintenance Order">Order Maintenance</value>
   <value column="Description" original=""/>
@@ -3884,6 +3888,10 @@
   <value column="Name" original="Update">Memperbarui</value>
   <value column="Description" original="Asset Master Record Updated">Catatan Master Aset Diperbarui</value>
  </row>
+ <row id="53411" trl="Y">
+  <value column="Name" original="Usage">Penggunaan</value>
+  <value column="Description" original="Record asset usage">Mencatat penggunaan aset</value>
+ </row>
  <row id="53412" trl="Y">
   <value column="Name" original="Imported">Impor</value>
   <value column="Description" original="This entry was created from an imported document">Entri ini dibuat dari dokumen yang diimpor</value>
@@ -3987,6 +3995,10 @@
  <row id="53438" trl="Y">
   <value column="Name" original="Cash">Uang Tunai</value>
   <value column="Description" original=""/>
+ </row>
+ <row id="53441" trl="Y">
+  <value column="Name" original="Natural Balance">Saldo Natural</value>
+  <value column="Description" original="BY for P &amp; L account, BT for Balance Sheet account" xml:space="preserve"><![CDATA[BY untuk akun Laba & Rugi, BT untuk akun Neraca]]></value>
  </row>
  <row id="53442" trl="Y">
   <value column="Name" original="Material Receipt">Penerimaan Pembelian</value>
@@ -4784,6 +4796,10 @@
   <value column="Name" original="Everybody">Semua orang</value>
   <value column="Description" original="Everybody will receive message">Semua orang akan menerima pesan</value>
  </row>
+ <row id="200052" trl="Y">
+  <value column="Name" original="Role">Peran</value>
+  <value column="Description" original="Message will reach out to all users with this role">Pesan akan menjangkau semua pengguna dengan peran ini</value>
+ </row>
  <row id="200053" trl="Y">
   <value column="Name" original="User">User</value>
   <value column="Description" original="User will receive message">Pengguna akan menerima pesan</value>
@@ -5174,6 +5190,10 @@
  </row>
  <row id="200163" trl="Y">
   <value column="Name" original="Cascade">Riam</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200164" trl="Y">
+  <value column="Name" original="Set Null">Atur Kosong</value>
   <value column="Description" original=""/>
  </row>
  <row id="200165" trl="Y">
@@ -5694,11 +5714,11 @@
  </row>
  <row id="200626" trl="Y">
   <value column="Name" original="No">Tidak</value>
-  <value column="Description" original="Tidak Menampilkan Rekaman Tidak Aktif">Tidak Menampilkan Rekaman Tidak Aktif</value>
+  <value column="Description" original="No Inactive Records">Tidak Menampilkan Rekaman Tidak Aktif</value>
  </row>
  <row id="200627" trl="Y">
   <value column="Name" original="Yes">Ya</value>
-  <value column="Description" original="Tampilkan semua rekaman (aktif/tidak aktif)">Tampilkan semua rekaman (aktif/tidak aktif)</value>
+  <value column="Description" original="Show all records (active/inactive)">Tampilkan semua rekaman (aktif/tidak aktif)</value>
  </row>
  <row id="200628" trl="Y">
   <value column="Name" original="Document closed">Dokumen ditutup</value>
@@ -5730,15 +5750,15 @@
  </row>
  <row id="200637" trl="Y">
   <value column="Name" original="Status">Status</value>
-  <value column="Description" original="Menampilkan status saat ini dari metrik proses, misalnya persentase kemajuan.">Menampilkan status saat ini dari metrik proses, misalnya persentase kemajuan.</value>
+  <value column="Description" original="Shows the current status of a process metric, e.g. progress in percents.">Menampilkan status saat ini dari metrik proses, misalnya persentase kemajuan.</value>
  </row>
  <row id="200638" trl="Y">
   <value column="Name" original="Progress">Kemajuan</value>
-  <value column="Description" original="Log yang dibuat secara terus-menerus selama proses dieksekusi.">Log yang dibuat secara terus-menerus selama proses dieksekusi.</value>
+  <value column="Description" original="Logs created continuously during the execution of the process.">Log yang dibuat secara terus-menerus selama proses dieksekusi.</value>
  </row>
  <row id="200639" trl="Y">
   <value column="Name" original="Result">Hasil</value>
-  <value column="Description" original="Log yang dibuat setelah proses dieksekusi.">Log yang dibuat setelah proses dieksekusi.</value>
+  <value column="Description" original="Logs created after the process is executed.">Log yang dibuat setelah proses dieksekusi.</value>
  </row>
  <row id="200640" trl="Y">
   <value column="Name" original="Model Set Null">Model Set Null</value>
@@ -5758,15 +5778,15 @@
  </row>
  <row id="200646" trl="Y">
   <value column="Name" original="Not from any user">Tidak dari pengguna manapun</value>
-  <value column="Description" original="Jangan izinkan untuk menjalankan proses yang sudah berjalan oleh pengguna manapun">Jangan izinkan untuk menjalankan proses yang sudah berjalan oleh pengguna manapun</value>
+  <value column="Description" original="Do not allow to execute a process that is already running by any user">Jangan izinkan untuk menjalankan proses yang sudah berjalan oleh pengguna manapun</value>
  </row>
  <row id="200647" trl="Y">
   <value column="Name" original="Not from any user and same parameters">Tidak dari pengguna manapun dan parameter yang sama</value>
-  <value column="Description" original="Jangan izinkan untuk menjalankan proses secara bersamaan dengan parameter yang sama dari pengguna manapun">Jangan izinkan untuk menjalankan proses secara bersamaan dengan parameter yang sama dari pengguna manapun</value>
+  <value column="Description" original="Do not allow to execute a process concurrently with same parameters from any user">Jangan izinkan untuk menjalankan proses secara bersamaan dengan parameter yang sama dari pengguna manapun</value>
  </row>
  <row id="200648" trl="Y">
   <value column="Name" original="Yes">Ya</value>
-  <value column="Description" original="Izinkan eksekusi bersamaan">Izinkan eksekusi bersamaan</value>
+  <value column="Description" original="Allow concurrent execution">Izinkan eksekusi bersamaan</value>
  </row>
  <row id="200656" trl="Y">
   <value column="Name" original="OpenID Connect">OpenID Connect</value>
