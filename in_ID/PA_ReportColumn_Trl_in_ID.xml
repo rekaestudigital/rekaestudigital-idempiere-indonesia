@@ -27,3 +27,25 @@
  <row id="106" trl="Y">
   <value column="Name" original="Budget YTD">Anggaran Tahun Berjalan</value>
   <value column="Description" original="Budget Year to Date">Anggaran Tahun Berjalan</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Actual YTD">Aktual Tahun Berjalan</value>
+  <value column="Description" original="Actual Year To Date">Aktual Tahun Berjalan</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Commitment YTD">Komitmen Tahun Berjalan</value>
+  <value column="Description" original="Commitment Year to Date">Komitmen Tahun Berjalan</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Reservations YTD">Reservasi Tahun Berjalan</value>
+  <value column="Description" original="Reservations Year to Date">Reservasi Tahun Berjalan</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Budget Spent">Anggaran Terpakai</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Budget Available">Anggaran Tersedia</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

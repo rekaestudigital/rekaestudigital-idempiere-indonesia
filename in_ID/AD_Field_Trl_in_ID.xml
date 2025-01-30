@@ -901,16 +901,16 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
  </row>
- <row id="202234" trl="N">
+ <row id="202234" trl="Y">
   <value column="Name" original="Sql WHERE">Sql WHERE</value>
-  <value column="Description" original="Fully qualified SQL WHERE clause">Fully qualified SQL WHERE clause</value>
-  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. It must include the WHERE itself. Fully qualified means &quot;tablename.columnname&quot;.">The Where Clause indicates the SQL WHERE clause to use for record selection. It must include the WHERE itself. Fully qualified means "tablename.columnname".</value>
+  <value column="Description" original="Fully qualified SQL WHERE clause">Klausa SQL WHERE yang memenuhi syarat</value>
+  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. It must include the WHERE itself. Fully qualified means &quot;tablename.columnname&quot;.">Klausa Where menunjukkan klausa SQL WHERE yang akan digunakan untuk pemilihan record. Harus menyertakan WHERE itu sendiri. Memenuhi syarat berarti "namatabel.namakolom".</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="202235" trl="N">
+ <row id="202235" trl="Y">
   <value column="Name" original="Sql FROM">Sql FROM</value>
-  <value column="Description" original="SQL FROM clause">SQL FROM clause</value>
-  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself.">The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself.</value>
+  <value column="Description" original="SQL FROM clause">Klausa SQL FROM</value>
+  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself.">Klausa Select menunjukkan klausa SQL FROM yang akan digunakan untuk memilih record untuk perhitungan pengukuran. Dapat memiliki klausa JOIN. Harus menyertakan FROM itu sendiri.</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="202252" trl="Y">
@@ -961,78 +961,78 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
  </row>
- <row id="205705" trl="N">
-  <value column="Name" original="To Business Partner ">To Business Partner </value>
-  <value column="Description" original="Identifies a Business Partner">Identifies a Business Partner</value>
-  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson</value>
+ <row id="205705" trl="Y">
+  <value column="Name" original="To Business Partner ">Ke Rekanan Bisnis</value>
+  <value column="Description" original="Identifies a Business Partner">Mengidentifikasi Rekanan Bisnis</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Rekanan Bisnis adalah siapa pun yang bertransaksi dengan Anda. Ini dapat mencakup Vendor, Pelanggan, Karyawan atau Penjual</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="205898" trl="N">
-  <value column="Name" original="Display Search Key">Display Search Key</value>
-  <value column="Description" original="Displays Search Key in the tree">Displays Search Key in the tree</value>
-  <value column="Help" original="The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name">The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name</value>
+ <row id="205898" trl="Y">
+  <value column="Name" original="Display Search Key">Tampilkan Kunci Pencarian</value>
+  <value column="Description" original="Displays Search Key in the tree">Menampilkan Kunci Pencarian di pohon</value>
+  <value column="Help" original="The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name">Kotak centang Tampilkan Kunci Pencarian menunjukkan apakah Kunci Pencarian akan ditampilkan di pohon sebelum Nama</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="206305" trl="N">
-  <value column="Name" original="Validation code">Validation code</value>
-  <value column="Description" original="Validation Code">Validation Code</value>
-  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">The Validation Code displays the date, time and message of the error.
+ <row id="206305" trl="Y">
+  <value column="Name" original="Validation code">Kode Validasi</value>
+  <value column="Description" original="Validation Code">Kode Validasi</value>
+  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">Kode Validasi menampilkan tanggal, waktu dan pesan kesalahan.
 
-You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].
-Do not include the WHERE statement and use Fully qualified SQL statements. F.e:
+Anda dapat menambahkan kueri SQL lanjutan ke pencarian Anda dengan mengisi bidang ini dengan @SQL=[WHERE CLAUSE].
+Jangan sertakan pernyataan WHERE dan gunakan pernyataan SQL yang memenuhi syarat sepenuhnya. Contoh:
 
 @SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ 
 
-will filter orders by active and where the sales representative is the current user.</value>
+akan memfilter pesanan berdasarkan aktif dan di mana perwakilan penjualan adalah pengguna saat ini.</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="206515" trl="N">
-  <value column="Name" original="Invoice Contact">Invoice Contact</value>
-  <value column="Description" original="Business Partner Invoice/Bill Contact">Business Partner Invoice/Bill Contact</value>
-  <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.</value>
+ <row id="206515" trl="Y">
+  <value column="Name" original="Invoice Contact">Kontak Faktur</value>
+  <value column="Description" original="Business Partner Invoice/Bill Contact">Kontak Faktur/Tagihan Rekanan Bisnis</value>
+  <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">Jika Kontak Faktur dipilih, kontak tersebut digunakan untuk mengirim pemberitahuan tentang faktur kepada pelanggan atau vendor.</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="206516" trl="N">
-  <value column="Name" original="Ship Contact">Ship Contact</value>
-  <value column="Description" original="Business Partner Shipment Contact">Business Partner Shipment Contact</value>
-  <value column="Help" original="If the Ship Contact is selected, the contact is used for notification.">If the Ship Contact is selected, the contact is used for notification.</value>
+ <row id="206516" trl="Y">
+  <value column="Name" original="Ship Contact">Kontak Pengiriman</value>
+  <value column="Description" original="Business Partner Shipment Contact">Kontak Pengiriman Rekanan Bisnis</value>
+  <value column="Help" original="If the Ship Contact is selected, the contact is used for notification.">Jika Kontak Pengiriman dipilih, kontak tersebut digunakan untuk pemberitahuan.</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="206517" trl="N">
-  <value column="Name" original="Ship Contact">Ship Contact</value>
-  <value column="Description" original="Business Partner Shipment Contact">Business Partner Shipment Contact</value>
-  <value column="Help" original="If the Ship Contact is selected, the contact is used for notification.">If the Ship Contact is selected, the contact is used for notification.</value>
+ <row id="206517" trl="Y">
+  <value column="Name" original="Ship Contact">Kontak Pengiriman</value>
+  <value column="Description" original="Business Partner Shipment Contact">Kontak Pengiriman Rekanan Bisnis</value>
+  <value column="Help" original="If the Ship Contact is selected, the contact is used for notification.">Jika Kontak Pengiriman dipilih, kontak tersebut digunakan untuk pemberitahuan.</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="206518" trl="N">
-  <value column="Name" original="Invoice Contact">Invoice Contact</value>
-  <value column="Description" original="Business Partner Invoice/Bill Contact">Business Partner Invoice/Bill Contact</value>
-  <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.</value>
+ <row id="206518" trl="Y">
+  <value column="Name" original="Invoice Contact">Kontak Faktur</value>
+  <value column="Description" original="Business Partner Invoice/Bill Contact">Kontak Faktur/Tagihan Rekanan Bisnis</value>
+  <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">Jika Kontak Faktur dipilih, kontak tersebut digunakan untuk mengirim pemberitahuan tentang faktur kepada pelanggan atau vendor.</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="207695" trl="N">
-  <value column="Name" original="DB Table Name">DB Table Name</value>
+ <row id="207695" trl="Y">
+  <value column="Name" original="DB Table Name">Nama Tabel DB</value>
   <value column="Description" original=""/>
-  <value column="Help" original="You can use % or a comma separated list of table names (case sensitive)&#10;Using '@TableName@' will change to current table when executing the process">You can use % or a comma separated list of table names (case sensitive)
-Using '@TableName@' will change to current table when executing the process</value>
+  <value column="Help" original="You can use % or a comma separated list of table names (case sensitive)&#10;Using '@TableName@' will change to current table when executing the process">Anda dapat menggunakan % atau daftar nama tabel yang dipisahkan koma (peka huruf besar/kecil)
+Menggunakan '@TableName@' akan berubah ke tabel saat ini ketika menjalankan proses</value>
   <value column="Placeholder" original=""/>
  </row>
- <row id="207825" trl="N">
-  <value column="Name" original="Country Group">Country Group</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="207826" trl="N">
-  <value column="Name" original="To">To</value>
+ <row id="207825" trl="Y">
+  <value column="Name" original="Country Group">Grup Negara</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
  </row>
- <row id="208363" trl="N">
-  <value column="Name" original="SQL Filter">SQL Filter</value>
-  <value column="Description" original="SQL Filter">SQL Filter</value>
-  <value column="Help" original="Enter a valid WHERE SQL fully qualified clause.  The WHERE is not needed, the code will be surrounded within parenthesis before applied">Enter a valid WHERE SQL fully qualified clause.  The WHERE is not needed, the code will be surrounded within parenthesis before applied</value>
+ <row id="207826" trl="Y">
+  <value column="Name" original="To">Ke</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="208363" trl="Y">
+  <value column="Name" original="SQL Filter">Filter SQL</value>
+  <value column="Description" original="SQL Filter">Filter SQL</value>
+  <value column="Help" original="Enter a valid WHERE SQL fully qualified clause.  The WHERE is not needed, the code will be surrounded within parenthesis before applied">Masukkan klausa SQL WHERE yang valid dan memenuhi syarat sepenuhnya. WHERE tidak diperlukan, kode akan dikelilingi dalam tanda kurung sebelum diterapkan</value>
   <value column="Placeholder" original=""/>
  </row>
 </idempiereTrl>

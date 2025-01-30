@@ -260,9 +260,9 @@ Memilih kotak centang "Di mana Digunakan" akan menampilkan BOM tempat produk ini
   <value column="Description" original="Process SQL Queries">Proses SQL Queries</value>
   <value column="Help" original="Process SQL Queries">Proses SQL Queries</value>
  </row>
- <row id="200019" trl="N">
-  <value column="Name" original="Customize Grid View">Customize Grid View</value>
-  <value column="Description" original="Form to customize the grid view of tabs in window customization">Form to customize the grid view of tabs in window customization</value>
+ <row id="200019" trl="Y">
+  <value column="Name" original="Customize Grid View">Kustomisasi Tampilan Grid</value>
+  <value column="Description" original="Form to customize the grid view of tabs in window customization">Formulir untuk mengkustomisasi tampilan grid dari tab dalam kustomisasi jendela</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>
